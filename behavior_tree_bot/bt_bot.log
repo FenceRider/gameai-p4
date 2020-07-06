@@ -11,1601 +11,1617 @@ Selector: High Level Ordering of Strategies
 
 DEBUG:root:Executing:Selector: High Level Ordering of Strategies
 DEBUG:root:Executing:Action: imperial
-DEBUG:root:Order:1 18 90.0
+INFO:root:0
+DEBUG:root:Order:1 20 31
 DEBUG:root:Result: Action: imperial -> Success
 DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
 DEBUG:root:Finish turn
 
 DEBUG:root:Executing:Selector: High Level Ordering of Strategies
 DEBUG:root:Executing:Action: imperial
-INFO:root:1.0
-INFO:root:86.0
+INFO:root:1
+DEBUG:root:Order:1 3 29
 DEBUG:root:Result: Action: imperial -> Success
 DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
 DEBUG:root:Finish turn
 
 DEBUG:root:Executing:Selector: High Level Ordering of Strategies
 DEBUG:root:Executing:Action: imperial
-INFO:root:1.0
-INFO:root:86.0
-INFO:root:1.0
+INFO:root:1
+DEBUG:root:Order:1 6 21
 DEBUG:root:Result: Action: imperial -> Success
 DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
 DEBUG:root:Finish turn
 
 DEBUG:root:Executing:Selector: High Level Ordering of Strategies
 DEBUG:root:Executing:Action: imperial
-INFO:root:1.0
-INFO:root:86.0
-INFO:root:1.0
-INFO:root:1.0
+INFO:root:1
+DEBUG:root:Order:1 7 17
 DEBUG:root:Result: Action: imperial -> Success
 DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
 DEBUG:root:Finish turn
 
 DEBUG:root:Executing:Selector: High Level Ordering of Strategies
 DEBUG:root:Executing:Action: imperial
-INFO:root:1.0
-INFO:root:86.0
-INFO:root:1.0
-INFO:root:1.0
+INFO:root:1
 DEBUG:root:Result: Action: imperial -> Success
 DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
 DEBUG:root:Finish turn
 
 DEBUG:root:Executing:Selector: High Level Ordering of Strategies
 DEBUG:root:Executing:Action: imperial
-INFO:root:1.0
-INFO:root:86.0
-INFO:root:1.0
-INFO:root:1.0
+INFO:root:1
 DEBUG:root:Result: Action: imperial -> Success
 DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
 DEBUG:root:Finish turn
 
 DEBUG:root:Executing:Selector: High Level Ordering of Strategies
 DEBUG:root:Executing:Action: imperial
-INFO:root:86.0
-INFO:root:1.0
-INFO:root:1.0
-INFO:root:1.0
+INFO:root:0
 DEBUG:root:Result: Action: imperial -> Success
 DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
 DEBUG:root:Finish turn
 
 DEBUG:root:Executing:Selector: High Level Ordering of Strategies
 DEBUG:root:Executing:Action: imperial
-INFO:root:1.0
-INFO:root:1.0
-INFO:root:1.0
-DEBUG:root:Order:18 12 76.0
+INFO:root:0
 DEBUG:root:Result: Action: imperial -> Success
 DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
 DEBUG:root:Finish turn
 
 DEBUG:root:Executing:Selector: High Level Ordering of Strategies
 DEBUG:root:Executing:Action: imperial
-INFO:root:1.0
-INFO:root:1.0
-INFO:root:64.0
-DEBUG:root:Order:1 6 40.0
+INFO:root:0
+DEBUG:root:Order:1 7 29
+DEBUG:root:Order:20 22 25
+DEBUG:root:Order:3 9 17
 DEBUG:root:Result: Action: imperial -> Success
 DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
 DEBUG:root:Finish turn
 
 DEBUG:root:Executing:Selector: High Level Ordering of Strategies
 DEBUG:root:Executing:Action: imperial
-INFO:root:1.0
-INFO:root:64.0
-INFO:root:18.0
+INFO:root:0
+DEBUG:root:Bad order:1 18.0 20
+DEBUG:root:Order:20 22 17
 DEBUG:root:Result: Action: imperial -> Success
 DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
 DEBUG:root:Finish turn
 
 DEBUG:root:Executing:Selector: High Level Ordering of Strategies
 DEBUG:root:Executing:Action: imperial
-INFO:root:1.0
-INFO:root:64.0
-INFO:root:18.0
-INFO:root:1.0
+INFO:root:0
+DEBUG:root:Order:1 22 20
 DEBUG:root:Result: Action: imperial -> Success
 DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
 DEBUG:root:Finish turn
 
 DEBUG:root:Executing:Selector: High Level Ordering of Strategies
 DEBUG:root:Executing:Action: imperial
-INFO:root:1.0
-INFO:root:64.0
-INFO:root:18.0
-INFO:root:1.0
+INFO:root:0
 DEBUG:root:Result: Action: imperial -> Success
 DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
 DEBUG:root:Finish turn
 
 DEBUG:root:Executing:Selector: High Level Ordering of Strategies
 DEBUG:root:Executing:Action: imperial
-INFO:root:64.0
-INFO:root:18.0
-INFO:root:1.0
+INFO:root:0
 DEBUG:root:Result: Action: imperial -> Success
 DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
 DEBUG:root:Finish turn
 
 DEBUG:root:Executing:Selector: High Level Ordering of Strategies
 DEBUG:root:Executing:Action: imperial
-INFO:root:64.0
-INFO:root:18.0
-INFO:root:1.0
+INFO:root:0
 DEBUG:root:Result: Action: imperial -> Success
 DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
 DEBUG:root:Finish turn
 
 DEBUG:root:Executing:Selector: High Level Ordering of Strategies
 DEBUG:root:Executing:Action: imperial
-INFO:root:64.0
-INFO:root:18.0
-INFO:root:1.0
+INFO:root:0
 DEBUG:root:Result: Action: imperial -> Success
 DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
 DEBUG:root:Finish turn
 
 DEBUG:root:Executing:Selector: High Level Ordering of Strategies
 DEBUG:root:Executing:Action: imperial
-INFO:root:64.0
-INFO:root:18.0
-INFO:root:1.0
+INFO:root:0
 DEBUG:root:Result: Action: imperial -> Success
 DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
 DEBUG:root:Finish turn
 
 DEBUG:root:Executing:Selector: High Level Ordering of Strategies
 DEBUG:root:Executing:Action: imperial
-INFO:root:18.0
-INFO:root:1.0
-DEBUG:root:Order:12 4 54.0
-DEBUG:root:Order:1 4 40.0
+INFO:root:0
 DEBUG:root:Result: Action: imperial -> Success
 DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
 DEBUG:root:Finish turn
 
 DEBUG:root:Executing:Selector: High Level Ordering of Strategies
 DEBUG:root:Executing:Action: imperial
-INFO:root:18.0
-INFO:root:1.0
-INFO:root:13.0
+INFO:root:0
 DEBUG:root:Result: Action: imperial -> Success
 DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
 DEBUG:root:Finish turn
 
 DEBUG:root:Executing:Selector: High Level Ordering of Strategies
 DEBUG:root:Executing:Action: imperial
-INFO:root:18.0
-INFO:root:1.0
-INFO:root:13.0
+INFO:root:0
 DEBUG:root:Result: Action: imperial -> Success
 DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
 DEBUG:root:Finish turn
 
 DEBUG:root:Executing:Selector: High Level Ordering of Strategies
 DEBUG:root:Executing:Action: imperial
-INFO:root:1.0
-INFO:root:13.0
+INFO:root:0
+DEBUG:root:Order:1 7 15
 DEBUG:root:Result: Action: imperial -> Success
 DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
 DEBUG:root:Finish turn
 
 DEBUG:root:Executing:Selector: High Level Ordering of Strategies
 DEBUG:root:Executing:Action: imperial
-INFO:root:13.0
+INFO:root:1
+DEBUG:root:Order:20 7 17
+DEBUG:root:Order:3 9 16
+DEBUG:root:Order:1 13 15
 DEBUG:root:Result: Action: imperial -> Success
 DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
 DEBUG:root:Finish turn
 
 DEBUG:root:Executing:Selector: High Level Ordering of Strategies
 DEBUG:root:Executing:Action: imperial
-INFO:root:13.0
-INFO:root:1.0
+INFO:root:1
+DEBUG:root:Order:1 9 18
+DEBUG:root:Order:20 13 18
+DEBUG:root:Order:3 18 15
 DEBUG:root:Result: Action: imperial -> Success
 DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
 DEBUG:root:Finish turn
 
 DEBUG:root:Executing:Selector: High Level Ordering of Strategies
 DEBUG:root:Executing:Action: imperial
-INFO:root:1.0
+INFO:root:1
+DEBUG:root:Bad order:1 15.0 16
+DEBUG:root:Order:20 18 15
 DEBUG:root:Result: Action: imperial -> Success
 DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
 DEBUG:root:Finish turn
 
 DEBUG:root:Executing:Selector: High Level Ordering of Strategies
 DEBUG:root:Executing:Action: imperial
-INFO:root:1.0
+INFO:root:0
+DEBUG:root:Order:1 13 16
 DEBUG:root:Result: Action: imperial -> Success
 DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
 DEBUG:root:Finish turn
 
 DEBUG:root:Executing:Selector: High Level Ordering of Strategies
 DEBUG:root:Executing:Action: imperial
-DEBUG:root:Order:1 0 40.0
+INFO:root:1
+DEBUG:root:Bad order:1 9.0 22
+DEBUG:root:Order:3 15 19
+DEBUG:root:Bad order:20 12.0 19
+DEBUG:root:Order:6 16 19
+DEBUG:root:Order:22 16 18
 DEBUG:root:Result: Action: imperial -> Success
 DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
 DEBUG:root:Finish turn
 
 DEBUG:root:Executing:Selector: High Level Ordering of Strategies
 DEBUG:root:Executing:Action: imperial
-INFO:root:6.0
+INFO:root:1
+DEBUG:root:Bad order:1 14.0 29
+DEBUG:root:Bad order:20 16.0 25
+DEBUG:root:Bad order:3 10.0 18
+DEBUG:root:Bad order:6 9.0 18
+DEBUG:root:Bad order:9 21.0 16
+DEBUG:root:Order:22 18 15
 DEBUG:root:Result: Action: imperial -> Success
 DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
 DEBUG:root:Finish turn
 
 DEBUG:root:Executing:Selector: High Level Ordering of Strategies
 DEBUG:root:Executing:Action: imperial
-INFO:root:6.0
-INFO:root:1.0
+INFO:root:1
+DEBUG:root:Bad order:1 19.0 29
+DEBUG:root:Bad order:20 20.0 25
+DEBUG:root:Bad order:3 13.0 18
+DEBUG:root:Bad order:6 12.0 18
+DEBUG:root:Bad order:9 5.0 17
 DEBUG:root:Result: Action: imperial -> Success
 DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
 DEBUG:root:Finish turn
 
 DEBUG:root:Executing:Selector: High Level Ordering of Strategies
 DEBUG:root:Executing:Action: imperial
-INFO:root:6.0
-INFO:root:1.0
-DEBUG:root:Order:12 19 42.0
+INFO:root:1
+DEBUG:root:Bad order:1 24.0 29
+DEBUG:root:Bad order:20 24.0 25
+DEBUG:root:Bad order:3 16.0 18
+DEBUG:root:Bad order:6 15.0 18
+DEBUG:root:Bad order:9 13.0 17
 DEBUG:root:Result: Action: imperial -> Success
 DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
 DEBUG:root:Finish turn
 
 DEBUG:root:Executing:Selector: High Level Ordering of Strategies
 DEBUG:root:Executing:Action: imperial
-INFO:root:6.0
-INFO:root:43.0
+INFO:root:1
+DEBUG:root:Order:1 7 29
+DEBUG:root:Order:20 16 25
+DEBUG:root:Order:3 15 18
+DEBUG:root:Order:6 15 18
+DEBUG:root:Bad order:9 16.0 17
 DEBUG:root:Result: Action: imperial -> Success
 DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
 DEBUG:root:Finish turn
 
 DEBUG:root:Executing:Selector: High Level Ordering of Strategies
 DEBUG:root:Executing:Action: imperial
-INFO:root:6.0
-INFO:root:43.0
+INFO:root:1
+DEBUG:root:Bad order:1 5.0 21
+DEBUG:root:Bad order:20 7.0 17
+DEBUG:root:Order:9 18 17
 DEBUG:root:Result: Action: imperial -> Success
 DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
 DEBUG:root:Finish turn
 
 DEBUG:root:Executing:Selector: High Level Ordering of Strategies
 DEBUG:root:Executing:Action: imperial
-INFO:root:6.0
-INFO:root:43.0
-DEBUG:root:Order:18 0 41.0
+INFO:root:1
+DEBUG:root:Bad order:1 10.0 21
+DEBUG:root:Bad order:20 11.0 17
 DEBUG:root:Result: Action: imperial -> Success
 DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
 DEBUG:root:Finish turn
 
 DEBUG:root:Executing:Selector: High Level Ordering of Strategies
 DEBUG:root:Executing:Action: imperial
-INFO:root:6.0
-INFO:root:29.0
-INFO:root:43.0
+INFO:root:1
+DEBUG:root:Bad order:1 15.0 19
+DEBUG:root:Bad order:20 15.0 16
 DEBUG:root:Result: Action: imperial -> Success
 DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
 DEBUG:root:Finish turn
 
 DEBUG:root:Executing:Selector: High Level Ordering of Strategies
 DEBUG:root:Executing:Action: imperial
-INFO:root:6.0
-INFO:root:29.0
-INFO:root:1.0
-INFO:root:1.0
-INFO:root:43.0
-DEBUG:root:Order:1 18 40.0
+INFO:root:0
+DEBUG:root:Order:1 15 19
+DEBUG:root:Order:20 18 16
 DEBUG:root:Result: Action: imperial -> Success
 DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
 DEBUG:root:Finish turn
 
 DEBUG:root:Executing:Selector: High Level Ordering of Strategies
 DEBUG:root:Executing:Action: imperial
-INFO:root:6.0
-INFO:root:29.0
-INFO:root:1.0
-INFO:root:43.0
+INFO:root:0
 DEBUG:root:Result: Action: imperial -> Success
 DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
 DEBUG:root:Finish turn
 
 DEBUG:root:Executing:Selector: High Level Ordering of Strategies
 DEBUG:root:Executing:Action: imperial
-INFO:root:6.0
-INFO:root:29.0
-INFO:root:1.0
-INFO:root:43.0
+INFO:root:0
 DEBUG:root:Result: Action: imperial -> Success
 DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
 DEBUG:root:Finish turn
 
 DEBUG:root:Executing:Selector: High Level Ordering of Strategies
 DEBUG:root:Executing:Action: imperial
-INFO:root:1.0
-INFO:root:43.0
-DEBUG:root:Order:4 20 42.0
-DEBUG:root:Order:12 7 40.0
+INFO:root:0
 DEBUG:root:Result: Action: imperial -> Success
 DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
 DEBUG:root:Finish turn
 
 DEBUG:root:Executing:Selector: High Level Ordering of Strategies
 DEBUG:root:Executing:Action: imperial
-INFO:root:1.0
-INFO:root:43.0
-INFO:root:30.0
+INFO:root:0
 DEBUG:root:Result: Action: imperial -> Success
 DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
 DEBUG:root:Finish turn
 
 DEBUG:root:Executing:Selector: High Level Ordering of Strategies
 DEBUG:root:Executing:Action: imperial
-INFO:root:1.0
-INFO:root:43.0
-INFO:root:30.0
-DEBUG:root:Order:0 7 43.0
+INFO:root:1
+DEBUG:root:Bad order:1 26.0 30
+DEBUG:root:Bad order:20 23.0 24
+DEBUG:root:Order:7 13 22
+DEBUG:root:Order:3 0 21
+DEBUG:root:Order:6 0 21
+DEBUG:root:Order:9 14 21
+DEBUG:root:Order:22 10 17
 DEBUG:root:Result: Action: imperial -> Success
 DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
 DEBUG:root:Finish turn
 
 DEBUG:root:Executing:Selector: High Level Ordering of Strategies
 DEBUG:root:Executing:Action: imperial
-INFO:root:1.0
-INFO:root:43.0
-INFO:root:30.0
+INFO:root:1
+DEBUG:root:Bad order:1 31.0 36
+DEBUG:root:Bad order:20 27.0 29
+DEBUG:root:Bad order:7 10.0 19
+DEBUG:root:Bad order:3 10.0 19
+DEBUG:root:Bad order:6 9.0 18
+DEBUG:root:Bad order:9 8.0 18
 DEBUG:root:Result: Action: imperial -> Success
 DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
 DEBUG:root:Finish turn
 
 DEBUG:root:Executing:Selector: High Level Ordering of Strategies
 DEBUG:root:Executing:Action: imperial
-INFO:root:1.0
-INFO:root:43.0
-INFO:root:33.0
-DEBUG:root:Order:18 19 58.0
+INFO:root:1
+DEBUG:root:Order:1 16 36
+DEBUG:root:Order:20 18 29
+DEBUG:root:Bad order:7 13.0 19
+DEBUG:root:Bad order:3 13.0 19
+DEBUG:root:Bad order:6 12.0 18
+DEBUG:root:Bad order:9 11.0 18
 DEBUG:root:Result: Action: imperial -> Success
 DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
 DEBUG:root:Finish turn
 
 DEBUG:root:Executing:Selector: High Level Ordering of Strategies
 DEBUG:root:Executing:Action: imperial
-INFO:root:19.0
-INFO:root:45.0
-INFO:root:1.0
-INFO:root:8.0
-INFO:root:33.0
-DEBUG:root:Order:1 19 40.0
+INFO:root:1
+DEBUG:root:Bad order:1 5.0 25
+DEBUG:root:Bad order:20 6.0 21
+DEBUG:root:Bad order:7 16.0 19
+DEBUG:root:Bad order:3 16.0 19
+DEBUG:root:Bad order:6 15.0 18
+DEBUG:root:Bad order:9 14.0 18
+DEBUG:root:Bad order:18 23.0 15
 DEBUG:root:Result: Action: imperial -> Success
 DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
 DEBUG:root:Finish turn
 
 DEBUG:root:Executing:Selector: High Level Ordering of Strategies
 DEBUG:root:Executing:Action: imperial
-INFO:root:19.0
-INFO:root:45.0
-INFO:root:1.0
-INFO:root:8.0
-INFO:root:30.0
-INFO:root:33.0
+INFO:root:1
+DEBUG:root:Bad order:1 10.0 25
+DEBUG:root:Bad order:20 10.0 21
+DEBUG:root:Order:7 14 19
+DEBUG:root:Order:3 10 19
+DEBUG:root:Order:6 4 18
+DEBUG:root:Bad order:9 17.0 18
+DEBUG:root:Bad order:18 6.0 16
 DEBUG:root:Result: Action: imperial -> Success
 DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
 DEBUG:root:Finish turn
 
 DEBUG:root:Executing:Selector: High Level Ordering of Strategies
 DEBUG:root:Executing:Action: imperial
-INFO:root:19.0
-INFO:root:45.0
-INFO:root:1.0
-INFO:root:8.0
-INFO:root:30.0
-INFO:root:33.0
+INFO:root:1
+DEBUG:root:Bad order:1 15.0 31
+DEBUG:root:Bad order:20 14.0 25
+DEBUG:root:Bad order:9 20.0 22
+DEBUG:root:Bad order:18 6.0 20
+DEBUG:root:Bad order:7 3.0 17
+DEBUG:root:Bad order:6 3.0 17
+DEBUG:root:Bad order:3 3.0 17
+DEBUG:root:Order:22 21 16
 DEBUG:root:Result: Action: imperial -> Success
 DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
 DEBUG:root:Finish turn
 
 DEBUG:root:Executing:Selector: High Level Ordering of Strategies
 DEBUG:root:Executing:Action: imperial
-INFO:root:19.0
-INFO:root:45.0
-INFO:root:1.0
-INFO:root:8.0
-INFO:root:30.0
-INFO:root:34.0
-DEBUG:root:Order:12 18 40.0
+INFO:root:1
+DEBUG:root:Bad order:1 20.0 43
+DEBUG:root:Bad order:20 18.0 35
+DEBUG:root:Bad order:9 23.0 29
+DEBUG:root:Bad order:18 6.0 27
+DEBUG:root:Bad order:7 6.0 24
+DEBUG:root:Bad order:6 6.0 24
+DEBUG:root:Bad order:3 6.0 24
+DEBUG:root:Bad order:22 6.0 16
 DEBUG:root:Result: Action: imperial -> Success
 DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
 DEBUG:root:Finish turn
 
 DEBUG:root:Executing:Selector: High Level Ordering of Strategies
 DEBUG:root:Executing:Action: imperial
-INFO:root:19.0
-INFO:root:45.0
-INFO:root:1.0
-INFO:root:8.0
-INFO:root:30.0
-INFO:root:5.0
-INFO:root:34.0
+INFO:root:1
+DEBUG:root:Bad order:1 25.0 43
+DEBUG:root:Bad order:20 22.0 35
+DEBUG:root:Bad order:9 26.0 29
+DEBUG:root:Bad order:18 6.0 27
+DEBUG:root:Bad order:7 9.0 24
+DEBUG:root:Bad order:6 9.0 24
+DEBUG:root:Bad order:3 9.0 24
+DEBUG:root:Bad order:22 8.0 16
 DEBUG:root:Result: Action: imperial -> Success
 DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
 DEBUG:root:Finish turn
 
 DEBUG:root:Executing:Selector: High Level Ordering of Strategies
 DEBUG:root:Executing:Action: imperial
-INFO:root:3.0
-INFO:root:45.0
-INFO:root:1.0
-INFO:root:8.0
-INFO:root:30.0
-INFO:root:5.0
-INFO:root:34.0
+INFO:root:1
+DEBUG:root:Bad order:1 30.0 43
+DEBUG:root:Bad order:20 26.0 35
+DEBUG:root:Order:9 0 29
+DEBUG:root:Bad order:18 23.0 27
+DEBUG:root:Bad order:7 12.0 24
+DEBUG:root:Bad order:6 12.0 24
+DEBUG:root:Bad order:3 12.0 24
+DEBUG:root:Bad order:22 10.0 16
 DEBUG:root:Result: Action: imperial -> Success
 DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
 DEBUG:root:Finish turn
 
 DEBUG:root:Executing:Selector: High Level Ordering of Strategies
 DEBUG:root:Executing:Action: imperial
-INFO:root:1.0
-INFO:root:8.0
-INFO:root:31.0
-INFO:root:5.0
-INFO:root:34.0
-INFO:root:1.0
+INFO:root:1
+DEBUG:root:Bad order:1 35.0 43
+DEBUG:root:Bad order:20 30.0 35
+DEBUG:root:Bad order:18 26.0 27
+DEBUG:root:Bad order:7 15.0 24
+DEBUG:root:Bad order:6 15.0 24
+DEBUG:root:Bad order:3 15.0 24
+DEBUG:root:Bad order:0 40.0 24
+DEBUG:root:Bad order:9 3.0 20
+DEBUG:root:Bad order:22 12.0 16
 DEBUG:root:Result: Action: imperial -> Success
 DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
 DEBUG:root:Finish turn
 
 DEBUG:root:Executing:Selector: High Level Ordering of Strategies
 DEBUG:root:Executing:Action: imperial
-INFO:root:8.0
-INFO:root:31.0
-INFO:root:5.0
-INFO:root:34.0
-INFO:root:44.0
-INFO:root:1.0
+INFO:root:1
+DEBUG:root:Bad order:1 40.0 43
+DEBUG:root:Bad order:20 34.0 35
+DEBUG:root:Order:18 10 27
+DEBUG:root:Bad order:7 18.0 24
+DEBUG:root:Bad order:6 18.0 24
+DEBUG:root:Bad order:3 18.0 24
+DEBUG:root:Bad order:0 40.0 24
+DEBUG:root:Bad order:9 6.0 20
+DEBUG:root:Bad order:22 14.0 16
 DEBUG:root:Result: Action: imperial -> Success
 DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
 DEBUG:root:Finish turn
 
 DEBUG:root:Executing:Selector: High Level Ordering of Strategies
 DEBUG:root:Executing:Action: imperial
-INFO:root:8.0
-INFO:root:31.0
-INFO:root:5.0
-INFO:root:34.0
-INFO:root:44.0
-INFO:root:1.0
-DEBUG:root:Order:1 13 40.0
+INFO:root:1
+DEBUG:root:Order:1 14 43
+DEBUG:root:Order:20 13 35
+DEBUG:root:Bad order:0 19.0 25
+DEBUG:root:Bad order:7 21.0 24
+DEBUG:root:Bad order:6 21.0 24
+DEBUG:root:Bad order:3 21.0 24
+DEBUG:root:Bad order:9 9.0 20
+DEBUG:root:Bad order:18 5.0 19
+DEBUG:root:Order:22 12 16
 DEBUG:root:Result: Action: imperial -> Success
 DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
 DEBUG:root:Finish turn
 
 DEBUG:root:Executing:Selector: High Level Ordering of Strategies
 DEBUG:root:Executing:Action: imperial
-INFO:root:7.0
-INFO:root:34.0
-INFO:root:1.0
-INFO:root:44.0
-INFO:root:1.0
-INFO:root:33.0
-DEBUG:root:Order:4 6 42.0
+INFO:root:1
+DEBUG:root:Bad order:1 7.0 30
+DEBUG:root:Bad order:0 19.0 25
+DEBUG:root:Bad order:20 7.0 24
+DEBUG:root:Order:7 12 24
+DEBUG:root:Order:6 11 24
+DEBUG:root:Order:3 11 24
+DEBUG:root:Bad order:9 12.0 20
+DEBUG:root:Bad order:18 8.0 19
 DEBUG:root:Result: Action: imperial -> Success
 DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
 DEBUG:root:Finish turn
 
 DEBUG:root:Executing:Selector: High Level Ordering of Strategies
 DEBUG:root:Executing:Action: imperial
-INFO:root:7.0
-INFO:root:34.0
-INFO:root:1.0
-INFO:root:37.0
-INFO:root:44.0
-INFO:root:1.0
-INFO:root:33.0
+INFO:root:1
+DEBUG:root:Bad order:1 12.0 30
+DEBUG:root:Bad order:0 19.0 25
+DEBUG:root:Bad order:20 11.0 24
+DEBUG:root:Bad order:9 15.0 20
+DEBUG:root:Bad order:18 11.0 19
+DEBUG:root:Bad order:7 3.0 17
+DEBUG:root:Bad order:6 3.0 17
+DEBUG:root:Bad order:3 3.0 17
 DEBUG:root:Result: Action: imperial -> Success
 DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
 DEBUG:root:Finish turn
 
 DEBUG:root:Executing:Selector: High Level Ordering of Strategies
 DEBUG:root:Executing:Action: imperial
-INFO:root:7.0
-INFO:root:34.0
-INFO:root:1.0
-INFO:root:37.0
-INFO:root:44.0
-INFO:root:1.0
-INFO:root:33.0
-DEBUG:root:Order:12 18 40.0
+INFO:root:1
+DEBUG:root:Bad order:1 17.0 30
+DEBUG:root:Bad order:0 19.0 25
+DEBUG:root:Bad order:20 15.0 24
+DEBUG:root:Bad order:9 18.0 20
+DEBUG:root:Bad order:18 14.0 19
+DEBUG:root:Bad order:7 6.0 17
+DEBUG:root:Bad order:6 6.0 17
+DEBUG:root:Bad order:3 6.0 17
 DEBUG:root:Result: Action: imperial -> Success
 DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
 DEBUG:root:Finish turn
 
 DEBUG:root:Executing:Selector: High Level Ordering of Strategies
 DEBUG:root:Executing:Action: imperial
-INFO:root:34.0
-INFO:root:1.0
-INFO:root:37.0
-INFO:root:44.0
-INFO:root:1.0
-INFO:root:35.0
+INFO:root:0
+DEBUG:root:Bad order:1 22.0 30
+DEBUG:root:Bad order:0 19.0 25
+DEBUG:root:Bad order:20 19.0 24
+DEBUG:root:Order:9 8 20
+DEBUG:root:Bad order:18 17.0 19
+DEBUG:root:Bad order:7 9.0 17
+DEBUG:root:Bad order:6 9.0 17
+DEBUG:root:Bad order:3 9.0 17
 DEBUG:root:Result: Action: imperial -> Success
 DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
 DEBUG:root:Finish turn
 
 DEBUG:root:Executing:Selector: High Level Ordering of Strategies
 DEBUG:root:Executing:Action: imperial
-INFO:root:34.0
-INFO:root:1.0
-INFO:root:37.0
-INFO:root:44.0
-INFO:root:1.0
-INFO:root:35.0
+INFO:root:1
+DEBUG:root:Bad order:1 27.0 44
+DEBUG:root:Bad order:0 10.0 39
+DEBUG:root:Bad order:20 23.0 35
+DEBUG:root:Bad order:18 20.0 27
+DEBUG:root:Bad order:7 12.0 25
+DEBUG:root:Bad order:6 12.0 25
+DEBUG:root:Bad order:3 12.0 25
+DEBUG:root:Bad order:9 4.0 22
+DEBUG:root:Bad order:4 12.0 19
+DEBUG:root:Order:16 17 17
+DEBUG:root:Bad order:10 38.0 17
 DEBUG:root:Result: Action: imperial -> Success
 DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
 DEBUG:root:Finish turn
 
 DEBUG:root:Executing:Selector: High Level Ordering of Strategies
 DEBUG:root:Executing:Action: imperial
-INFO:root:1.0
-INFO:root:37.0
-INFO:root:44.0
-INFO:root:1.0
-INFO:root:37.0
+INFO:root:1
+DEBUG:root:Bad order:1 32.0 44
+DEBUG:root:Bad order:0 15.0 39
+DEBUG:root:Bad order:20 27.0 35
+DEBUG:root:Bad order:18 23.0 27
+DEBUG:root:Bad order:7 15.0 25
+DEBUG:root:Bad order:6 15.0 25
+DEBUG:root:Bad order:3 15.0 25
+DEBUG:root:Bad order:9 7.0 22
+DEBUG:root:Bad order:4 12.0 19
+DEBUG:root:Bad order:10 38.0 17
 DEBUG:root:Result: Action: imperial -> Success
 DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
 DEBUG:root:Finish turn
 
 DEBUG:root:Executing:Selector: High Level Ordering of Strategies
 DEBUG:root:Executing:Action: imperial
-INFO:root:37.0
-INFO:root:44.0
-INFO:root:1.0
-INFO:root:35.0
+INFO:root:1
+DEBUG:root:Bad order:1 37.0 44
+DEBUG:root:Bad order:0 20.0 39
+DEBUG:root:Bad order:20 31.0 35
+DEBUG:root:Bad order:18 26.0 27
+DEBUG:root:Bad order:7 18.0 25
+DEBUG:root:Bad order:6 18.0 25
+DEBUG:root:Bad order:3 18.0 25
+DEBUG:root:Bad order:9 10.0 22
+DEBUG:root:Bad order:4 12.0 19
+DEBUG:root:Bad order:10 38.0 17
 DEBUG:root:Result: Action: imperial -> Success
 DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
 DEBUG:root:Finish turn
 
 DEBUG:root:Executing:Selector: High Level Ordering of Strategies
 DEBUG:root:Executing:Action: imperial
-INFO:root:37.0
-INFO:root:44.0
-INFO:root:1.0
-INFO:root:39.0
-DEBUG:root:Order:1 0 40.0
+INFO:root:1
+DEBUG:root:Bad order:1 42.0 44
+DEBUG:root:Bad order:0 25.0 39
+DEBUG:root:Order:20 11 35
+DEBUG:root:Order:18 12 27
+DEBUG:root:Bad order:7 21.0 25
+DEBUG:root:Bad order:6 21.0 25
+DEBUG:root:Bad order:3 21.0 25
+DEBUG:root:Bad order:9 13.0 22
+DEBUG:root:Bad order:4 12.0 19
+DEBUG:root:Bad order:10 21.0 17
 DEBUG:root:Result: Action: imperial -> Success
 DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
 DEBUG:root:Finish turn
 
 DEBUG:root:Executing:Selector: High Level Ordering of Strategies
 DEBUG:root:Executing:Action: imperial
-INFO:root:37.0
-INFO:root:44.0
-INFO:root:1.0
-INFO:root:39.0
+INFO:root:1
+DEBUG:root:Order:1 22 47
+DEBUG:root:Bad order:0 30.0 42
+DEBUG:root:Bad order:20 4.0 27
+DEBUG:root:Bad order:7 24.0 27
+DEBUG:root:Bad order:6 24.0 27
+DEBUG:root:Bad order:3 24.0 27
+DEBUG:root:Bad order:9 16.0 24
+DEBUG:root:Bad order:4 6.0 21
+DEBUG:root:Bad order:18 5.0 21
+DEBUG:root:Bad order:10 21.0 19
+DEBUG:root:Bad order:14 7.0 15
 DEBUG:root:Result: Action: imperial -> Success
 DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
 DEBUG:root:Finish turn
 
 DEBUG:root:Executing:Selector: High Level Ordering of Strategies
 DEBUG:root:Executing:Action: imperial
-INFO:root:37.0
-INFO:root:44.0
-INFO:root:1.0
-INFO:root:39.0
-INFO:root:1.0
+INFO:root:1
+DEBUG:root:Bad order:0 35.0 42
+DEBUG:root:Bad order:1 5.0 33
+DEBUG:root:Bad order:20 8.0 27
+DEBUG:root:Order:7 17 27
+DEBUG:root:Order:6 5 27
+DEBUG:root:Order:3 5 27
+DEBUG:root:Bad order:9 19.0 24
+DEBUG:root:Bad order:4 9.0 21
+DEBUG:root:Bad order:18 8.0 21
+DEBUG:root:Bad order:10 21.0 19
+DEBUG:root:Bad order:14 7.0 15
 DEBUG:root:Result: Action: imperial -> Success
 DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
 DEBUG:root:Finish turn
 
 DEBUG:root:Executing:Selector: High Level Ordering of Strategies
 DEBUG:root:Executing:Action: imperial
-INFO:root:44.0
-INFO:root:1.0
-INFO:root:39.0
-INFO:root:1.0
-DEBUG:root:Order:12 19 40.0
+INFO:root:1
+DEBUG:root:Bad order:0 40.0 42
+DEBUG:root:Bad order:1 10.0 33
+DEBUG:root:Bad order:20 12.0 27
+DEBUG:root:Bad order:9 22.0 24
+DEBUG:root:Bad order:4 12.0 21
+DEBUG:root:Bad order:18 11.0 21
+DEBUG:root:Bad order:10 2.0 20
+DEBUG:root:Bad order:7 3.0 18
+DEBUG:root:Bad order:6 3.0 18
+DEBUG:root:Bad order:3 3.0 18
+DEBUG:root:Bad order:14 7.0 15
 DEBUG:root:Result: Action: imperial -> Success
 DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
 DEBUG:root:Finish turn
 
 DEBUG:root:Executing:Selector: High Level Ordering of Strategies
 DEBUG:root:Executing:Action: imperial
-INFO:root:1.0
-INFO:root:1.0
-INFO:root:39.0
-INFO:root:1.0
-INFO:root:31.0
-DEBUG:root:Order:18 0 53.0
+INFO:root:1
+DEBUG:root:Order:0 8 42
+DEBUG:root:Bad order:1 15.0 33
+DEBUG:root:Bad order:20 16.0 27
+DEBUG:root:Order:9 17 24
+DEBUG:root:Bad order:4 15.0 21
+DEBUG:root:Bad order:18 14.0 21
+DEBUG:root:Bad order:10 2.0 20
+DEBUG:root:Bad order:7 6.0 18
+DEBUG:root:Bad order:6 6.0 18
+DEBUG:root:Bad order:3 6.0 18
+DEBUG:root:Bad order:14 7.0 15
 DEBUG:root:Result: Action: imperial -> Success
 DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
 DEBUG:root:Finish turn
 
 DEBUG:root:Executing:Selector: High Level Ordering of Strategies
 DEBUG:root:Executing:Action: imperial
-INFO:root:1.0
-INFO:root:39.0
-INFO:root:24.0
-INFO:root:1.0
-INFO:root:12.0
-INFO:root:31.0
+INFO:root:1
+DEBUG:root:Bad order:1 20.0 33
+DEBUG:root:Bad order:0 8.0 29
+DEBUG:root:Bad order:20 20.0 27
+DEBUG:root:Bad order:4 18.0 21
+DEBUG:root:Bad order:18 17.0 21
+DEBUG:root:Bad order:10 2.0 20
+DEBUG:root:Bad order:7 9.0 18
+DEBUG:root:Bad order:6 9.0 18
+DEBUG:root:Bad order:3 9.0 18
+DEBUG:root:Bad order:9 4.0 17
+DEBUG:root:Bad order:14 7.0 15
 DEBUG:root:Result: Action: imperial -> Success
 DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
 DEBUG:root:Finish turn
 
 DEBUG:root:Executing:Selector: High Level Ordering of Strategies
 DEBUG:root:Executing:Action: imperial
-INFO:root:1.0
-INFO:root:39.0
-INFO:root:24.0
-INFO:root:1.0
-INFO:root:12.0
-INFO:root:31.0
+INFO:root:0
+DEBUG:root:Bad order:1 25.0 31
+DEBUG:root:Bad order:0 13.0 27
+DEBUG:root:Bad order:20 24.0 26
+DEBUG:root:Order:4 17 20
+DEBUG:root:Order:18 5 20
+DEBUG:root:Bad order:10 2.0 19
+DEBUG:root:Bad order:7 12.0 18
+DEBUG:root:Bad order:6 12.0 18
+DEBUG:root:Bad order:3 12.0 18
+DEBUG:root:Bad order:9 7.0 16
+DEBUG:root:Bad order:14 7.0 15
 DEBUG:root:Result: Action: imperial -> Success
 DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
 DEBUG:root:Finish turn
 
 DEBUG:root:Executing:Selector: High Level Ordering of Strategies
 DEBUG:root:Executing:Action: imperial
-INFO:root:27.0
-INFO:root:1.0
-INFO:root:14.0
-INFO:root:31.0
-DEBUG:root:Order:4 18 42.0
+INFO:root:0
+DEBUG:root:Bad order:1 30.0 33
+DEBUG:root:Bad order:0 18.0 29
+DEBUG:root:Order:20 21 27
+DEBUG:root:Bad order:10 2.0 20
+DEBUG:root:Bad order:7 15.0 18
+DEBUG:root:Bad order:6 15.0 18
+DEBUG:root:Bad order:3 15.0 18
+DEBUG:root:Bad order:9 10.0 17
+DEBUG:root:Bad order:4 4.0 15
+DEBUG:root:Bad order:18 3.0 15
+DEBUG:root:Bad order:14 7.0 15
 DEBUG:root:Result: Action: imperial -> Success
 DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
 DEBUG:root:Finish turn
 
 DEBUG:root:Executing:Selector: High Level Ordering of Strategies
 DEBUG:root:Executing:Action: imperial
-INFO:root:27.0
-INFO:root:1.0
-INFO:root:31.0
-DEBUG:root:Order:1 19 40.0
+INFO:root:0
+DEBUG:root:Bad order:1 35.0 48
+DEBUG:root:Bad order:0 23.0 44
+DEBUG:root:Bad order:20 5.0 31
+DEBUG:root:Bad order:10 2.0 29
+DEBUG:root:Bad order:7 18.0 27
+DEBUG:root:Bad order:6 18.0 27
+DEBUG:root:Bad order:3 18.0 27
+DEBUG:root:Bad order:9 13.0 26
+DEBUG:root:Bad order:4 7.0 24
+DEBUG:root:Bad order:18 6.0 24
+DEBUG:root:Bad order:11 76.0 20
+DEBUG:root:Order:14 2 18
+DEBUG:root:Order:15 2 17
+DEBUG:root:Order:16 2 15
 DEBUG:root:Result: Action: imperial -> Success
 DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
 DEBUG:root:Finish turn
 
 DEBUG:root:Executing:Selector: High Level Ordering of Strategies
 DEBUG:root:Executing:Action: imperial
-INFO:root:27.0
-INFO:root:1.0
-INFO:root:35.0
-INFO:root:1.0
+INFO:root:0
+DEBUG:root:Bad order:1 40.0 48
+DEBUG:root:Bad order:0 28.0 44
+DEBUG:root:Bad order:20 9.0 31
+DEBUG:root:Bad order:10 25.0 29
+DEBUG:root:Bad order:7 21.0 27
+DEBUG:root:Bad order:6 21.0 27
+DEBUG:root:Bad order:3 21.0 27
+DEBUG:root:Bad order:9 16.0 26
+DEBUG:root:Bad order:4 10.0 24
+DEBUG:root:Bad order:18 9.0 24
+DEBUG:root:Bad order:11 52.0 20
 DEBUG:root:Result: Action: imperial -> Success
 DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
 DEBUG:root:Finish turn
 
 DEBUG:root:Executing:Selector: High Level Ordering of Strategies
 DEBUG:root:Executing:Action: imperial
-INFO:root:33.0
-INFO:root:20.0
-INFO:root:1.0
-INFO:root:1.0
-INFO:root:1.0
-INFO:root:35.0
-INFO:root:1.0
+INFO:root:0
+DEBUG:root:Bad order:1 45.0 48
+DEBUG:root:Bad order:0 33.0 44
+DEBUG:root:Bad order:20 13.0 31
+DEBUG:root:Bad order:10 28.0 29
+DEBUG:root:Bad order:7 24.0 27
+DEBUG:root:Bad order:6 24.0 27
+DEBUG:root:Bad order:3 24.0 27
+DEBUG:root:Bad order:9 19.0 26
+DEBUG:root:Bad order:4 13.0 24
+DEBUG:root:Bad order:18 12.0 24
+DEBUG:root:Bad order:11 52.0 20
 DEBUG:root:Result: Action: imperial -> Success
 DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
 DEBUG:root:Finish turn
 
 DEBUG:root:Executing:Selector: High Level Ordering of Strategies
 DEBUG:root:Executing:Action: imperial
-INFO:root:1.0
-INFO:root:1.0
-INFO:root:1.0
-INFO:root:35.0
-INFO:root:1.0
-INFO:root:1.0
-DEBUG:root:Order:0 19 76.0
-DEBUG:root:Order:19 21 40.0
-DEBUG:root:Order:12 6 40.0
+INFO:root:0
+DEBUG:root:Order:1 8 48
+DEBUG:root:Bad order:0 38.0 44
+DEBUG:root:Bad order:20 17.0 31
+DEBUG:root:Order:10 5 29
+DEBUG:root:Order:7 5 27
+DEBUG:root:Order:6 5 27
+DEBUG:root:Order:3 2 27
+DEBUG:root:Bad order:9 22.0 26
+DEBUG:root:Bad order:4 16.0 24
+DEBUG:root:Bad order:18 15.0 24
+DEBUG:root:Bad order:11 28.0 21
 DEBUG:root:Result: Action: imperial -> Success
 DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
 DEBUG:root:Finish turn
 
 DEBUG:root:Executing:Selector: High Level Ordering of Strategies
 DEBUG:root:Executing:Action: imperial
-INFO:root:41.0
-INFO:root:1.0
-INFO:root:1.0
-INFO:root:1.0
-INFO:root:33.0
-INFO:root:41.0
-INFO:root:30.0
-INFO:root:36.0
-INFO:root:1.0
+INFO:root:0
+DEBUG:root:Bad order:0 43.0 44
+DEBUG:root:Bad order:1 7.0 33
+DEBUG:root:Bad order:20 21.0 31
+DEBUG:root:Bad order:9 25.0 26
+DEBUG:root:Bad order:4 19.0 24
+DEBUG:root:Bad order:18 18.0 24
+DEBUG:root:Bad order:11 28.0 21
+DEBUG:root:Bad order:10 5.0 20
+DEBUG:root:Bad order:7 3.0 19
+DEBUG:root:Bad order:6 3.0 19
+DEBUG:root:Bad order:3 3.0 19
+DEBUG:root:Bad order:8 4.0 18
 DEBUG:root:Result: Action: imperial -> Success
 DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
 DEBUG:root:Finish turn
 
 DEBUG:root:Executing:Selector: High Level Ordering of Strategies
 DEBUG:root:Executing:Action: imperial
-INFO:root:41.0
-INFO:root:1.0
-INFO:root:1.0
-INFO:root:1.0
-INFO:root:33.0
-INFO:root:41.0
-INFO:root:30.0
-INFO:root:36.0
-INFO:root:1.0
-DEBUG:root:Order:18 4 60.0
+INFO:root:0
+DEBUG:root:Order:0 21 44
+DEBUG:root:Bad order:1 12.0 33
+DEBUG:root:Bad order:20 25.0 31
+DEBUG:root:Order:9 5 26
+DEBUG:root:Bad order:4 22.0 24
+DEBUG:root:Bad order:18 21.0 24
+DEBUG:root:Bad order:11 28.0 21
+DEBUG:root:Bad order:10 8.0 20
+DEBUG:root:Bad order:7 6.0 19
+DEBUG:root:Bad order:6 6.0 19
+DEBUG:root:Bad order:3 6.0 19
+DEBUG:root:Bad order:8 4.0 18
 DEBUG:root:Result: Action: imperial -> Success
 DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
 DEBUG:root:Finish turn
 
 DEBUG:root:Executing:Selector: High Level Ordering of Strategies
 DEBUG:root:Executing:Action: imperial
-INFO:root:32.0
-INFO:root:1.0
-INFO:root:1.0
-INFO:root:59.0
-INFO:root:41.0
-INFO:root:33.0
-INFO:root:30.0
-INFO:root:36.0
-INFO:root:1.0
+INFO:root:0
+DEBUG:root:Bad order:1 17.0 33
+DEBUG:root:Bad order:20 29.0 31
+DEBUG:root:Bad order:0 9.0 31
+DEBUG:root:Order:4 2 24
+DEBUG:root:Order:18 2 24
+DEBUG:root:Bad order:11 28.0 21
+DEBUG:root:Bad order:10 11.0 20
+DEBUG:root:Bad order:7 9.0 19
+DEBUG:root:Bad order:6 9.0 19
+DEBUG:root:Bad order:3 9.0 19
+DEBUG:root:Bad order:9 5.0 18
+DEBUG:root:Bad order:8 4.0 18
 DEBUG:root:Result: Action: imperial -> Success
 DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
 DEBUG:root:Finish turn
 
 DEBUG:root:Executing:Selector: High Level Ordering of Strategies
 DEBUG:root:Executing:Action: imperial
-INFO:root:32.0
-INFO:root:1.0
-INFO:root:1.0
-INFO:root:59.0
-INFO:root:41.0
-INFO:root:33.0
-INFO:root:30.0
-INFO:root:36.0
-INFO:root:1.0
+INFO:root:0
+DEBUG:root:Bad order:1 22.0 33
+DEBUG:root:Order:20 12 31
+DEBUG:root:Bad order:0 14.0 31
+DEBUG:root:Bad order:11 28.0 21
+DEBUG:root:Bad order:10 14.0 20
+DEBUG:root:Bad order:7 12.0 19
+DEBUG:root:Bad order:6 12.0 19
+DEBUG:root:Bad order:3 12.0 19
+DEBUG:root:Bad order:9 8.0 18
+DEBUG:root:Bad order:8 4.0 18
+DEBUG:root:Bad order:4 4.0 17
+DEBUG:root:Bad order:18 3.0 17
+DEBUG:root:Bad order:21 30.0 16
 DEBUG:root:Result: Action: imperial -> Success
 DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
 DEBUG:root:Finish turn
 
 DEBUG:root:Executing:Selector: High Level Ordering of Strategies
 DEBUG:root:Executing:Action: imperial
-INFO:root:1.0
-INFO:root:41.0
-INFO:root:1.0
-INFO:root:59.0
-INFO:root:33.0
-INFO:root:30.0
-INFO:root:36.0
-INFO:root:1.0
-DEBUG:root:Order:1 4 40.0
+INFO:root:0
+DEBUG:root:Bad order:1 27.0 39
+DEBUG:root:Bad order:0 19.0 37
+DEBUG:root:Bad order:20 6.0 27
+DEBUG:root:Bad order:11 28.0 26
+DEBUG:root:Bad order:10 17.0 24
+DEBUG:root:Bad order:7 15.0 23
+DEBUG:root:Bad order:6 15.0 23
+DEBUG:root:Bad order:3 15.0 23
+DEBUG:root:Bad order:9 11.0 22
 DEBUG:root:Result: Action: imperial -> Success
 DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
 DEBUG:root:Finish turn
 
 DEBUG:root:Executing:Selector: High Level Ordering of Strategies
 DEBUG:root:Executing:Action: imperial
-INFO:root:1.0
-INFO:root:41.0
-INFO:root:1.0
-INFO:root:59.0
-INFO:root:33.0
-INFO:root:30.0
-INFO:root:37.0
-INFO:root:1.0
+INFO:root:0
+DEBUG:root:Bad order:1 32.0 39
+DEBUG:root:Bad order:0 24.0 37
+DEBUG:root:Bad order:20 10.0 27
+DEBUG:root:Bad order:11 7.0 26
+DEBUG:root:Bad order:10 20.0 24
+DEBUG:root:Bad order:7 18.0 23
+DEBUG:root:Bad order:6 18.0 23
+DEBUG:root:Bad order:3 18.0 23
+DEBUG:root:Bad order:9 14.0 22
 DEBUG:root:Result: Action: imperial -> Success
 DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
 DEBUG:root:Finish turn
 
 DEBUG:root:Executing:Selector: High Level Ordering of Strategies
 DEBUG:root:Executing:Action: imperial
-INFO:root:41.0
-INFO:root:1.0
-INFO:root:59.0
-INFO:root:33.0
-INFO:root:31.0
-INFO:root:37.0
-INFO:root:1.0
+INFO:root:0
+DEBUG:root:Bad order:1 37.0 38
+DEBUG:root:Bad order:0 29.0 35
+DEBUG:root:Bad order:20 14.0 25
+DEBUG:root:Bad order:11 11.0 24
+DEBUG:root:Order:10 19 23
+DEBUG:root:Bad order:7 21.0 22
+DEBUG:root:Bad order:6 21.0 22
+DEBUG:root:Bad order:3 21.0 22
+DEBUG:root:Bad order:9 17.0 21
 DEBUG:root:Result: Action: imperial -> Success
 DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
 DEBUG:root:Finish turn
 
 DEBUG:root:Executing:Selector: High Level Ordering of Strategies
 DEBUG:root:Executing:Action: imperial
-INFO:root:31.0
-INFO:root:1.0
-DEBUG:root:Order:4 14 49.0
-DEBUG:root:Order:12 18 40.0
+INFO:root:0
+DEBUG:root:Order:1 5 38
+DEBUG:root:Bad order:0 34.0 35
+DEBUG:root:Bad order:20 18.0 25
+DEBUG:root:Bad order:11 15.0 24
+DEBUG:root:Order:7 19 22
+DEBUG:root:Order:6 19 22
+DEBUG:root:Order:3 19 22
+DEBUG:root:Bad order:9 20.0 21
+DEBUG:root:Bad order:8 4.0 21
 DEBUG:root:Result: Action: imperial -> Success
 DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
 DEBUG:root:Finish turn
 
 DEBUG:root:Executing:Selector: High Level Ordering of Strategies
 DEBUG:root:Executing:Action: imperial
-INFO:root:31.0
-INFO:root:1.0
-INFO:root:30.0
+INFO:root:0
+DEBUG:root:Bad order:0 39.0 40
+DEBUG:root:Bad order:1 9.0 31
+DEBUG:root:Bad order:20 22.0 29
+DEBUG:root:Bad order:11 19.0 28
+DEBUG:root:Bad order:9 23.0 24
+DEBUG:root:Bad order:8 4.0 24
+DEBUG:root:Bad order:4 19.0 22
+DEBUG:root:Bad order:18 18.0 22
+DEBUG:root:Bad order:21 30.0 20
 DEBUG:root:Result: Action: imperial -> Success
 DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
 DEBUG:root:Finish turn
 
 DEBUG:root:Executing:Selector: High Level Ordering of Strategies
 DEBUG:root:Executing:Action: imperial
-INFO:root:31.0
-INFO:root:1.0
-INFO:root:1.0
-INFO:root:28.0
+INFO:root:0
+DEBUG:root:Order:0 5 40
+DEBUG:root:Bad order:1 14.0 31
+DEBUG:root:Bad order:20 26.0 29
+DEBUG:root:Bad order:11 23.0 28
+DEBUG:root:Order:9 2 24
+DEBUG:root:Bad order:8 4.0 24
+DEBUG:root:Order:4 19 22
+DEBUG:root:Bad order:18 21.0 22
+DEBUG:root:Bad order:21 30.0 20
 DEBUG:root:Result: Action: imperial -> Success
 DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
 DEBUG:root:Finish turn
 
 DEBUG:root:Executing:Selector: High Level Ordering of Strategies
 DEBUG:root:Executing:Action: imperial
-INFO:root:1.0
-INFO:root:1.0
-INFO:root:30.0
-DEBUG:root:Order:4 18 49.0
+INFO:root:1
+DEBUG:root:Bad order:1 19.0 31
+DEBUG:root:Order:20 8 29
+DEBUG:root:Bad order:11 27.0 28
+DEBUG:root:Bad order:0 9.0 28
+DEBUG:root:Order:18 19 22
+DEBUG:root:Bad order:21 30.0 20
+DEBUG:root:Bad order:10 12.0 18
+DEBUG:root:Bad order:7 11.0 18
 DEBUG:root:Result: Action: imperial -> Success
 DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
 DEBUG:root:Finish turn
 
 DEBUG:root:Executing:Selector: High Level Ordering of Strategies
 DEBUG:root:Executing:Action: imperial
-INFO:root:1.0
-INFO:root:1.0
-INFO:root:7.0
-INFO:root:31.0
-INFO:root:32.0
+INFO:root:1
+DEBUG:root:Bad order:1 24.0 38
+DEBUG:root:Bad order:0 14.0 35
+DEBUG:root:Bad order:11 31.0 34
+DEBUG:root:Bad order:20 5.0 26
+DEBUG:root:Bad order:10 15.0 23
+DEBUG:root:Bad order:7 14.0 23
 DEBUG:root:Result: Action: imperial -> Success
 DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
 DEBUG:root:Finish turn
 
 DEBUG:root:Executing:Selector: High Level Ordering of Strategies
 DEBUG:root:Executing:Action: imperial
-INFO:root:1.0
-INFO:root:1.0
-INFO:root:7.0
-INFO:root:31.0
-INFO:root:32.0
-DEBUG:root:Order:1 4 40.0
+INFO:root:1
+DEBUG:root:Bad order:1 29.0 38
+DEBUG:root:Bad order:0 19.0 35
+DEBUG:root:Order:11 2 34
+DEBUG:root:Bad order:20 9.0 26
+DEBUG:root:Bad order:10 18.0 23
+DEBUG:root:Bad order:7 17.0 23
 DEBUG:root:Result: Action: imperial -> Success
 DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
 DEBUG:root:Finish turn
 
 DEBUG:root:Executing:Selector: High Level Ordering of Strategies
 DEBUG:root:Executing:Action: imperial
-INFO:root:1.0
-INFO:root:1.0
-INFO:root:7.0
-INFO:root:31.0
-INFO:root:27.0
-INFO:root:34.0
-DEBUG:root:Order:19 18 106.0
-DEBUG:root:Order:0 4 42.0
+INFO:root:0
+DEBUG:root:Bad order:1 34.0 38
+DEBUG:root:Bad order:0 24.0 35
+DEBUG:root:Bad order:20 13.0 26
+DEBUG:root:Bad order:11 5.0 24
+DEBUG:root:Bad order:10 21.0 23
+DEBUG:root:Bad order:7 20.0 23
 DEBUG:root:Result: Action: imperial -> Success
 DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
 DEBUG:root:Finish turn
 
 DEBUG:root:Executing:Selector: High Level Ordering of Strategies
 DEBUG:root:Executing:Action: imperial
-INFO:root:1.0
-INFO:root:7.0
-INFO:root:31.0
-INFO:root:27.0
-INFO:root:15.0
-INFO:root:34.0
-INFO:root:65.0
-INFO:root:31.0
+INFO:root:1
+DEBUG:root:Order:1 11 38
+DEBUG:root:Bad order:0 29.0 35
+DEBUG:root:Bad order:20 17.0 26
+DEBUG:root:Order:10 2 23
+DEBUG:root:Bad order:21 14.0 23
+DEBUG:root:Order:7 19 23
 DEBUG:root:Result: Action: imperial -> Success
 DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
 DEBUG:root:Finish turn
 
 DEBUG:root:Executing:Selector: High Level Ordering of Strategies
 DEBUG:root:Executing:Action: imperial
-INFO:root:10.0
-INFO:root:19.0
-INFO:root:28.0
-INFO:root:21.0
-INFO:root:21.0
-INFO:root:1.0
-INFO:root:70.0
-INFO:root:32.0
-INFO:root:31.0
-INFO:root:1.0
-INFO:root:1.0
+INFO:root:1
+DEBUG:root:Bad order:0 34.0 40
+DEBUG:root:Bad order:1 6.0 31
+DEBUG:root:Bad order:20 21.0 30
+DEBUG:root:Order:6 2 25
 DEBUG:root:Result: Action: imperial -> Success
 DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
 DEBUG:root:Finish turn
 
 DEBUG:root:Executing:Selector: High Level Ordering of Strategies
 DEBUG:root:Executing:Action: imperial
-INFO:root:24.0
-INFO:root:15.0
-INFO:root:1.0
-INFO:root:32.0
-INFO:root:31.0
-INFO:root:1.0
-INFO:root:1.0
-DEBUG:root:Order:18 4 58.0
+INFO:root:1
+DEBUG:root:Bad order:0 39.0 40
+DEBUG:root:Bad order:1 11.0 31
+DEBUG:root:Bad order:20 25.0 30
 DEBUG:root:Result: Action: imperial -> Success
 DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
 DEBUG:root:Finish turn
 
 DEBUG:root:Executing:Selector: High Level Ordering of Strategies
 DEBUG:root:Executing:Action: imperial
-INFO:root:24.0
-INFO:root:15.0
-INFO:root:1.0
-INFO:root:32.0
-INFO:root:25.0
-INFO:root:31.0
-INFO:root:1.0
-INFO:root:1.0
+INFO:root:1
+DEBUG:root:Order:0 8 40
+DEBUG:root:Bad order:1 16.0 31
+DEBUG:root:Bad order:20 29.0 30
 DEBUG:root:Result: Action: imperial -> Success
 DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
 DEBUG:root:Finish turn
 
 DEBUG:root:Executing:Selector: High Level Ordering of Strategies
 DEBUG:root:Executing:Action: imperial
-INFO:root:1.0
-INFO:root:34.0
-INFO:root:31.0
-INFO:root:1.0
-INFO:root:1.0
+INFO:root:1
+DEBUG:root:Bad order:1 21.0 31
+DEBUG:root:Order:20 2 30
+DEBUG:root:Bad order:0 9.0 28
 DEBUG:root:Result: Action: imperial -> Success
 DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
 DEBUG:root:Finish turn
 
 DEBUG:root:Executing:Selector: High Level Ordering of Strategies
 DEBUG:root:Executing:Action: imperial
-INFO:root:1.0
-INFO:root:34.0
-INFO:root:31.0
-INFO:root:1.0
-INFO:root:1.0
-DEBUG:root:Order:4 15 59.0
+INFO:root:1
+DEBUG:root:Bad order:1 26.0 37
+DEBUG:root:Bad order:0 14.0 34
+DEBUG:root:Order:3 19 29
 DEBUG:root:Result: Action: imperial -> Success
 DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
 DEBUG:root:Finish turn
 
 DEBUG:root:Executing:Selector: High Level Ordering of Strategies
 DEBUG:root:Executing:Action: imperial
-INFO:root:1.0
-INFO:root:34.0
-INFO:root:31.0
-INFO:root:60.0
-INFO:root:1.0
-DEBUG:root:Order:18 16 114.0
-DEBUG:root:Order:1 0 40.0
+INFO:root:1
+DEBUG:root:Bad order:1 31.0 45
+DEBUG:root:Bad order:0 19.0 41
+DEBUG:root:Bad order:12 22.0 35
 DEBUG:root:Result: Action: imperial -> Success
 DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
 DEBUG:root:Finish turn
 
 DEBUG:root:Executing:Selector: High Level Ordering of Strategies
 DEBUG:root:Executing:Action: imperial
-INFO:root:9.0
-INFO:root:31.0
-INFO:root:55.0
-INFO:root:60.0
-INFO:root:6.0
+INFO:root:1
+DEBUG:root:Bad order:1 36.0 45
+DEBUG:root:Bad order:0 24.0 41
+DEBUG:root:Bad order:12 26.0 35
 DEBUG:root:Result: Action: imperial -> Success
 DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
 DEBUG:root:Finish turn
 
 DEBUG:root:Executing:Selector: High Level Ordering of Strategies
 DEBUG:root:Executing:Action: imperial
-INFO:root:9.0
-INFO:root:31.0
-INFO:root:55.0
-INFO:root:60.0
-INFO:root:6.0
-DEBUG:root:Order:4 0 67.0
+INFO:root:1
+DEBUG:root:Bad order:1 41.0 45
+DEBUG:root:Bad order:0 29.0 41
+DEBUG:root:Bad order:12 30.0 35
 DEBUG:root:Result: Action: imperial -> Success
 DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
 DEBUG:root:Finish turn
 
 DEBUG:root:Executing:Selector: High Level Ordering of Strategies
 DEBUG:root:Executing:Action: imperial
-INFO:root:9.0
-INFO:root:31.0
-INFO:root:45.0
-INFO:root:55.0
-INFO:root:60.0
+INFO:root:1
+DEBUG:root:Order:1 8 45
+DEBUG:root:Bad order:0 34.0 41
+DEBUG:root:Bad order:12 34.0 35
 DEBUG:root:Result: Action: imperial -> Success
 DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
 DEBUG:root:Finish turn
 
 DEBUG:root:Executing:Selector: High Level Ordering of Strategies
 DEBUG:root:Executing:Action: imperial
-INFO:root:31.0
-INFO:root:45.0
-INFO:root:55.0
-INFO:root:60.0
+INFO:root:1
+DEBUG:root:Bad order:0 39.0 41
+DEBUG:root:Order:12 2 35
+DEBUG:root:Bad order:20 27.0 32
 DEBUG:root:Result: Action: imperial -> Success
 DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
 DEBUG:root:Finish turn
 
 DEBUG:root:Executing:Selector: High Level Ordering of Strategies
 DEBUG:root:Executing:Action: imperial
-INFO:root:31.0
-INFO:root:45.0
-INFO:root:55.0
-INFO:root:60.0
+INFO:root:1
+DEBUG:root:Order:0 8 41
+DEBUG:root:Bad order:20 31.0 32
+DEBUG:root:Order:9 19 32
 DEBUG:root:Result: Action: imperial -> Success
 DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
 DEBUG:root:Finish turn
 
 DEBUG:root:Executing:Selector: High Level Ordering of Strategies
 DEBUG:root:Executing:Action: imperial
-INFO:root:31.0
-INFO:root:45.0
-INFO:root:55.0
-INFO:root:60.0
+INFO:root:1
+DEBUG:root:Order:20 2 32
+DEBUG:root:Order:17 19 31
 DEBUG:root:Result: Action: imperial -> Success
 DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
 DEBUG:root:Finish turn
 
 DEBUG:root:Executing:Selector: High Level Ordering of Strategies
 DEBUG:root:Executing:Action: imperial
-INFO:root:45.0
-INFO:root:55.0
-INFO:root:60.0
-INFO:root:1.0
+INFO:root:1
+DEBUG:root:Bad order:1 21.0 37
+DEBUG:root:Bad order:0 13.0 35
 DEBUG:root:Result: Action: imperial -> Success
 DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
 DEBUG:root:Finish turn
 
 DEBUG:root:Executing:Selector: High Level Ordering of Strategies
 DEBUG:root:Executing:Action: imperial
-INFO:root:55.0
-INFO:root:60.0
-INFO:root:1.0
-DEBUG:root:Order:1 6 40.0
+INFO:root:0
+DEBUG:root:Bad order:1 26.0 36
+DEBUG:root:Order:4 2 34
 DEBUG:root:Result: Action: imperial -> Success
 DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
 DEBUG:root:Finish turn
 
 DEBUG:root:Executing:Selector: High Level Ordering of Strategies
 DEBUG:root:Executing:Action: imperial
-INFO:root:55.0
-INFO:root:60.0
-INFO:root:1.0
-INFO:root:32.0
-DEBUG:root:Order:14 6 40.0
-DEBUG:root:Order:6 15 40.0
+INFO:root:0
+DEBUG:root:Bad order:1 31.0 36
 DEBUG:root:Result: Action: imperial -> Success
 DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
 DEBUG:root:Finish turn
 
 DEBUG:root:Executing:Selector: High Level Ordering of Strategies
 DEBUG:root:Executing:Action: imperial
-INFO:root:60.0
-INFO:root:41.0
-INFO:root:30.0
-INFO:root:39.0
-DEBUG:root:Order:16 18 45.0
-DEBUG:root:Order:0 18 41.0
+INFO:root:0
+DEBUG:root:Order:1 19 36
 DEBUG:root:Result: Action: imperial -> Success
 DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
 DEBUG:root:Finish turn
 
 DEBUG:root:Executing:Selector: High Level Ordering of Strategies
 DEBUG:root:Executing:Action: imperial
-INFO:root:60.0
-INFO:root:41.0
-INFO:root:2.0
-INFO:root:32.0
-INFO:root:6.0
-INFO:root:31.0
-INFO:root:30.0
-INFO:root:39.0
-DEBUG:root:Order:0 0 43.0
-DEBUG:root:Result: Action: imperial -> Success
-DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
-DEBUG:root:Finish turn
-
-DEBUG:root:Executing:Selector: High Level Ordering of Strategies
-DEBUG:root:Executing:Action: imperial
-INFO:root:41.0
-INFO:root:2.0
-INFO:root:35.0
-INFO:root:6.0
-INFO:root:31.0
-INFO:root:30.0
-INFO:root:39.0
-DEBUG:root:Order:0 0 46.0
-DEBUG:root:Result: Action: imperial -> Success
-DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
-DEBUG:root:Finish turn
-
-DEBUG:root:Executing:Selector: High Level Ordering of Strategies
-DEBUG:root:Executing:Action: imperial
-INFO:root:38.0
-INFO:root:6.0
-INFO:root:31.0
-INFO:root:30.0
-INFO:root:39.0
-DEBUG:root:Result: Action: imperial -> Success
-DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
-DEBUG:root:Finish turn
-
-DEBUG:root:Executing:Selector: High Level Ordering of Strategies
-DEBUG:root:Executing:Action: imperial
-INFO:root:6.0
-INFO:root:1.0
-INFO:root:31.0
-INFO:root:30.0
-INFO:root:39.0
-DEBUG:root:Result: Action: imperial -> Success
-DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
-DEBUG:root:Finish turn
-
-DEBUG:root:Executing:Selector: High Level Ordering of Strategies
-DEBUG:root:Executing:Action: imperial
-INFO:root:6.0
-INFO:root:1.0
-INFO:root:31.0
-INFO:root:30.0
-INFO:root:39.0
-INFO:root:1.0
-DEBUG:root:Result: Action: imperial -> Success
-DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
-DEBUG:root:Finish turn
-
-DEBUG:root:Executing:Selector: High Level Ordering of Strategies
-DEBUG:root:Executing:Action: imperial
-INFO:root:6.0
-INFO:root:1.0
-INFO:root:33.0
-INFO:root:30.0
-INFO:root:39.0
-INFO:root:1.0
-DEBUG:root:Order:4 4 42.0
-DEBUG:root:Order:1 6 40.0
-DEBUG:root:Result: Action: imperial -> Success
-DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
-DEBUG:root:Finish turn
-
-DEBUG:root:Executing:Selector: High Level Ordering of Strategies
-DEBUG:root:Executing:Action: imperial
-INFO:root:1.0
-INFO:root:30.0
-INFO:root:39.0
-INFO:root:3.0
-INFO:root:1.0
-INFO:root:1.0
-DEBUG:root:Order:4 6 45.0
-DEBUG:root:Result: Action: imperial -> Success
-DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
-DEBUG:root:Finish turn
-
-DEBUG:root:Executing:Selector: High Level Ordering of Strategies
-DEBUG:root:Executing:Action: imperial
-INFO:root:46.0
-INFO:root:30.0
-INFO:root:39.0
-INFO:root:10.0
-INFO:root:28.0
-INFO:root:1.0
-INFO:root:1.0
-DEBUG:root:Result: Action: imperial -> Success
-DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
-DEBUG:root:Finish turn
-
-DEBUG:root:Executing:Selector: High Level Ordering of Strategies
-DEBUG:root:Executing:Action: imperial
-INFO:root:46.0
-INFO:root:31.0
-INFO:root:39.0
-INFO:root:8.0
-INFO:root:30.0
-INFO:root:1.0
-INFO:root:1.0
-DEBUG:root:Result: Action: imperial -> Success
-DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
-DEBUG:root:Finish turn
-
-DEBUG:root:Executing:Selector: High Level Ordering of Strategies
-DEBUG:root:Executing:Action: imperial
-INFO:root:31.0
-INFO:root:41.0
-INFO:root:8.0
-INFO:root:31.0
-INFO:root:1.0
-INFO:root:1.0
-DEBUG:root:Order:18 4 47.0
-DEBUG:root:Result: Action: imperial -> Success
-DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
-DEBUG:root:Finish turn
-
-DEBUG:root:Executing:Selector: High Level Ordering of Strategies
-DEBUG:root:Executing:Action: imperial
-INFO:root:41.0
-INFO:root:1.0
-INFO:root:1.0
-DEBUG:root:Result: Action: imperial -> Success
-DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
-DEBUG:root:Finish turn
-
-DEBUG:root:Executing:Selector: High Level Ordering of Strategies
-DEBUG:root:Executing:Action: imperial
-INFO:root:1.0
-INFO:root:1.0
-INFO:root:1.0
-DEBUG:root:Result: Action: imperial -> Success
-DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
-DEBUG:root:Finish turn
-
-DEBUG:root:Executing:Selector: High Level Ordering of Strategies
-DEBUG:root:Executing:Action: imperial
-INFO:root:1.0
-INFO:root:1.0
-INFO:root:1.0
-INFO:root:1.0
-DEBUG:root:Result: Action: imperial -> Success
-DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
-DEBUG:root:Finish turn
-
-DEBUG:root:Executing:Selector: High Level Ordering of Strategies
-DEBUG:root:Executing:Action: imperial
-INFO:root:1.0
-INFO:root:1.0
-INFO:root:1.0
-INFO:root:1.0
-DEBUG:root:Order:1 18 40.0
-DEBUG:root:Result: Action: imperial -> Success
-DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
-DEBUG:root:Finish turn
-
-DEBUG:root:Executing:Selector: High Level Ordering of Strategies
-DEBUG:root:Executing:Action: imperial
-INFO:root:41.0
-INFO:root:1.0
-INFO:root:1.0
-INFO:root:1.0
-DEBUG:root:Result: Action: imperial -> Success
-DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
-DEBUG:root:Finish turn
-
-DEBUG:root:Executing:Selector: High Level Ordering of Strategies
-DEBUG:root:Executing:Action: imperial
-INFO:root:41.0
-INFO:root:1.0
-INFO:root:1.0
-INFO:root:1.0
-DEBUG:root:Result: Action: imperial -> Success
-DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
-DEBUG:root:Finish turn
-
-DEBUG:root:Executing:Selector: High Level Ordering of Strategies
-DEBUG:root:Executing:Action: imperial
-INFO:root:41.0
-INFO:root:1.0
-INFO:root:1.0
-INFO:root:1.0
-DEBUG:root:Order:6 10 112.0
-DEBUG:root:Result: Action: imperial -> Success
-DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
-DEBUG:root:Finish turn
-
-DEBUG:root:Executing:Selector: High Level Ordering of Strategies
-DEBUG:root:Executing:Action: imperial
-INFO:root:1.0
-INFO:root:1.0
-INFO:root:1.0
-INFO:root:27.0
-INFO:root:103.0
-DEBUG:root:Result: Action: imperial -> Success
-DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
-DEBUG:root:Finish turn
-
-DEBUG:root:Executing:Selector: High Level Ordering of Strategies
-DEBUG:root:Executing:Action: imperial
-INFO:root:1.0
-INFO:root:1.0
-INFO:root:1.0
-INFO:root:27.0
-INFO:root:103.0
-DEBUG:root:Result: Action: imperial -> Success
-DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
-DEBUG:root:Finish turn
-
-DEBUG:root:Executing:Selector: High Level Ordering of Strategies
-DEBUG:root:Executing:Action: imperial
-INFO:root:1.0
-INFO:root:27.0
-INFO:root:103.0
-DEBUG:root:Result: Action: imperial -> Success
-DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
-DEBUG:root:Finish turn
-
-DEBUG:root:Executing:Selector: High Level Ordering of Strategies
-DEBUG:root:Executing:Action: imperial
-INFO:root:1.0
-INFO:root:27.0
-INFO:root:104.0
-DEBUG:root:Order:18 4 62.0
-DEBUG:root:Result: Action: imperial -> Success
-DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
-DEBUG:root:Finish turn
-
-DEBUG:root:Executing:Selector: High Level Ordering of Strategies
-DEBUG:root:Executing:Action: imperial
-INFO:root:25.0
-INFO:root:12.0
-INFO:root:1.0
-INFO:root:27.0
-INFO:root:104.0
-DEBUG:root:Result: Action: imperial -> Success
-DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
-DEBUG:root:Finish turn
-
-DEBUG:root:Executing:Selector: High Level Ordering of Strategies
-DEBUG:root:Executing:Action: imperial
-INFO:root:25.0
-INFO:root:12.0
-INFO:root:1.0
-INFO:root:27.0
-INFO:root:104.0
-DEBUG:root:Result: Action: imperial -> Success
-DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
-DEBUG:root:Finish turn
-
-DEBUG:root:Executing:Selector: High Level Ordering of Strategies
-DEBUG:root:Executing:Action: imperial
-INFO:root:12.0
-INFO:root:1.0
-INFO:root:28.0
-INFO:root:104.0
-DEBUG:root:Result: Action: imperial -> Success
-DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
-DEBUG:root:Finish turn
-
-DEBUG:root:Executing:Selector: High Level Ordering of Strategies
-DEBUG:root:Executing:Action: imperial
-INFO:root:12.0
-INFO:root:1.0
-INFO:root:28.0
-INFO:root:104.0
-DEBUG:root:Result: Action: imperial -> Success
-DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
-DEBUG:root:Finish turn
-
-DEBUG:root:Executing:Selector: High Level Ordering of Strategies
-DEBUG:root:Executing:Action: imperial
-INFO:root:12.0
-INFO:root:1.0
-INFO:root:28.0
-INFO:root:104.0
-DEBUG:root:Result: Action: imperial -> Success
-DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
-DEBUG:root:Finish turn
-
-DEBUG:root:Executing:Selector: High Level Ordering of Strategies
-DEBUG:root:Executing:Action: imperial
-INFO:root:1.0
-INFO:root:28.0
-INFO:root:104.0
-DEBUG:root:Result: Action: imperial -> Success
-DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
-DEBUG:root:Finish turn
-
-DEBUG:root:Executing:Selector: High Level Ordering of Strategies
-DEBUG:root:Executing:Action: imperial
-INFO:root:28.0
-INFO:root:106.0
-DEBUG:root:Result: Action: imperial -> Success
-DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
-DEBUG:root:Finish turn
-
-DEBUG:root:Executing:Selector: High Level Ordering of Strategies
-DEBUG:root:Executing:Action: imperial
-INFO:root:28.0
-INFO:root:106.0
-DEBUG:root:Result: Action: imperial -> Success
-DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
-DEBUG:root:Finish turn
-
-DEBUG:root:Executing:Selector: High Level Ordering of Strategies
-DEBUG:root:Executing:Action: imperial
-INFO:root:28.0
-INFO:root:106.0
-DEBUG:root:Result: Action: imperial -> Success
-DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
-DEBUG:root:Finish turn
-
-DEBUG:root:Executing:Selector: High Level Ordering of Strategies
-DEBUG:root:Executing:Action: imperial
-INFO:root:1.0
-INFO:root:105.0
-DEBUG:root:Result: Action: imperial -> Success
-DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
-DEBUG:root:Finish turn
-
-DEBUG:root:Executing:Selector: High Level Ordering of Strategies
-DEBUG:root:Executing:Action: imperial
-INFO:root:1.0
-INFO:root:105.0
-DEBUG:root:Result: Action: imperial -> Success
-DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
-DEBUG:root:Finish turn
-
-DEBUG:root:Executing:Selector: High Level Ordering of Strategies
-DEBUG:root:Executing:Action: imperial
-DEBUG:root:Order:10 4 96.0
-DEBUG:root:Result: Action: imperial -> Success
-DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
-DEBUG:root:Finish turn
-
-DEBUG:root:Executing:Selector: High Level Ordering of Strategies
-DEBUG:root:Executing:Action: imperial
-INFO:root:65.0
-INFO:root:97.0
-DEBUG:root:Result: Action: imperial -> Success
+INFO:root:0
+DEBUG:root:Result: Action: imperial -> Failure
+DEBUG:root:Executing:Sequence: Offensive Strategy
+DEBUG:root:Executing:Check: have_largest_fleet
+DEBUG:root:Result: Check: have_largest_fleet -> Success
+DEBUG:root:Executing:Action: attack_weakest_enemy_planet
+DEBUG:root:Order:21 8 37.5
+DEBUG:root:Result: Action: attack_weakest_enemy_planet -> Success
+DEBUG:root:Result: Sequence: Offensive Strategy -> Success
 DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
 DEBUG:root:Finish turn
 
 DEBUG:root:Executing:Selector: High Level Ordering of Strategies
 DEBUG:root:Executing:Action: imperial
-INFO:root:65.0
-INFO:root:97.0
-DEBUG:root:Result: Action: imperial -> Success
+INFO:root:0
+DEBUG:root:Result: Action: imperial -> Failure
+DEBUG:root:Executing:Sequence: Offensive Strategy
+DEBUG:root:Executing:Check: have_largest_fleet
+DEBUG:root:Result: Check: have_largest_fleet -> Success
+DEBUG:root:Executing:Action: attack_weakest_enemy_planet
+DEBUG:root:Order:22 19 35.5
+DEBUG:root:Result: Action: attack_weakest_enemy_planet -> Success
+DEBUG:root:Result: Sequence: Offensive Strategy -> Success
 DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
 DEBUG:root:Finish turn
 
 DEBUG:root:Executing:Selector: High Level Ordering of Strategies
 DEBUG:root:Executing:Action: imperial
-INFO:root:65.0
-INFO:root:97.0
-DEBUG:root:Result: Action: imperial -> Success
+INFO:root:0
+DEBUG:root:Result: Action: imperial -> Failure
+DEBUG:root:Executing:Sequence: Offensive Strategy
+DEBUG:root:Executing:Check: have_largest_fleet
+DEBUG:root:Result: Check: have_largest_fleet -> Success
+DEBUG:root:Executing:Action: attack_weakest_enemy_planet
+DEBUG:root:Order:18 2 35.5
+DEBUG:root:Result: Action: attack_weakest_enemy_planet -> Success
+DEBUG:root:Result: Sequence: Offensive Strategy -> Success
 DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
 DEBUG:root:Finish turn
 
 DEBUG:root:Executing:Selector: High Level Ordering of Strategies
 DEBUG:root:Executing:Action: imperial
-INFO:root:65.0
-INFO:root:97.0
-DEBUG:root:Result: Action: imperial -> Success
+INFO:root:0
+DEBUG:root:Result: Action: imperial -> Failure
+DEBUG:root:Executing:Sequence: Offensive Strategy
+DEBUG:root:Executing:Check: have_largest_fleet
+DEBUG:root:Result: Check: have_largest_fleet -> Success
+DEBUG:root:Executing:Action: attack_weakest_enemy_planet
+DEBUG:root:Order:10 2 30.5
+DEBUG:root:Result: Action: attack_weakest_enemy_planet -> Success
+DEBUG:root:Result: Sequence: Offensive Strategy -> Success
 DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
 DEBUG:root:Finish turn
 
 DEBUG:root:Executing:Selector: High Level Ordering of Strategies
 DEBUG:root:Executing:Action: imperial
-INFO:root:65.0
-INFO:root:97.0
-DEBUG:root:Result: Action: imperial -> Success
+INFO:root:0
+DEBUG:root:Result: Action: imperial -> Failure
+DEBUG:root:Executing:Sequence: Offensive Strategy
+DEBUG:root:Executing:Check: have_largest_fleet
+DEBUG:root:Result: Check: have_largest_fleet -> Success
+DEBUG:root:Executing:Action: attack_weakest_enemy_planet
+DEBUG:root:Order:7 2 31.5
+DEBUG:root:Result: Action: attack_weakest_enemy_planet -> Success
+DEBUG:root:Result: Sequence: Offensive Strategy -> Success
 DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
 DEBUG:root:Finish turn
 
 DEBUG:root:Executing:Selector: High Level Ordering of Strategies
 DEBUG:root:Executing:Action: imperial
-INFO:root:65.0
-INFO:root:97.0
-DEBUG:root:Result: Action: imperial -> Success
+INFO:root:0
+DEBUG:root:Result: Action: imperial -> Failure
+DEBUG:root:Executing:Sequence: Offensive Strategy
+DEBUG:root:Executing:Check: have_largest_fleet
+DEBUG:root:Result: Check: have_largest_fleet -> Success
+DEBUG:root:Executing:Action: attack_weakest_enemy_planet
+DEBUG:root:Order:5 2 32.5
+DEBUG:root:Result: Action: attack_weakest_enemy_planet -> Success
+DEBUG:root:Result: Sequence: Offensive Strategy -> Success
 DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
 DEBUG:root:Finish turn
 
 DEBUG:root:Executing:Selector: High Level Ordering of Strategies
 DEBUG:root:Executing:Action: imperial
-INFO:root:65.0
-INFO:root:97.0
-DEBUG:root:Result: Action: imperial -> Success
+INFO:root:0
+DEBUG:root:Result: Action: imperial -> Failure
+DEBUG:root:Executing:Sequence: Offensive Strategy
+DEBUG:root:Executing:Check: have_largest_fleet
+DEBUG:root:Result: Check: have_largest_fleet -> Success
+DEBUG:root:Executing:Action: attack_weakest_enemy_planet
+DEBUG:root:Order:6 2 33.5
+DEBUG:root:Result: Action: attack_weakest_enemy_planet -> Success
+DEBUG:root:Result: Sequence: Offensive Strategy -> Success
 DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
 DEBUG:root:Finish turn
 
 DEBUG:root:Executing:Selector: High Level Ordering of Strategies
 DEBUG:root:Executing:Action: imperial
-INFO:root:65.0
-INFO:root:97.0
-DEBUG:root:Result: Action: imperial -> Success
-DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+INFO:root:0
+DEBUG:root:Result: Action: imperial -> Failure
+DEBUG:root:Executing:Sequence: Offensive Strategy
+DEBUG:root:Executing:Check: have_largest_fleet
+DEBUG:root:Result: Check: have_largest_fleet -> Success
+DEBUG:root:Executing:Action: attack_weakest_enemy_planet
+DEBUG:root:Result: Action: attack_weakest_enemy_planet -> Failure
+DEBUG:root:Result: Sequence: Offensive Strategy -> Failure
+DEBUG:root:Executing:Sequence: Spread Strategy
+DEBUG:root:Executing:Check: if_neutral_planet_available
+DEBUG:root:Result: Check: if_neutral_planet_available -> Failure
+DEBUG:root:Result: Sequence: Spread Strategy -> Failure
+DEBUG:root:Executing:Action: attack_weakest_enemy_planet
+DEBUG:root:Result: Action: attack_weakest_enemy_planet -> Failure
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
 DEBUG:root:Finish turn
 
 DEBUG:root:Executing:Selector: High Level Ordering of Strategies
 DEBUG:root:Executing:Action: imperial
-INFO:root:65.0
-INFO:root:97.0
-DEBUG:root:Result: Action: imperial -> Success
-DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+INFO:root:0
+DEBUG:root:Result: Action: imperial -> Failure
+DEBUG:root:Executing:Sequence: Offensive Strategy
+DEBUG:root:Executing:Check: have_largest_fleet
+DEBUG:root:Result: Check: have_largest_fleet -> Success
+DEBUG:root:Executing:Action: attack_weakest_enemy_planet
+DEBUG:root:Result: Action: attack_weakest_enemy_planet -> Failure
+DEBUG:root:Result: Sequence: Offensive Strategy -> Failure
+DEBUG:root:Executing:Sequence: Spread Strategy
+DEBUG:root:Executing:Check: if_neutral_planet_available
+DEBUG:root:Result: Check: if_neutral_planet_available -> Failure
+DEBUG:root:Result: Sequence: Spread Strategy -> Failure
+DEBUG:root:Executing:Action: attack_weakest_enemy_planet
+DEBUG:root:Result: Action: attack_weakest_enemy_planet -> Failure
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
 DEBUG:root:Finish turn
 
 DEBUG:root:Executing:Selector: High Level Ordering of Strategies
 DEBUG:root:Executing:Action: imperial
-INFO:root:97.0
-DEBUG:root:Order:4 18 55.0
-DEBUG:root:Result: Action: imperial -> Success
-DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+INFO:root:0
+DEBUG:root:Result: Action: imperial -> Failure
+DEBUG:root:Executing:Sequence: Offensive Strategy
+DEBUG:root:Executing:Check: have_largest_fleet
+DEBUG:root:Result: Check: have_largest_fleet -> Success
+DEBUG:root:Executing:Action: attack_weakest_enemy_planet
+DEBUG:root:Result: Action: attack_weakest_enemy_planet -> Failure
+DEBUG:root:Result: Sequence: Offensive Strategy -> Failure
+DEBUG:root:Executing:Sequence: Spread Strategy
+DEBUG:root:Executing:Check: if_neutral_planet_available
+DEBUG:root:Result: Check: if_neutral_planet_available -> Failure
+DEBUG:root:Result: Sequence: Spread Strategy -> Failure
+DEBUG:root:Executing:Action: attack_weakest_enemy_planet
+DEBUG:root:Result: Action: attack_weakest_enemy_planet -> Failure
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
 DEBUG:root:Finish turn
 
 DEBUG:root:Executing:Selector: High Level Ordering of Strategies
 DEBUG:root:Executing:Action: imperial
-INFO:root:56.0
-INFO:root:97.0
-DEBUG:root:Result: Action: imperial -> Success
-DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+INFO:root:0
+DEBUG:root:Result: Action: imperial -> Failure
+DEBUG:root:Executing:Sequence: Offensive Strategy
+DEBUG:root:Executing:Check: have_largest_fleet
+DEBUG:root:Result: Check: have_largest_fleet -> Success
+DEBUG:root:Executing:Action: attack_weakest_enemy_planet
+DEBUG:root:Result: Action: attack_weakest_enemy_planet -> Failure
+DEBUG:root:Result: Sequence: Offensive Strategy -> Failure
+DEBUG:root:Executing:Sequence: Spread Strategy
+DEBUG:root:Executing:Check: if_neutral_planet_available
+DEBUG:root:Result: Check: if_neutral_planet_available -> Failure
+DEBUG:root:Result: Sequence: Spread Strategy -> Failure
+DEBUG:root:Executing:Action: attack_weakest_enemy_planet
+DEBUG:root:Result: Action: attack_weakest_enemy_planet -> Failure
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
 DEBUG:root:Finish turn
 
 DEBUG:root:Executing:Selector: High Level Ordering of Strategies
 DEBUG:root:Executing:Action: imperial
-INFO:root:56.0
-INFO:root:97.0
-DEBUG:root:Result: Action: imperial -> Success
-DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+INFO:root:0
+DEBUG:root:Result: Action: imperial -> Failure
+DEBUG:root:Executing:Sequence: Offensive Strategy
+DEBUG:root:Executing:Check: have_largest_fleet
+DEBUG:root:Result: Check: have_largest_fleet -> Success
+DEBUG:root:Executing:Action: attack_weakest_enemy_planet
+DEBUG:root:Result: Action: attack_weakest_enemy_planet -> Failure
+DEBUG:root:Result: Sequence: Offensive Strategy -> Failure
+DEBUG:root:Executing:Sequence: Spread Strategy
+DEBUG:root:Executing:Check: if_neutral_planet_available
+DEBUG:root:Result: Check: if_neutral_planet_available -> Failure
+DEBUG:root:Result: Sequence: Spread Strategy -> Failure
+DEBUG:root:Executing:Action: attack_weakest_enemy_planet
+DEBUG:root:Result: Action: attack_weakest_enemy_planet -> Failure
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
 DEBUG:root:Finish turn
 
 DEBUG:root:Executing:Selector: High Level Ordering of Strategies
 DEBUG:root:Executing:Action: imperial
-INFO:root:56.0
-INFO:root:97.0
-DEBUG:root:Result: Action: imperial -> Success
-DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+INFO:root:0
+DEBUG:root:Result: Action: imperial -> Failure
+DEBUG:root:Executing:Sequence: Offensive Strategy
+DEBUG:root:Executing:Check: have_largest_fleet
+DEBUG:root:Result: Check: have_largest_fleet -> Success
+DEBUG:root:Executing:Action: attack_weakest_enemy_planet
+DEBUG:root:Result: Action: attack_weakest_enemy_planet -> Failure
+DEBUG:root:Result: Sequence: Offensive Strategy -> Failure
+DEBUG:root:Executing:Sequence: Spread Strategy
+DEBUG:root:Executing:Check: if_neutral_planet_available
+DEBUG:root:Result: Check: if_neutral_planet_available -> Failure
+DEBUG:root:Result: Sequence: Spread Strategy -> Failure
+DEBUG:root:Executing:Action: attack_weakest_enemy_planet
+DEBUG:root:Result: Action: attack_weakest_enemy_planet -> Failure
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
 DEBUG:root:Finish turn
 
 DEBUG:root:Executing:Selector: High Level Ordering of Strategies
 DEBUG:root:Executing:Action: imperial
-INFO:root:56.0
-INFO:root:97.0
-DEBUG:root:Result: Action: imperial -> Success
-DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+INFO:root:0
+DEBUG:root:Result: Action: imperial -> Failure
+DEBUG:root:Executing:Sequence: Offensive Strategy
+DEBUG:root:Executing:Check: have_largest_fleet
+DEBUG:root:Result: Check: have_largest_fleet -> Success
+DEBUG:root:Executing:Action: attack_weakest_enemy_planet
+DEBUG:root:Result: Action: attack_weakest_enemy_planet -> Failure
+DEBUG:root:Result: Sequence: Offensive Strategy -> Failure
+DEBUG:root:Executing:Sequence: Spread Strategy
+DEBUG:root:Executing:Check: if_neutral_planet_available
+DEBUG:root:Result: Check: if_neutral_planet_available -> Failure
+DEBUG:root:Result: Sequence: Spread Strategy -> Failure
+DEBUG:root:Executing:Action: attack_weakest_enemy_planet
+DEBUG:root:Result: Action: attack_weakest_enemy_planet -> Failure
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
 DEBUG:root:Finish turn
 
 DEBUG:root:Executing:Selector: High Level Ordering of Strategies
 DEBUG:root:Executing:Action: imperial
-INFO:root:56.0
-INFO:root:97.0
-DEBUG:root:Result: Action: imperial -> Success
-DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+INFO:root:0
+DEBUG:root:Result: Action: imperial -> Failure
+DEBUG:root:Executing:Sequence: Offensive Strategy
+DEBUG:root:Executing:Check: have_largest_fleet
+DEBUG:root:Result: Check: have_largest_fleet -> Success
+DEBUG:root:Executing:Action: attack_weakest_enemy_planet
+DEBUG:root:Result: Action: attack_weakest_enemy_planet -> Failure
+DEBUG:root:Result: Sequence: Offensive Strategy -> Failure
+DEBUG:root:Executing:Sequence: Spread Strategy
+DEBUG:root:Executing:Check: if_neutral_planet_available
+DEBUG:root:Result: Check: if_neutral_planet_available -> Failure
+DEBUG:root:Result: Sequence: Spread Strategy -> Failure
+DEBUG:root:Executing:Action: attack_weakest_enemy_planet
+DEBUG:root:Result: Action: attack_weakest_enemy_planet -> Failure
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
 DEBUG:root:Finish turn
 
 DEBUG:root:Executing:Selector: High Level Ordering of Strategies
 DEBUG:root:Executing:Action: imperial
-INFO:root:97.0
-DEBUG:root:Result: Action: imperial -> Success
-DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+INFO:root:0
+DEBUG:root:Result: Action: imperial -> Failure
+DEBUG:root:Executing:Sequence: Offensive Strategy
+DEBUG:root:Executing:Check: have_largest_fleet
+DEBUG:root:Result: Check: have_largest_fleet -> Success
+DEBUG:root:Executing:Action: attack_weakest_enemy_planet
+DEBUG:root:Result: Action: attack_weakest_enemy_planet -> Failure
+DEBUG:root:Result: Sequence: Offensive Strategy -> Failure
+DEBUG:root:Executing:Sequence: Spread Strategy
+DEBUG:root:Executing:Check: if_neutral_planet_available
+DEBUG:root:Result: Check: if_neutral_planet_available -> Failure
+DEBUG:root:Result: Sequence: Spread Strategy -> Failure
+DEBUG:root:Executing:Action: attack_weakest_enemy_planet
+DEBUG:root:Result: Action: attack_weakest_enemy_planet -> Failure
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
 DEBUG:root:Finish turn
 
 DEBUG:root:Executing:Selector: High Level Ordering of Strategies
 DEBUG:root:Executing:Action: imperial
-INFO:root:97.0
-DEBUG:root:Result: Action: imperial -> Success
-DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+INFO:root:0
+DEBUG:root:Result: Action: imperial -> Failure
+DEBUG:root:Executing:Sequence: Offensive Strategy
+DEBUG:root:Executing:Check: have_largest_fleet
+DEBUG:root:Result: Check: have_largest_fleet -> Success
+DEBUG:root:Executing:Action: attack_weakest_enemy_planet
+DEBUG:root:Result: Action: attack_weakest_enemy_planet -> Failure
+DEBUG:root:Result: Sequence: Offensive Strategy -> Failure
+DEBUG:root:Executing:Sequence: Spread Strategy
+DEBUG:root:Executing:Check: if_neutral_planet_available
+DEBUG:root:Result: Check: if_neutral_planet_available -> Failure
+DEBUG:root:Result: Sequence: Spread Strategy -> Failure
+DEBUG:root:Executing:Action: attack_weakest_enemy_planet
+DEBUG:root:Result: Action: attack_weakest_enemy_planet -> Failure
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
 DEBUG:root:Finish turn
 
 DEBUG:root:Executing:Selector: High Level Ordering of Strategies
 DEBUG:root:Executing:Action: imperial
-INFO:root:97.0
-DEBUG:root:Result: Action: imperial -> Success
-DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+INFO:root:0
+DEBUG:root:Result: Action: imperial -> Failure
+DEBUG:root:Executing:Sequence: Offensive Strategy
+DEBUG:root:Executing:Check: have_largest_fleet
+DEBUG:root:Result: Check: have_largest_fleet -> Success
+DEBUG:root:Executing:Action: attack_weakest_enemy_planet
+DEBUG:root:Result: Action: attack_weakest_enemy_planet -> Failure
+DEBUG:root:Result: Sequence: Offensive Strategy -> Failure
+DEBUG:root:Executing:Sequence: Spread Strategy
+DEBUG:root:Executing:Check: if_neutral_planet_available
+DEBUG:root:Result: Check: if_neutral_planet_available -> Failure
+DEBUG:root:Result: Sequence: Spread Strategy -> Failure
+DEBUG:root:Executing:Action: attack_weakest_enemy_planet
+DEBUG:root:Result: Action: attack_weakest_enemy_planet -> Failure
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
 DEBUG:root:Finish turn
 
 DEBUG:root:Executing:Selector: High Level Ordering of Strategies
 DEBUG:root:Executing:Action: imperial
-INFO:root:97.0
-DEBUG:root:Result: Action: imperial -> Success
-DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+INFO:root:0
+DEBUG:root:Result: Action: imperial -> Failure
+DEBUG:root:Executing:Sequence: Offensive Strategy
+DEBUG:root:Executing:Check: have_largest_fleet
+DEBUG:root:Result: Check: have_largest_fleet -> Success
+DEBUG:root:Executing:Action: attack_weakest_enemy_planet
+DEBUG:root:Result: Action: attack_weakest_enemy_planet -> Failure
+DEBUG:root:Result: Sequence: Offensive Strategy -> Failure
+DEBUG:root:Executing:Sequence: Spread Strategy
+DEBUG:root:Executing:Check: if_neutral_planet_available
+DEBUG:root:Result: Check: if_neutral_planet_available -> Failure
+DEBUG:root:Result: Sequence: Spread Strategy -> Failure
+DEBUG:root:Executing:Action: attack_weakest_enemy_planet
+DEBUG:root:Result: Action: attack_weakest_enemy_planet -> Failure
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
 DEBUG:root:Finish turn
 
 DEBUG:root:Executing:Selector: High Level Ordering of Strategies
 DEBUG:root:Executing:Action: imperial
-INFO:root:97.0
-DEBUG:root:Result: Action: imperial -> Success
-DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+INFO:root:0
+DEBUG:root:Result: Action: imperial -> Failure
+DEBUG:root:Executing:Sequence: Offensive Strategy
+DEBUG:root:Executing:Check: have_largest_fleet
+DEBUG:root:Result: Check: have_largest_fleet -> Success
+DEBUG:root:Executing:Action: attack_weakest_enemy_planet
+DEBUG:root:Result: Action: attack_weakest_enemy_planet -> Failure
+DEBUG:root:Result: Sequence: Offensive Strategy -> Failure
+DEBUG:root:Executing:Sequence: Spread Strategy
+DEBUG:root:Executing:Check: if_neutral_planet_available
+DEBUG:root:Result: Check: if_neutral_planet_available -> Failure
+DEBUG:root:Result: Sequence: Spread Strategy -> Failure
+DEBUG:root:Executing:Action: attack_weakest_enemy_planet
+DEBUG:root:Result: Action: attack_weakest_enemy_planet -> Failure
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
 DEBUG:root:Finish turn
 
 DEBUG:root:Executing:Selector: High Level Ordering of Strategies
 DEBUG:root:Executing:Action: imperial
-INFO:root:97.0
-DEBUG:root:Result: Action: imperial -> Success
-DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+INFO:root:0
+DEBUG:root:Result: Action: imperial -> Failure
+DEBUG:root:Executing:Sequence: Offensive Strategy
+DEBUG:root:Executing:Check: have_largest_fleet
+DEBUG:root:Result: Check: have_largest_fleet -> Success
+DEBUG:root:Executing:Action: attack_weakest_enemy_planet
+DEBUG:root:Result: Action: attack_weakest_enemy_planet -> Failure
+DEBUG:root:Result: Sequence: Offensive Strategy -> Failure
+DEBUG:root:Executing:Sequence: Spread Strategy
+DEBUG:root:Executing:Check: if_neutral_planet_available
+DEBUG:root:Result: Check: if_neutral_planet_available -> Failure
+DEBUG:root:Result: Sequence: Spread Strategy -> Failure
+DEBUG:root:Executing:Action: attack_weakest_enemy_planet
+DEBUG:root:Result: Action: attack_weakest_enemy_planet -> Failure
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
 DEBUG:root:Finish turn
 
 DEBUG:root:Executing:Selector: High Level Ordering of Strategies
 DEBUG:root:Executing:Action: imperial
-INFO:root:97.0
-DEBUG:root:Result: Action: imperial -> Success
-DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+INFO:root:0
+DEBUG:root:Result: Action: imperial -> Failure
+DEBUG:root:Executing:Sequence: Offensive Strategy
+DEBUG:root:Executing:Check: have_largest_fleet
+DEBUG:root:Result: Check: have_largest_fleet -> Success
+DEBUG:root:Executing:Action: attack_weakest_enemy_planet
+DEBUG:root:Result: Action: attack_weakest_enemy_planet -> Failure
+DEBUG:root:Result: Sequence: Offensive Strategy -> Failure
+DEBUG:root:Executing:Sequence: Spread Strategy
+DEBUG:root:Executing:Check: if_neutral_planet_available
+DEBUG:root:Result: Check: if_neutral_planet_available -> Failure
+DEBUG:root:Result: Sequence: Spread Strategy -> Failure
+DEBUG:root:Executing:Action: attack_weakest_enemy_planet
+DEBUG:root:Result: Action: attack_weakest_enemy_planet -> Failure
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
 DEBUG:root:Finish turn
 
 DEBUG:root:Executing:Selector: High Level Ordering of Strategies
 DEBUG:root:Executing:Action: imperial
-INFO:root:97.0
-DEBUG:root:Result: Action: imperial -> Success
-DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+INFO:root:0
+DEBUG:root:Result: Action: imperial -> Failure
+DEBUG:root:Executing:Sequence: Offensive Strategy
+DEBUG:root:Executing:Check: have_largest_fleet
+DEBUG:root:Result: Check: have_largest_fleet -> Success
+DEBUG:root:Executing:Action: attack_weakest_enemy_planet
+DEBUG:root:Result: Action: attack_weakest_enemy_planet -> Failure
+DEBUG:root:Result: Sequence: Offensive Strategy -> Failure
+DEBUG:root:Executing:Sequence: Spread Strategy
+DEBUG:root:Executing:Check: if_neutral_planet_available
+DEBUG:root:Result: Check: if_neutral_planet_available -> Failure
+DEBUG:root:Result: Sequence: Spread Strategy -> Failure
+DEBUG:root:Executing:Action: attack_weakest_enemy_planet
+DEBUG:root:Result: Action: attack_weakest_enemy_planet -> Failure
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
 DEBUG:root:Finish turn
 
