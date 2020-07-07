@@ -1,6 +1,7 @@
 INFO:root:
 Selector: High Level Ordering of Strategies
 | Action: imperial
+| Action: closest
 | Sequence: Offensive Strategy
 | | Check: have_largest_fleet
 | | Action: attack_weakest_enemy_planet
@@ -11,26 +12,28 @@ Selector: High Level Ordering of Strategies
 
 DEBUG:root:Executing:Selector: High Level Ordering of Strategies
 DEBUG:root:Executing:Action: imperial
-DEBUG:root:Order:1 18 100.0
-DEBUG:root:Bad order:1 0.0 137.5
-DEBUG:root:Bad order:1 0.0 137.5
-DEBUG:root:Bad order:1 0.0 137.5
-DEBUG:root:Bad order:1 0.0 125.0
-DEBUG:root:Bad order:1 0.0 100.0
-DEBUG:root:Bad order:1 0.0 100.0
-DEBUG:root:Bad order:1 0.0 100.0
-DEBUG:root:Bad order:1 0.0 125.0
-DEBUG:root:Bad order:1 0.0 100.0
-DEBUG:root:Bad order:1 0.0 125.0
-DEBUG:root:Bad order:1 0.0 125.0
-DEBUG:root:Bad order:1 0.0 100.0
-DEBUG:root:Bad order:1 0.0 125.0
-DEBUG:root:Bad order:1 0.0 137.5
-DEBUG:root:Bad order:1 0.0 125.0
-DEBUG:root:Bad order:1 0.0 125.0
-DEBUG:root:Bad order:1 0.0 100.0
-DEBUG:root:Bad order:1 0.0 125.0
-DEBUG:root:Bad order:1 0.0 137.5
+DEBUG:root:Order:1 18 50.0
+DEBUG:root:Bad order:1 50.0 87.5
+DEBUG:root:Bad order:1 50.0 87.5
+DEBUG:root:Bad order:1 50.0 87.5
+DEBUG:root:Bad order:1 50.0 75.0
+DEBUG:root:Order:1 12 50.0
+DEBUG:root:Bad order:1 0.0 50.0
+DEBUG:root:Bad order:1 0.0 50.0
+DEBUG:root:Bad order:1 0.0 75.0
+DEBUG:root:Bad order:1 0.0 50.0
+DEBUG:root:Bad order:1 0.0 75.0
+DEBUG:root:Bad order:1 0.0 75.0
+DEBUG:root:Bad order:1 0.0 50.0
+DEBUG:root:Bad order:1 0.0 75.0
+DEBUG:root:Bad order:1 0.0 87.5
+DEBUG:root:Bad order:1 0.0 75.0
+DEBUG:root:Bad order:1 0.0 75.0
+DEBUG:root:Bad order:1 0.0 50.0
+DEBUG:root:Bad order:1 0.0 87.5
+DEBUG:root:Bad order:1 0.0 75.0
+DEBUG:root:Bad order:1 0.0 87.5
+DEBUG:root:Bad order:1 0.0 87.5
 DEBUG:root:Result: Action: imperial -> Success
 DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
 DEBUG:root:Finish turn
@@ -38,7 +41,8 @@ DEBUG:root:Finish turn
 DEBUG:root:Executing:Selector: High Level Ordering of Strategies
 DEBUG:root:Executing:Action: imperial
 INFO:root:1.0
-INFO:root:96.0
+INFO:root:46.0
+INFO:root:38.0
 DEBUG:root:Result: Action: imperial -> Success
 DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
 DEBUG:root:Finish turn
@@ -46,27 +50,8 @@ DEBUG:root:Finish turn
 DEBUG:root:Executing:Selector: High Level Ordering of Strategies
 DEBUG:root:Executing:Action: imperial
 INFO:root:1.0
-INFO:root:96.0
-INFO:root:1.0
-DEBUG:root:Result: Action: imperial -> Success
-DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
-DEBUG:root:Finish turn
-
-DEBUG:root:Executing:Selector: High Level Ordering of Strategies
-DEBUG:root:Executing:Action: imperial
-INFO:root:1.0
-INFO:root:96.0
-INFO:root:1.0
-INFO:root:1.0
-DEBUG:root:Result: Action: imperial -> Success
-DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
-DEBUG:root:Finish turn
-
-DEBUG:root:Executing:Selector: High Level Ordering of Strategies
-DEBUG:root:Executing:Action: imperial
-INFO:root:1.0
-INFO:root:96.0
-INFO:root:1.0
+INFO:root:46.0
+INFO:root:38.0
 INFO:root:1.0
 DEBUG:root:Result: Action: imperial -> Success
 DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
@@ -75,19 +60,10 @@ DEBUG:root:Finish turn
 DEBUG:root:Executing:Selector: High Level Ordering of Strategies
 DEBUG:root:Executing:Action: imperial
 INFO:root:1.0
-INFO:root:96.0
+INFO:root:46.0
 INFO:root:1.0
 INFO:root:1.0
-DEBUG:root:Result: Action: imperial -> Success
-DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
-DEBUG:root:Finish turn
-
-DEBUG:root:Executing:Selector: High Level Ordering of Strategies
-DEBUG:root:Executing:Action: imperial
-INFO:root:96.0
-INFO:root:1.0
-INFO:root:1.0
-INFO:root:1.0
+INFO:root:38.0
 DEBUG:root:Result: Action: imperial -> Success
 DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
 DEBUG:root:Finish turn
@@ -95,7 +71,9 @@ DEBUG:root:Finish turn
 DEBUG:root:Executing:Selector: High Level Ordering of Strategies
 DEBUG:root:Executing:Action: imperial
 INFO:root:1.0
+INFO:root:46.0
 INFO:root:1.0
+INFO:root:38.0
 INFO:root:1.0
 DEBUG:root:Result: Action: imperial -> Success
 DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
@@ -104,6 +82,96 @@ DEBUG:root:Finish turn
 DEBUG:root:Executing:Selector: High Level Ordering of Strategies
 DEBUG:root:Executing:Action: imperial
 INFO:root:1.0
+INFO:root:46.0
+INFO:root:1.0
+INFO:root:38.0
+INFO:root:1.0
+DEBUG:root:Order:1 4 12.5
+DEBUG:root:Order:1 7 12.5
+DEBUG:root:Bad order:1 0.0 12.5
+DEBUG:root:Bad order:1 0.0 12.5
+DEBUG:root:Bad order:1 0.0 12.5
+DEBUG:root:Bad order:1 0.0 12.5
+DEBUG:root:Bad order:1 0.0 12.5
+DEBUG:root:Bad order:1 0.0 12.5
+DEBUG:root:Bad order:1 0.0 12.5
+DEBUG:root:Bad order:1 0.0 12.5
+DEBUG:root:Bad order:1 0.0 12.5
+DEBUG:root:Bad order:1 0.0 12.5
+DEBUG:root:Bad order:1 0.0 12.5
+DEBUG:root:Bad order:1 0.0 12.5
+DEBUG:root:Bad order:1 0.0 12.5
+DEBUG:root:Bad order:1 0.0 12.5
+DEBUG:root:Bad order:1 0.0 12.5
+DEBUG:root:Bad order:1 0.0 12.5
+DEBUG:root:Bad order:1 0.0 12.5
+DEBUG:root:Bad order:1 0.0 12.5
+DEBUG:root:Bad order:1 0.0 12.5
+DEBUG:root:Bad order:1 0.0 12.5
+DEBUG:root:Result: Action: imperial -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Action: imperial
+INFO:root:46.0
+INFO:root:1.0
+INFO:root:1.0
+INFO:root:38.0
+DEBUG:root:Result: Action: imperial -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Action: imperial
+INFO:root:1.0
+INFO:root:38.0
+INFO:root:1.0
+DEBUG:root:Result: Action: imperial -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Action: imperial
+INFO:root:1.0
+INFO:root:38.0
+INFO:root:1.0
+DEBUG:root:Result: Action: imperial -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Action: imperial
+INFO:root:38.0
+INFO:root:1.0
+DEBUG:root:Order:1 4 10.5
+DEBUG:root:Order:1 10 10.5
+DEBUG:root:Bad order:1 0.0 10.5
+DEBUG:root:Bad order:1 0.0 10.5
+DEBUG:root:Bad order:1 0.0 10.5
+DEBUG:root:Bad order:1 0.0 10.5
+DEBUG:root:Bad order:1 0.0 10.5
+DEBUG:root:Bad order:1 0.0 10.5
+DEBUG:root:Bad order:1 0.0 10.5
+DEBUG:root:Bad order:1 0.0 10.5
+DEBUG:root:Bad order:1 0.0 10.5
+DEBUG:root:Bad order:1 0.0 10.5
+DEBUG:root:Bad order:1 0.0 10.5
+DEBUG:root:Bad order:1 0.0 10.5
+DEBUG:root:Bad order:1 0.0 10.5
+DEBUG:root:Bad order:1 0.0 10.5
+DEBUG:root:Bad order:1 0.0 10.5
+DEBUG:root:Bad order:1 0.0 10.5
+DEBUG:root:Bad order:1 0.0 10.5
+DEBUG:root:Bad order:1 0.0 10.5
+DEBUG:root:Bad order:1 0.0 10.5
+DEBUG:root:Result: Action: imperial -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Action: imperial
+INFO:root:38.0
 INFO:root:1.0
 INFO:root:1.0
 DEBUG:root:Result: Action: imperial -> Success
@@ -121,9 +189,40 @@ DEBUG:root:Finish turn
 DEBUG:root:Executing:Selector: High Level Ordering of Strategies
 DEBUG:root:Executing:Action: imperial
 INFO:root:1.0
+DEBUG:root:Result: Action: imperial -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Action: imperial
 INFO:root:1.0
+DEBUG:root:Order:1 4 10.5
+DEBUG:root:Order:1 0 10.5
+DEBUG:root:Bad order:1 0.0 10.5
+DEBUG:root:Bad order:1 0.0 10.5
+DEBUG:root:Bad order:1 0.0 10.5
+DEBUG:root:Bad order:1 0.0 10.5
+DEBUG:root:Bad order:1 0.0 10.5
+DEBUG:root:Bad order:1 0.0 10.5
+DEBUG:root:Bad order:1 0.0 10.5
+DEBUG:root:Bad order:1 0.0 10.5
+DEBUG:root:Bad order:1 0.0 10.5
+DEBUG:root:Bad order:1 0.0 10.5
+DEBUG:root:Bad order:1 0.0 10.5
+DEBUG:root:Bad order:1 0.0 10.5
+DEBUG:root:Bad order:1 0.0 10.5
+DEBUG:root:Bad order:1 0.0 10.5
+DEBUG:root:Bad order:1 0.0 10.5
+DEBUG:root:Bad order:1 0.0 10.5
+DEBUG:root:Bad order:1 0.0 10.5
+DEBUG:root:Bad order:1 0.0 10.5
+DEBUG:root:Result: Action: imperial -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Action: imperial
 INFO:root:1.0
-DEBUG:root:Order:1 5 25.0
 DEBUG:root:Result: Action: imperial -> Success
 DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
 DEBUG:root:Finish turn
@@ -132,8 +231,6 @@ DEBUG:root:Executing:Selector: High Level Ordering of Strategies
 DEBUG:root:Executing:Action: imperial
 INFO:root:1.0
 INFO:root:1.0
-INFO:root:1.0
-INFO:root:12.0
 DEBUG:root:Result: Action: imperial -> Success
 DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
 DEBUG:root:Finish turn
@@ -142,7 +239,6 @@ DEBUG:root:Executing:Selector: High Level Ordering of Strategies
 DEBUG:root:Executing:Action: imperial
 INFO:root:1.0
 INFO:root:1.0
-INFO:root:12.0
 DEBUG:root:Result: Action: imperial -> Success
 DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
 DEBUG:root:Finish turn
@@ -151,7 +247,26 @@ DEBUG:root:Executing:Selector: High Level Ordering of Strategies
 DEBUG:root:Executing:Action: imperial
 INFO:root:1.0
 INFO:root:1.0
-INFO:root:12.0
+DEBUG:root:Order:1 4 10.5
+DEBUG:root:Order:1 0 10.5
+DEBUG:root:Bad order:1 0.0 10.5
+DEBUG:root:Bad order:1 0.0 10.5
+DEBUG:root:Bad order:1 0.0 10.5
+DEBUG:root:Bad order:1 0.0 10.5
+DEBUG:root:Bad order:1 0.0 10.5
+DEBUG:root:Bad order:1 0.0 10.5
+DEBUG:root:Bad order:1 0.0 10.5
+DEBUG:root:Bad order:1 0.0 10.5
+DEBUG:root:Bad order:1 0.0 10.5
+DEBUG:root:Bad order:1 0.0 10.5
+DEBUG:root:Bad order:1 0.0 10.5
+DEBUG:root:Bad order:1 0.0 10.5
+DEBUG:root:Bad order:1 0.0 10.5
+DEBUG:root:Bad order:1 0.0 10.5
+DEBUG:root:Bad order:1 0.0 10.5
+DEBUG:root:Bad order:1 0.0 10.5
+DEBUG:root:Bad order:1 0.0 10.5
+DEBUG:root:Bad order:1 0.0 10.5
 DEBUG:root:Result: Action: imperial -> Success
 DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
 DEBUG:root:Finish turn
@@ -160,7 +275,26 @@ DEBUG:root:Executing:Selector: High Level Ordering of Strategies
 DEBUG:root:Executing:Action: imperial
 INFO:root:1.0
 INFO:root:1.0
-INFO:root:12.0
+DEBUG:root:Order:12 4 45.0
+DEBUG:root:Bad order:12 15.0 30.0
+DEBUG:root:Bad order:12 15.0 45.0
+DEBUG:root:Bad order:12 15.0 45.0
+DEBUG:root:Bad order:12 15.0 45.0
+DEBUG:root:Bad order:12 15.0 45.0
+DEBUG:root:Bad order:12 15.0 45.0
+DEBUG:root:Bad order:12 15.0 45.0
+DEBUG:root:Bad order:12 15.0 45.0
+DEBUG:root:Bad order:12 15.0 45.0
+DEBUG:root:Bad order:12 15.0 30.0
+DEBUG:root:Bad order:12 15.0 45.0
+DEBUG:root:Bad order:12 15.0 45.0
+DEBUG:root:Bad order:12 15.0 45.0
+DEBUG:root:Bad order:12 15.0 45.0
+DEBUG:root:Bad order:12 15.0 45.0
+DEBUG:root:Bad order:12 15.0 30.0
+DEBUG:root:Bad order:12 15.0 45.0
+DEBUG:root:Bad order:12 15.0 45.0
+DEBUG:root:Bad order:12 15.0 45.0
 DEBUG:root:Result: Action: imperial -> Success
 DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
 DEBUG:root:Finish turn
@@ -168,10 +302,55 @@ DEBUG:root:Finish turn
 DEBUG:root:Executing:Selector: High Level Ordering of Strategies
 DEBUG:root:Executing:Action: imperial
 INFO:root:1.0
+INFO:root:6.0
 INFO:root:1.0
-INFO:root:13.0
+DEBUG:root:Result: Action: imperial -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Action: imperial
+INFO:root:6.0
 INFO:root:1.0
-DEBUG:root:Order:1 6 25.0
+DEBUG:root:Order:12 4 12.5
+DEBUG:root:Order:18 4 34.954107699999994
+DEBUG:root:Order:12 0 12.5
+DEBUG:root:Order:18 0 6.7
+DEBUG:root:Bad order:12 0.0 12.5
+DEBUG:root:Bad order:18 25.345892300000006 45.97469006196999
+DEBUG:root:Bad order:12 0.0 12.5
+DEBUG:root:Bad order:18 25.345892300000006 48.07722105577299
+DEBUG:root:Bad order:12 0.0 12.5
+DEBUG:root:Bad order:18 25.345892300000006 43.63854451329999
+DEBUG:root:Bad order:12 0.0 12.5
+DEBUG:root:Bad order:18 25.345892300000006 48.07722105577299
+DEBUG:root:Bad order:12 0.0 12.5
+DEBUG:root:Bad order:18 25.345892300000006 48.07722105577299
+DEBUG:root:Bad order:12 0.0 12.5
+DEBUG:root:Bad order:18 25.345892300000006 48.07722105577299
+DEBUG:root:Bad order:12 0.0 12.5
+DEBUG:root:Bad order:18 25.345892300000006 48.07722105577299
+DEBUG:root:Bad order:12 0.0 12.5
+DEBUG:root:Bad order:18 25.345892300000006 48.07722105577299
+DEBUG:root:Bad order:12 0.0 12.5
+DEBUG:root:Bad order:12 0.0 12.5
+DEBUG:root:Bad order:18 25.345892300000006 48.07722105577299
+DEBUG:root:Bad order:12 0.0 12.5
+DEBUG:root:Bad order:18 25.345892300000006 45.97469006196999
+DEBUG:root:Bad order:12 0.0 12.5
+DEBUG:root:Bad order:18 25.345892300000006 45.97469006196999
+DEBUG:root:Bad order:12 0.0 12.5
+DEBUG:root:Bad order:18 25.345892300000006 48.07722105577299
+DEBUG:root:Bad order:12 0.0 12.5
+DEBUG:root:Bad order:18 25.345892300000006 48.07722105577299
+DEBUG:root:Bad order:12 0.0 12.5
+DEBUG:root:Order:18 5 6.7
+DEBUG:root:Bad order:12 0.0 12.5
+DEBUG:root:Bad order:18 18.645892300000007 23.0413
+DEBUG:root:Bad order:12 0.0 12.5
+DEBUG:root:Bad order:18 18.645892300000007 48.07722105577299
+DEBUG:root:Bad order:12 0.0 12.5
+DEBUG:root:Bad order:18 18.645892300000007 43.63854451329999
 DEBUG:root:Result: Action: imperial -> Success
 DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
 DEBUG:root:Finish turn
@@ -179,92 +358,49 @@ DEBUG:root:Finish turn
 DEBUG:root:Executing:Selector: High Level Ordering of Strategies
 DEBUG:root:Executing:Action: imperial
 INFO:root:1.0
-INFO:root:1.0
-INFO:root:3.0
-INFO:root:13.0
-INFO:root:8.0
-DEBUG:root:Result: Action: imperial -> Success
-DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
-DEBUG:root:Finish turn
-
-DEBUG:root:Executing:Selector: High Level Ordering of Strategies
-DEBUG:root:Executing:Action: imperial
-INFO:root:1.0
-INFO:root:1.0
-INFO:root:3.0
-INFO:root:13.0
-INFO:root:8.0
-DEBUG:root:Result: Action: imperial -> Success
-DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
-DEBUG:root:Finish turn
-
-DEBUG:root:Executing:Selector: High Level Ordering of Strategies
-DEBUG:root:Executing:Action: imperial
-INFO:root:1.0
-INFO:root:3.0
-INFO:root:12.0
-INFO:root:8.0
-DEBUG:root:Result: Action: imperial -> Success
-DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
-DEBUG:root:Finish turn
-
-DEBUG:root:Executing:Selector: High Level Ordering of Strategies
-DEBUG:root:Executing:Action: imperial
-INFO:root:1.0
-INFO:root:3.0
-INFO:root:12.0
-INFO:root:8.0
-DEBUG:root:Order:1 6 22.5
-DEBUG:root:Result: Action: imperial -> Success
-DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
-DEBUG:root:Finish turn
-
-DEBUG:root:Executing:Selector: High Level Ordering of Strategies
-DEBUG:root:Executing:Action: imperial
-INFO:root:3.0
-INFO:root:14.0
+INFO:root:6.0
 INFO:root:11.0
-INFO:root:3.0
-DEBUG:root:Order:1 4 14.0
-DEBUG:root:Bad order:18 117.0 479.625577704
-DEBUG:root:Order:1 21 14.0
-DEBUG:root:Bad order:18 117.0 201.69864
-DEBUG:root:Bad order:1 0.0 14.0
-DEBUG:root:Bad order:18 117.0 479.625577704
-DEBUG:root:Bad order:1 0.0 14.0
-DEBUG:root:Bad order:18 117.0 201.69864
-DEBUG:root:Bad order:1 0.0 14.0
-DEBUG:root:Order:18 0 97.34400000000002
-DEBUG:root:Bad order:1 0.0 14.0
-DEBUG:root:Bad order:18 19.655999999999977 1016.2910595070555
-DEBUG:root:Bad order:1 0.0 14.0
-DEBUG:root:Bad order:18 19.655999999999977 201.69864
-DEBUG:root:Bad order:1 0.0 14.0
-DEBUG:root:Bad order:18 19.655999999999977 732.354046146216
-DEBUG:root:Bad order:1 0.0 14.0
-DEBUG:root:Bad order:18 19.655999999999977 479.625577704
-DEBUG:root:Bad order:1 0.0 14.0
-DEBUG:root:Bad order:18 19.655999999999977 201.69864
-DEBUG:root:Bad order:1 0.0 14.0
-DEBUG:root:Bad order:18 19.655999999999977 479.625577704
-DEBUG:root:Bad order:1 0.0 14.0
-DEBUG:root:Bad order:18 19.655999999999977 201.69864
-DEBUG:root:Bad order:1 0.0 14.0
-DEBUG:root:Bad order:18 19.655999999999977 201.69864
-DEBUG:root:Bad order:1 0.0 14.0
-DEBUG:root:Bad order:18 19.655999999999977 201.69864
-DEBUG:root:Bad order:1 0.0 14.0
-DEBUG:root:Bad order:18 19.655999999999977 23.400000000000002
-DEBUG:root:Bad order:1 0.0 14.0
-DEBUG:root:Bad order:18 19.655999999999977 479.625577704
-DEBUG:root:Bad order:1 0.0 14.0
-DEBUG:root:Bad order:18 19.655999999999977 201.69864
-DEBUG:root:Bad order:1 0.0 14.0
-DEBUG:root:Bad order:18 19.655999999999977 56.16000000000001
-DEBUG:root:Bad order:1 0.0 14.0
-DEBUG:root:Bad order:18 19.655999999999977 1016.2910595070555
-DEBUG:root:Bad order:1 0.0 14.0
-DEBUG:root:Bad order:18 19.655999999999977 201.69864
+INFO:root:22.0
+INFO:root:1.0
+DEBUG:root:Order:1 4 10.5
+DEBUG:root:Order:18 4 4.37
+DEBUG:root:Order:1 10 10.5
+DEBUG:root:Order:18 10 4.37
+DEBUG:root:Bad order:1 0.0 10.5
+DEBUG:root:Order:18 0 4.37
+DEBUG:root:Bad order:1 0.0 10.5
+DEBUG:root:Order:18 21 4.37
+DEBUG:root:Bad order:1 0.0 10.5
+DEBUG:root:Order:18 7 4.37
+DEBUG:root:Bad order:1 0.0 10.5
+DEBUG:root:Bad order:18 1.1499999999999968 4.37
+DEBUG:root:Bad order:1 0.0 10.5
+DEBUG:root:Bad order:18 1.1499999999999968 4.37
+DEBUG:root:Bad order:1 0.0 10.5
+DEBUG:root:Bad order:1 0.0 10.5
+DEBUG:root:Bad order:18 1.1499999999999968 4.37
+DEBUG:root:Bad order:1 0.0 10.5
+DEBUG:root:Bad order:18 1.1499999999999968 4.37
+DEBUG:root:Bad order:1 0.0 10.5
+DEBUG:root:Bad order:18 1.1499999999999968 4.37
+DEBUG:root:Bad order:1 0.0 10.5
+DEBUG:root:Bad order:18 1.1499999999999968 4.37
+DEBUG:root:Bad order:1 0.0 10.5
+DEBUG:root:Bad order:18 1.1499999999999968 4.37
+DEBUG:root:Bad order:1 0.0 10.5
+DEBUG:root:Bad order:18 1.1499999999999968 4.37
+DEBUG:root:Bad order:1 0.0 10.5
+DEBUG:root:Bad order:18 1.1499999999999968 4.37
+DEBUG:root:Bad order:1 0.0 10.5
+DEBUG:root:Bad order:18 1.1499999999999968 4.37
+DEBUG:root:Bad order:1 0.0 10.5
+DEBUG:root:Bad order:18 1.1499999999999968 4.37
+DEBUG:root:Bad order:1 0.0 10.5
+DEBUG:root:Bad order:18 1.1499999999999968 4.37
+DEBUG:root:Bad order:1 0.0 10.5
+DEBUG:root:Bad order:18 1.1499999999999968 4.37
+DEBUG:root:Bad order:1 0.0 10.5
+DEBUG:root:Bad order:18 1.1499999999999968 4.37
 DEBUG:root:Result: Action: imperial -> Success
 DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
 DEBUG:root:Finish turn
@@ -272,11 +408,10 @@ DEBUG:root:Finish turn
 DEBUG:root:Executing:Selector: High Level Ordering of Strategies
 DEBUG:root:Executing:Action: imperial
 INFO:root:1.0
-INFO:root:3.0
-INFO:root:87.0
-INFO:root:14.0
-INFO:root:10.0
-INFO:root:3.0
+INFO:root:6.0
+INFO:root:11.0
+INFO:root:22.0
+INFO:root:1.0
 DEBUG:root:Result: Action: imperial -> Success
 DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
 DEBUG:root:Finish turn
@@ -284,11 +419,11 @@ DEBUG:root:Finish turn
 DEBUG:root:Executing:Selector: High Level Ordering of Strategies
 DEBUG:root:Executing:Action: imperial
 INFO:root:1.0
+INFO:root:9.0
+INFO:root:6.0
 INFO:root:3.0
-INFO:root:87.0
-INFO:root:14.0
-INFO:root:10.0
-INFO:root:3.0
+INFO:root:22.0
+INFO:root:1.0
 DEBUG:root:Result: Action: imperial -> Success
 DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
 DEBUG:root:Finish turn
@@ -296,143 +431,287 @@ DEBUG:root:Finish turn
 DEBUG:root:Executing:Selector: High Level Ordering of Strategies
 DEBUG:root:Executing:Action: imperial
 INFO:root:1.0
-INFO:root:3.0
-INFO:root:87.0
-INFO:root:14.0
-INFO:root:10.0
-INFO:root:3.0
-DEBUG:root:Result: Action: imperial -> Success
-DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
-DEBUG:root:Finish turn
-
-DEBUG:root:Executing:Selector: High Level Ordering of Strategies
-DEBUG:root:Executing:Action: imperial
-INFO:root:3.0
-INFO:root:87.0
-INFO:root:14.0
-INFO:root:11.0
-INFO:root:3.0
-DEBUG:root:Result: Action: imperial -> Success
-DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
-DEBUG:root:Finish turn
-
-DEBUG:root:Executing:Selector: High Level Ordering of Strategies
-DEBUG:root:Executing:Action: imperial
-INFO:root:3.0
-INFO:root:87.0
-INFO:root:14.0
-INFO:root:11.0
-INFO:root:3.0
-DEBUG:root:Result: Action: imperial -> Success
-DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
-DEBUG:root:Finish turn
-
-DEBUG:root:Executing:Selector: High Level Ordering of Strategies
-DEBUG:root:Executing:Action: imperial
-INFO:root:87.0
-INFO:root:11.0
+INFO:root:2.0
 INFO:root:1.0
-DEBUG:root:Order:1 19 15.0
+DEBUG:root:Order:12 0 10.5
+DEBUG:root:Order:12 7 10.5
+DEBUG:root:Bad order:12 0.0 10.5
+DEBUG:root:Bad order:12 0.0 10.5
+DEBUG:root:Bad order:12 0.0 10.5
+DEBUG:root:Bad order:12 0.0 10.5
+DEBUG:root:Bad order:12 0.0 10.5
+DEBUG:root:Bad order:12 0.0 10.5
+DEBUG:root:Bad order:12 0.0 10.5
+DEBUG:root:Bad order:12 0.0 10.5
+DEBUG:root:Bad order:12 0.0 10.5
+DEBUG:root:Bad order:12 0.0 10.5
+DEBUG:root:Bad order:12 0.0 10.5
+DEBUG:root:Bad order:12 0.0 10.5
+DEBUG:root:Bad order:12 0.0 10.5
+DEBUG:root:Bad order:12 0.0 10.5
+DEBUG:root:Bad order:12 0.0 10.5
+DEBUG:root:Bad order:12 0.0 10.5
+DEBUG:root:Bad order:12 0.0 10.5
 DEBUG:root:Result: Action: imperial -> Success
 DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
 DEBUG:root:Finish turn
 
 DEBUG:root:Executing:Selector: High Level Ordering of Strategies
 DEBUG:root:Executing:Action: imperial
-INFO:root:11.0
+INFO:root:1.0
+INFO:root:9.0
+INFO:root:1.0
+DEBUG:root:Order:1 7 10.5
+DEBUG:root:Order:1 10 10.5
+DEBUG:root:Bad order:1 0.0 10.5
+DEBUG:root:Bad order:1 0.0 10.5
+DEBUG:root:Bad order:1 0.0 10.5
+DEBUG:root:Bad order:1 0.0 10.5
+DEBUG:root:Bad order:1 0.0 10.5
+DEBUG:root:Bad order:1 0.0 10.5
+DEBUG:root:Bad order:1 0.0 10.5
+DEBUG:root:Bad order:1 0.0 10.5
+DEBUG:root:Bad order:1 0.0 10.5
+DEBUG:root:Bad order:1 0.0 10.5
+DEBUG:root:Bad order:1 0.0 10.5
+DEBUG:root:Bad order:1 0.0 10.5
+DEBUG:root:Bad order:1 0.0 10.5
+DEBUG:root:Bad order:1 0.0 10.5
+DEBUG:root:Bad order:1 0.0 10.5
+DEBUG:root:Bad order:1 0.0 10.5
+DEBUG:root:Bad order:1 0.0 10.5
+DEBUG:root:Result: Action: imperial -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Action: imperial
+INFO:root:3.0
+INFO:root:1.0
+INFO:root:9.0
+INFO:root:1.0
+DEBUG:root:Order:4 0 38.105999999999995
+DEBUG:root:Bad order:4 19.894000000000005 38.105999999999995
+DEBUG:root:Bad order:4 19.894000000000005 38.105999999999995
+DEBUG:root:Order:4 6 17.4
+DEBUG:root:Bad order:4 2.494000000000007 38.105999999999995
+DEBUG:root:Bad order:4 2.494000000000007 38.105999999999995
+DEBUG:root:Bad order:4 2.494000000000007 38.105999999999995
+DEBUG:root:Bad order:4 2.494000000000007 38.105999999999995
+DEBUG:root:Bad order:4 2.494000000000007 38.105999999999995
+DEBUG:root:Bad order:4 2.494000000000007 38.105999999999995
+DEBUG:root:Bad order:4 2.494000000000007 38.105999999999995
+DEBUG:root:Bad order:4 2.494000000000007 38.105999999999995
+DEBUG:root:Bad order:4 2.494000000000007 38.105999999999995
+DEBUG:root:Bad order:4 2.494000000000007 38.105999999999995
+DEBUG:root:Bad order:4 2.494000000000007 38.105999999999995
+DEBUG:root:Bad order:4 2.494000000000007 17.4
+DEBUG:root:Bad order:4 2.494000000000007 38.105999999999995
+DEBUG:root:Bad order:4 2.494000000000007 38.105999999999995
+DEBUG:root:Bad order:4 2.494000000000007 38.105999999999995
+DEBUG:root:Result: Action: imperial -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Action: imperial
+INFO:root:3.0
+INFO:root:7.0
+INFO:root:20.0
+INFO:root:1.0
+INFO:root:14.0
+DEBUG:root:Result: Action: imperial -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Action: imperial
+INFO:root:1.0
+INFO:root:14.0
+DEBUG:root:Order:12 7 10.5
+DEBUG:root:Order:4 7 6.8999999999999995
+DEBUG:root:Order:12 11 10.5
+DEBUG:root:Order:4 11 6.8999999999999995
+DEBUG:root:Bad order:12 0.0 10.5
+DEBUG:root:Order:4 21 6.8999999999999995
+DEBUG:root:Bad order:12 0.0 10.5
+DEBUG:root:Bad order:4 2.3000000000000034 6.8999999999999995
+DEBUG:root:Bad order:12 0.0 10.5
+DEBUG:root:Bad order:4 2.3000000000000034 6.8999999999999995
+DEBUG:root:Bad order:12 0.0 10.5
+DEBUG:root:Bad order:4 2.3000000000000034 6.8999999999999995
+DEBUG:root:Bad order:12 0.0 10.5
+DEBUG:root:Bad order:4 2.3000000000000034 6.8999999999999995
+DEBUG:root:Bad order:12 0.0 10.5
+DEBUG:root:Bad order:4 2.3000000000000034 6.8999999999999995
+DEBUG:root:Bad order:12 0.0 10.5
+DEBUG:root:Bad order:4 2.3000000000000034 6.8999999999999995
+DEBUG:root:Bad order:12 0.0 10.5
+DEBUG:root:Bad order:4 2.3000000000000034 6.8999999999999995
+DEBUG:root:Bad order:12 0.0 10.5
+DEBUG:root:Bad order:4 2.3000000000000034 6.8999999999999995
+DEBUG:root:Bad order:12 0.0 10.5
+DEBUG:root:Bad order:4 2.3000000000000034 6.8999999999999995
+DEBUG:root:Bad order:12 0.0 10.5
+DEBUG:root:Bad order:4 2.3000000000000034 6.8999999999999995
+DEBUG:root:Bad order:12 0.0 10.5
+DEBUG:root:Bad order:4 2.3000000000000034 6.8999999999999995
+DEBUG:root:Bad order:12 0.0 10.5
+DEBUG:root:Bad order:4 2.3000000000000034 6.8999999999999995
+DEBUG:root:Bad order:12 0.0 10.5
+DEBUG:root:Bad order:4 2.3000000000000034 6.8999999999999995
+DEBUG:root:Bad order:12 0.0 10.5
+DEBUG:root:Bad order:4 2.3000000000000034 6.8999999999999995
+DEBUG:root:Bad order:12 0.0 10.5
+DEBUG:root:Bad order:4 2.3000000000000034 6.8999999999999995
+DEBUG:root:Result: Action: imperial -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Action: imperial
+INFO:root:1.0
+INFO:root:34.0
+INFO:root:1.0
+INFO:root:14.0
+DEBUG:root:Order:1 0 10.5
+DEBUG:root:Order:1 7 10.5
+DEBUG:root:Bad order:1 0.0 10.5
+DEBUG:root:Bad order:1 0.0 10.5
+DEBUG:root:Bad order:1 0.0 10.5
+DEBUG:root:Bad order:1 0.0 10.5
+DEBUG:root:Bad order:1 0.0 10.5
+DEBUG:root:Bad order:1 0.0 10.5
+DEBUG:root:Bad order:1 0.0 10.5
+DEBUG:root:Bad order:1 0.0 10.5
+DEBUG:root:Bad order:1 0.0 10.5
+DEBUG:root:Bad order:1 0.0 10.5
+DEBUG:root:Bad order:1 0.0 10.5
+DEBUG:root:Bad order:1 0.0 10.5
+DEBUG:root:Bad order:1 0.0 10.5
+DEBUG:root:Bad order:1 0.0 10.5
+DEBUG:root:Bad order:1 0.0 10.5
+DEBUG:root:Bad order:1 0.0 10.5
+DEBUG:root:Bad order:1 0.0 10.5
+DEBUG:root:Result: Action: imperial -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Action: imperial
+INFO:root:1.0
+INFO:root:34.0
+INFO:root:1.0
+INFO:root:14.0
+DEBUG:root:Result: Action: imperial -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Action: imperial
+INFO:root:1.0
+INFO:root:37.0
+INFO:root:1.0
+INFO:root:14.0
+DEBUG:root:Result: Action: imperial -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Action: imperial
+INFO:root:1.0
+INFO:root:15.0
+DEBUG:root:Order:12 11 10.5
+DEBUG:root:Order:0 11 18.869999999999997
+DEBUG:root:Order:12 7 10.5
+DEBUG:root:Order:0 7 11.1
+DEBUG:root:Bad order:12 0.0 10.5
+DEBUG:root:Bad order:0 7.030000000000003 18.869999999999997
+DEBUG:root:Bad order:12 0.0 10.5
+DEBUG:root:Bad order:0 7.030000000000003 18.869999999999997
+DEBUG:root:Bad order:12 0.0 10.5
+DEBUG:root:Bad order:0 7.030000000000003 18.869999999999997
+DEBUG:root:Bad order:12 0.0 10.5
+DEBUG:root:Bad order:0 7.030000000000003 18.869999999999997
+DEBUG:root:Bad order:12 0.0 10.5
+DEBUG:root:Bad order:0 7.030000000000003 18.869999999999997
+DEBUG:root:Bad order:12 0.0 10.5
+DEBUG:root:Bad order:0 7.030000000000003 11.1
+DEBUG:root:Bad order:12 0.0 10.5
+DEBUG:root:Bad order:0 7.030000000000003 18.869999999999997
+DEBUG:root:Bad order:12 0.0 10.5
+DEBUG:root:Bad order:0 7.030000000000003 18.869999999999997
+DEBUG:root:Bad order:12 0.0 10.5
+DEBUG:root:Bad order:0 7.030000000000003 18.869999999999997
+DEBUG:root:Bad order:12 0.0 10.5
+DEBUG:root:Bad order:0 7.030000000000003 18.869999999999997
+DEBUG:root:Bad order:12 0.0 10.5
+DEBUG:root:Bad order:0 7.030000000000003 18.869999999999997
+DEBUG:root:Bad order:12 0.0 10.5
+DEBUG:root:Bad order:0 7.030000000000003 18.869999999999997
+DEBUG:root:Bad order:12 0.0 10.5
+DEBUG:root:Bad order:0 7.030000000000003 11.1
+DEBUG:root:Bad order:12 0.0 10.5
+DEBUG:root:Bad order:0 7.030000000000003 18.869999999999997
+DEBUG:root:Bad order:12 0.0 10.5
+DEBUG:root:Bad order:0 7.030000000000003 18.869999999999997
+DEBUG:root:Bad order:12 0.0 10.5
+DEBUG:root:Bad order:0 7.030000000000003 18.869999999999997
+DEBUG:root:Result: Action: imperial -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Action: imperial
+INFO:root:1.0
+INFO:root:15.0
+INFO:root:1.0
+DEBUG:root:Order:1 10 10.5
+DEBUG:root:Order:1 21 10.5
+DEBUG:root:Bad order:1 0.0 10.5
+DEBUG:root:Bad order:1 0.0 10.5
+DEBUG:root:Bad order:1 0.0 10.5
+DEBUG:root:Bad order:1 0.0 10.5
+DEBUG:root:Bad order:1 0.0 10.5
+DEBUG:root:Bad order:1 0.0 10.5
+DEBUG:root:Bad order:1 0.0 10.5
+DEBUG:root:Bad order:1 0.0 10.5
+DEBUG:root:Bad order:1 0.0 10.5
+DEBUG:root:Bad order:1 0.0 10.5
+DEBUG:root:Bad order:1 0.0 10.5
+DEBUG:root:Bad order:1 0.0 10.5
+DEBUG:root:Bad order:1 0.0 10.5
+DEBUG:root:Bad order:1 0.0 10.5
+DEBUG:root:Bad order:1 0.0 10.5
+DEBUG:root:Result: Action: imperial -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Action: imperial
+INFO:root:1.0
 INFO:root:16.0
-DEBUG:root:Bad order:18 34.0 42.4592
-DEBUG:root:Bad order:0 87.0 127.62899999999999
-DEBUG:root:Bad order:18 34.0 46.69760600000001
-DEBUG:root:Bad order:0 87.0 200.00691
-DEBUG:root:Bad order:18 34.0 46.69760600000001
-DEBUG:root:Bad order:0 87.0 200.00691
-DEBUG:root:Order:18 21 9.860000000000001
-DEBUG:root:Bad order:0 87.0 114.84
-DEBUG:root:Bad order:18 24.14 30.766600000000004
-DEBUG:root:Bad order:0 87.0 200.00691
-DEBUG:root:Bad order:18 24.14 30.766600000000004
-DEBUG:root:Bad order:0 87.0 200.00691
-DEBUG:root:Bad order:18 24.14 30.766600000000004
-DEBUG:root:Bad order:0 87.0 200.00691
-DEBUG:root:Order:18 19 3.4000000000000004
-DEBUG:root:Order:0 19 52.199999999999996
-DEBUG:root:Order:18 13 19.074
-DEBUG:root:Bad order:0 34.800000000000004 184.78799999999998
-DEBUG:root:Bad order:18 1.6660000000000004 19.074
-DEBUG:root:Bad order:0 34.800000000000004 184.78799999999998
-DEBUG:root:Bad order:18 1.6660000000000004 19.074
-DEBUG:root:Bad order:0 34.800000000000004 184.78799999999998
-DEBUG:root:Bad order:18 1.6660000000000004 30.766600000000004
-DEBUG:root:Bad order:0 34.800000000000004 200.00691
-DEBUG:root:Bad order:18 1.6660000000000004 19.074
-DEBUG:root:Bad order:0 34.800000000000004 184.78799999999998
-DEBUG:root:Bad order:18 1.6660000000000004 19.074
-DEBUG:root:Bad order:0 34.800000000000004 184.78799999999998
-DEBUG:root:Bad order:18 1.6660000000000004 3.4000000000000004
-DEBUG:root:Bad order:0 34.800000000000004 52.199999999999996
-DEBUG:root:Bad order:18 1.6660000000000004 30.766600000000004
-DEBUG:root:Bad order:0 34.800000000000004 200.00691
-DEBUG:root:Bad order:18 1.6660000000000004 46.69760600000001
-DEBUG:root:Bad order:0 34.800000000000004 200.00691
-DEBUG:root:Bad order:18 1.6660000000000004 9.860000000000001
-DEBUG:root:Bad order:0 34.800000000000004 114.84
-DEBUG:root:Bad order:18 1.6660000000000004 19.074
-DEBUG:root:Bad order:0 34.800000000000004 184.78799999999998
-DEBUG:root:Result: Action: imperial -> Success
-DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
-DEBUG:root:Finish turn
-
-DEBUG:root:Executing:Selector: High Level Ordering of Strategies
-DEBUG:root:Executing:Action: imperial
+INFO:root:1.0
+INFO:root:9.0
 INFO:root:11.0
-INFO:root:15.0
-INFO:root:34.0
-DEBUG:root:Result: Action: imperial -> Success
-DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
-DEBUG:root:Finish turn
-
-DEBUG:root:Executing:Selector: High Level Ordering of Strategies
-DEBUG:root:Executing:Action: imperial
-INFO:root:11.0
-INFO:root:1.0
-INFO:root:15.0
-INFO:root:34.0
-DEBUG:root:Order:1 18 15.0
-DEBUG:root:Order:0 18 24.599999999999998
-DEBUG:root:Order:1 19 15.0
-DEBUG:root:Bad order:0 16.400000000000002 33.21
-DEBUG:root:Bad order:1 0.0 15.0
-DEBUG:root:Bad order:0 16.400000000000002 33.21
-DEBUG:root:Result: Action: imperial -> Success
-DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
-DEBUG:root:Finish turn
-
-DEBUG:root:Executing:Selector: High Level Ordering of Strategies
-DEBUG:root:Executing:Action: imperial
-INFO:root:11.0
-INFO:root:30.0
-INFO:root:19.0
-DEBUG:root:Result: Action: imperial -> Success
-DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
-DEBUG:root:Finish turn
-
-DEBUG:root:Executing:Selector: High Level Ordering of Strategies
-DEBUG:root:Executing:Action: imperial
-INFO:root:11.0
-INFO:root:1.0
-INFO:root:30.0
-INFO:root:19.0
-DEBUG:root:Result: Action: imperial -> Success
-DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
-DEBUG:root:Finish turn
-
-DEBUG:root:Executing:Selector: High Level Ordering of Strategies
-DEBUG:root:Executing:Action: imperial
-INFO:root:11.0
-INFO:root:1.0
-INFO:root:30.0
-INFO:root:19.0
+DEBUG:root:Order:4 0 6.8999999999999995
+DEBUG:root:Order:4 21 6.8999999999999995
+DEBUG:root:Order:4 11 6.8999999999999995
+DEBUG:root:Bad order:4 2.3000000000000034 6.8999999999999995
+DEBUG:root:Bad order:4 2.3000000000000034 6.8999999999999995
+DEBUG:root:Bad order:4 2.3000000000000034 6.8999999999999995
+DEBUG:root:Bad order:4 2.3000000000000034 6.8999999999999995
+DEBUG:root:Bad order:4 2.3000000000000034 6.8999999999999995
+DEBUG:root:Bad order:4 2.3000000000000034 6.8999999999999995
+DEBUG:root:Bad order:4 2.3000000000000034 6.8999999999999995
+DEBUG:root:Bad order:4 2.3000000000000034 6.8999999999999995
+DEBUG:root:Bad order:4 2.3000000000000034 6.8999999999999995
+DEBUG:root:Bad order:4 2.3000000000000034 6.8999999999999995
+DEBUG:root:Bad order:4 2.3000000000000034 6.8999999999999995
+DEBUG:root:Bad order:4 2.3000000000000034 6.8999999999999995
+DEBUG:root:Bad order:4 2.3000000000000034 6.8999999999999995
+DEBUG:root:Bad order:4 2.3000000000000034 6.8999999999999995
+DEBUG:root:Bad order:4 2.3000000000000034 6.8999999999999995
 DEBUG:root:Result: Action: imperial -> Success
 DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
 DEBUG:root:Finish turn
@@ -440,337 +719,3677 @@ DEBUG:root:Finish turn
 DEBUG:root:Executing:Selector: High Level Ordering of Strategies
 DEBUG:root:Executing:Action: imperial
 INFO:root:1.0
-INFO:root:30.0
+INFO:root:16.0
 INFO:root:1.0
-INFO:root:19.0
-DEBUG:root:Result: Action: imperial -> Success
-DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
-DEBUG:root:Finish turn
-
-DEBUG:root:Executing:Selector: High Level Ordering of Strategies
-DEBUG:root:Executing:Action: imperial
-INFO:root:30.0
-INFO:root:1.0
-INFO:root:18.0
-DEBUG:root:Result: Action: imperial -> Success
-DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
-DEBUG:root:Finish turn
-
-DEBUG:root:Executing:Selector: High Level Ordering of Strategies
-DEBUG:root:Executing:Action: imperial
-INFO:root:30.0
-INFO:root:1.0
-INFO:root:17.0
-DEBUG:root:Result: Action: imperial -> Success
-DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
-DEBUG:root:Finish turn
-
-DEBUG:root:Executing:Selector: High Level Ordering of Strategies
-DEBUG:root:Executing:Action: imperial
-INFO:root:30.0
-INFO:root:1.0
-INFO:root:17.0
-DEBUG:root:Result: Action: imperial -> Success
-DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
-DEBUG:root:Finish turn
-
-DEBUG:root:Executing:Selector: High Level Ordering of Strategies
-DEBUG:root:Executing:Action: imperial
-INFO:root:30.0
-INFO:root:1.0
-INFO:root:1.0
-INFO:root:1.0
-INFO:root:18.0
-DEBUG:root:Bad order:18 38.0 69.77229780000002
-DEBUG:root:Order:1 4 30.0
-DEBUG:root:Bad order:18 38.0 69.77229780000002
-DEBUG:root:Bad order:1 10.0 30.0
-DEBUG:root:Bad order:18 38.0 69.77229780000002
-DEBUG:root:Bad order:1 10.0 30.0
-DEBUG:root:Bad order:18 38.0 69.77229780000002
-DEBUG:root:Bad order:1 10.0 30.0
-DEBUG:root:Bad order:18 38.0 69.77229780000002
-DEBUG:root:Bad order:1 10.0 30.0
-DEBUG:root:Bad order:18 38.0 69.77229780000002
-DEBUG:root:Bad order:1 10.0 30.0
-DEBUG:root:Bad order:18 38.0 69.77229780000002
-DEBUG:root:Bad order:1 10.0 30.0
-DEBUG:root:Bad order:18 38.0 65.50896000000002
-DEBUG:root:Bad order:1 10.0 30.0
-DEBUG:root:Result: Action: imperial -> Success
-DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
-DEBUG:root:Finish turn
-
-DEBUG:root:Executing:Selector: High Level Ordering of Strategies
-DEBUG:root:Executing:Action: imperial
-INFO:root:30.0
-INFO:root:1.0
-INFO:root:1.0
-INFO:root:1.0
-INFO:root:18.0
-DEBUG:root:Bad order:18 40.0 73.444524
-DEBUG:root:Bad order:18 40.0 73.444524
-DEBUG:root:Bad order:18 40.0 68.9568
-DEBUG:root:Order:18 13 33.28
-DEBUG:root:Bad order:18 6.719999999999999 73.444524
-DEBUG:root:Bad order:18 6.719999999999999 73.444524
-DEBUG:root:Result: Action: imperial -> Success
-DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
-DEBUG:root:Finish turn
-
-DEBUG:root:Executing:Selector: High Level Ordering of Strategies
-DEBUG:root:Executing:Action: imperial
-INFO:root:30.0
-INFO:root:1.0
-INFO:root:1.0
-INFO:root:1.0
-INFO:root:28.0
-INFO:root:18.0
-DEBUG:root:Result: Action: imperial -> Success
-DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
-DEBUG:root:Finish turn
-
-DEBUG:root:Executing:Selector: High Level Ordering of Strategies
-DEBUG:root:Executing:Action: imperial
-INFO:root:30.0
-INFO:root:1.0
-INFO:root:1.0
-INFO:root:1.0
-INFO:root:28.0
-INFO:root:18.0
-DEBUG:root:Result: Action: imperial -> Success
-DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
-DEBUG:root:Finish turn
-
-DEBUG:root:Executing:Selector: High Level Ordering of Strategies
-DEBUG:root:Executing:Action: imperial
-INFO:root:1.0
-INFO:root:1.0
-INFO:root:1.0
-INFO:root:28.0
-INFO:root:18.0
-DEBUG:root:Result: Action: imperial -> Success
-DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
-DEBUG:root:Finish turn
-
-DEBUG:root:Executing:Selector: High Level Ordering of Strategies
-DEBUG:root:Executing:Action: imperial
-INFO:root:1.0
-INFO:root:1.0
-INFO:root:1.0
-INFO:root:28.0
-INFO:root:18.0
-DEBUG:root:Result: Action: imperial -> Success
-DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
-DEBUG:root:Finish turn
-
-DEBUG:root:Executing:Selector: High Level Ordering of Strategies
-DEBUG:root:Executing:Action: imperial
-INFO:root:1.0
-INFO:root:1.0
-INFO:root:1.0
-INFO:root:30.0
-INFO:root:18.0
-DEBUG:root:Result: Action: imperial -> Success
-DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
-DEBUG:root:Finish turn
-
-DEBUG:root:Executing:Selector: High Level Ordering of Strategies
-DEBUG:root:Executing:Action: imperial
-INFO:root:1.0
-INFO:root:1.0
-INFO:root:1.0
-INFO:root:30.0
-INFO:root:18.0
-INFO:root:1.0
-DEBUG:root:Order:1 4 22.5
-DEBUG:root:Result: Action: imperial -> Success
-DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
-DEBUG:root:Finish turn
-
-DEBUG:root:Executing:Selector: High Level Ordering of Strategies
-DEBUG:root:Executing:Action: imperial
-INFO:root:28.0
-INFO:root:1.0
-INFO:root:18.0
-INFO:root:23.0
-DEBUG:root:Result: Action: imperial -> Success
-DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
-DEBUG:root:Finish turn
-
-DEBUG:root:Executing:Selector: High Level Ordering of Strategies
-DEBUG:root:Executing:Action: imperial
-INFO:root:28.0
-INFO:root:1.0
-INFO:root:18.0
-INFO:root:23.0
-DEBUG:root:Result: Action: imperial -> Success
-DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
-DEBUG:root:Finish turn
-
-DEBUG:root:Executing:Selector: High Level Ordering of Strategies
-DEBUG:root:Executing:Action: imperial
-INFO:root:1.0
-INFO:root:18.0
-INFO:root:23.0
-DEBUG:root:Order:13 19 13.440000000000001
-DEBUG:root:Order:1 19 19.0
-DEBUG:root:Result: Action: imperial -> Success
-DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
-DEBUG:root:Finish turn
-
-DEBUG:root:Executing:Selector: High Level Ordering of Strategies
-DEBUG:root:Executing:Action: imperial
-INFO:root:18.0
-INFO:root:23.0
 INFO:root:5.0
-DEBUG:root:Order:1 19 12.0
+INFO:root:2.0
+INFO:root:42.0
+INFO:root:11.0
 DEBUG:root:Result: Action: imperial -> Success
 DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
 DEBUG:root:Finish turn
 
 DEBUG:root:Executing:Selector: High Level Ordering of Strategies
 DEBUG:root:Executing:Action: imperial
+INFO:root:18.0
+INFO:root:1.0
+INFO:root:5.0
+INFO:root:2.0
+INFO:root:42.0
+INFO:root:11.0
+DEBUG:root:Order:12 0 10.5
+DEBUG:root:Order:11 0 16.5
+DEBUG:root:Order:12 21 10.5
+DEBUG:root:Order:11 21 16.5
+DEBUG:root:Bad order:12 0.0 10.5
+DEBUG:root:Bad order:11 0.0 16.5
+DEBUG:root:Bad order:12 0.0 10.5
+DEBUG:root:Bad order:11 0.0 16.5
+DEBUG:root:Bad order:12 0.0 10.5
+DEBUG:root:Bad order:11 0.0 16.5
+DEBUG:root:Bad order:12 0.0 10.5
+DEBUG:root:Bad order:11 0.0 16.5
+DEBUG:root:Bad order:12 0.0 10.5
+DEBUG:root:Bad order:11 0.0 16.5
+DEBUG:root:Bad order:12 0.0 10.5
+DEBUG:root:Bad order:11 0.0 16.5
+DEBUG:root:Bad order:12 0.0 10.5
+DEBUG:root:Bad order:11 0.0 16.5
+DEBUG:root:Bad order:12 0.0 10.5
+DEBUG:root:Bad order:11 0.0 16.5
+DEBUG:root:Bad order:12 0.0 10.5
+DEBUG:root:Bad order:11 0.0 16.5
+DEBUG:root:Bad order:12 0.0 10.5
+DEBUG:root:Bad order:11 0.0 16.5
+DEBUG:root:Bad order:12 0.0 10.5
+DEBUG:root:Bad order:11 0.0 16.5
+DEBUG:root:Bad order:12 0.0 10.5
+DEBUG:root:Bad order:11 0.0 16.5
+DEBUG:root:Bad order:12 0.0 10.5
+DEBUG:root:Bad order:11 0.0 16.5
+DEBUG:root:Bad order:12 0.0 10.5
+DEBUG:root:Bad order:11 0.0 16.5
+DEBUG:root:Bad order:12 0.0 10.5
+DEBUG:root:Bad order:11 0.0 16.5
+DEBUG:root:Bad order:12 0.0 10.5
+DEBUG:root:Bad order:11 0.0 16.5
+DEBUG:root:Result: Action: imperial -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Action: imperial
+INFO:root:1.0
+INFO:root:1.0
+INFO:root:5.0
+INFO:root:5.0
+INFO:root:2.0
+INFO:root:14.0
+INFO:root:42.0
+INFO:root:11.0
+DEBUG:root:Order:1 18 10.5
+DEBUG:root:Order:1 0 10.5
+DEBUG:root:Bad order:1 0.0 10.5
+DEBUG:root:Bad order:1 0.0 10.5
+DEBUG:root:Bad order:1 0.0 10.5
+DEBUG:root:Bad order:1 0.0 10.5
+DEBUG:root:Bad order:1 0.0 10.5
+DEBUG:root:Bad order:1 0.0 10.5
+DEBUG:root:Bad order:1 0.0 10.5
+DEBUG:root:Bad order:1 0.0 10.5
+DEBUG:root:Bad order:1 0.0 10.5
+DEBUG:root:Bad order:1 0.0 10.5
+DEBUG:root:Bad order:1 0.0 10.5
+DEBUG:root:Bad order:1 0.0 10.5
+DEBUG:root:Bad order:1 0.0 10.5
+DEBUG:root:Bad order:1 0.0 10.5
+DEBUG:root:Bad order:1 0.0 10.5
+DEBUG:root:Bad order:1 0.0 10.5
+DEBUG:root:Bad order:1 0.0 10.5
+DEBUG:root:Result: Action: imperial -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Action: imperial
+INFO:root:1.0
+INFO:root:1.0
+INFO:root:9.0
+INFO:root:7.0
+INFO:root:6.0
+INFO:root:42.0
+INFO:root:11.0
+DEBUG:root:Result: Action: imperial -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Action: imperial
+INFO:root:1.0
+INFO:root:9.0
+INFO:root:7.0
+INFO:root:6.0
+INFO:root:42.0
+INFO:root:11.0
+DEBUG:root:Order:11 0 13.0
+DEBUG:root:Order:11 18 13.0
+DEBUG:root:Bad order:11 0.0 13.0
+DEBUG:root:Bad order:11 0.0 13.0
+DEBUG:root:Bad order:11 0.0 13.0
+DEBUG:root:Bad order:11 0.0 13.0
+DEBUG:root:Bad order:11 0.0 13.0
+DEBUG:root:Bad order:11 0.0 13.0
+DEBUG:root:Bad order:11 0.0 13.0
+DEBUG:root:Bad order:11 0.0 13.0
+DEBUG:root:Bad order:11 0.0 13.0
+DEBUG:root:Bad order:11 0.0 13.0
+DEBUG:root:Bad order:11 0.0 13.0
+DEBUG:root:Bad order:11 0.0 13.0
+DEBUG:root:Bad order:11 0.0 13.0
+DEBUG:root:Bad order:11 0.0 13.0
+DEBUG:root:Bad order:11 0.0 13.0
+DEBUG:root:Bad order:11 0.0 13.0
+DEBUG:root:Bad order:11 0.0 13.0
+DEBUG:root:Result: Action: imperial -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Action: imperial
+INFO:root:6.0
+INFO:root:42.0
+INFO:root:11.0
+DEBUG:root:Order:12 18 10.5
+DEBUG:root:Order:4 18 6.8999999999999995
+DEBUG:root:Order:0 18 12.299999999999999
+DEBUG:root:Order:12 21 10.5
+DEBUG:root:Bad order:12 0.0 10.5
+DEBUG:root:Order:4 15 6.8999999999999995
+DEBUG:root:Order:0 15 26.937
+DEBUG:root:Bad order:12 0.0 10.5
+DEBUG:root:Order:4 7 6.8999999999999995
+DEBUG:root:Bad order:0 1.7630000000000017 26.937
+DEBUG:root:Bad order:12 0.0 10.5
+DEBUG:root:Bad order:4 2.3000000000000034 6.8999999999999995
+DEBUG:root:Bad order:12 0.0 10.5
+DEBUG:root:Bad order:4 2.3000000000000034 6.8999999999999995
+DEBUG:root:Bad order:0 1.7630000000000017 26.937
+DEBUG:root:Bad order:12 0.0 10.5
+DEBUG:root:Bad order:4 2.3000000000000034 6.8999999999999995
+DEBUG:root:Bad order:0 1.7630000000000017 26.937
+DEBUG:root:Bad order:12 0.0 10.5
+DEBUG:root:Bad order:4 2.3000000000000034 6.8999999999999995
+DEBUG:root:Bad order:0 1.7630000000000017 26.937
+DEBUG:root:Bad order:12 0.0 10.5
+DEBUG:root:Bad order:4 2.3000000000000034 6.8999999999999995
+DEBUG:root:Bad order:0 1.7630000000000017 20.91
+DEBUG:root:Bad order:12 0.0 10.5
+DEBUG:root:Bad order:4 2.3000000000000034 6.8999999999999995
+DEBUG:root:Bad order:0 1.7630000000000017 26.937
+DEBUG:root:Bad order:12 0.0 10.5
+DEBUG:root:Bad order:4 2.3000000000000034 6.8999999999999995
+DEBUG:root:Bad order:0 1.7630000000000017 26.937
+DEBUG:root:Bad order:12 0.0 10.5
+DEBUG:root:Bad order:4 2.3000000000000034 6.8999999999999995
+DEBUG:root:Bad order:0 1.7630000000000017 26.937
+DEBUG:root:Bad order:12 0.0 10.5
+DEBUG:root:Bad order:4 2.3000000000000034 6.8999999999999995
+DEBUG:root:Bad order:0 1.7630000000000017 26.937
+DEBUG:root:Bad order:12 0.0 10.5
+DEBUG:root:Bad order:4 2.3000000000000034 6.8999999999999995
+DEBUG:root:Bad order:0 1.7630000000000017 26.937
+DEBUG:root:Bad order:12 0.0 10.5
+DEBUG:root:Bad order:4 2.3000000000000034 6.8999999999999995
+DEBUG:root:Bad order:0 1.7630000000000017 26.937
+DEBUG:root:Bad order:12 0.0 10.5
+DEBUG:root:Bad order:4 2.3000000000000034 6.8999999999999995
+DEBUG:root:Bad order:0 1.7630000000000017 26.937
+DEBUG:root:Bad order:12 0.0 10.5
+DEBUG:root:Bad order:4 2.3000000000000034 6.8999999999999995
+DEBUG:root:Bad order:0 1.7630000000000017 26.937
+DEBUG:root:Bad order:12 0.0 10.5
+DEBUG:root:Bad order:4 2.3000000000000034 6.8999999999999995
+DEBUG:root:Bad order:0 1.7630000000000017 20.91
+DEBUG:root:Result: Action: imperial -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Action: imperial
+INFO:root:1.0
+INFO:root:6.0
+INFO:root:10.0
+INFO:root:30.0
+INFO:root:4.0
+INFO:root:11.0
+INFO:root:4.0
+DEBUG:root:Order:1 18 10.5
+DEBUG:root:Order:1 10 10.5
+DEBUG:root:Bad order:1 0.0 10.5
+DEBUG:root:Bad order:1 0.0 10.5
+DEBUG:root:Bad order:1 0.0 10.5
+DEBUG:root:Bad order:1 0.0 10.5
+DEBUG:root:Bad order:1 0.0 10.5
+DEBUG:root:Bad order:1 0.0 10.5
+DEBUG:root:Bad order:1 0.0 10.5
+DEBUG:root:Bad order:1 0.0 10.5
+DEBUG:root:Bad order:1 0.0 10.5
+DEBUG:root:Bad order:1 0.0 10.5
+DEBUG:root:Bad order:1 0.0 10.5
+DEBUG:root:Bad order:1 0.0 10.5
+DEBUG:root:Bad order:1 0.0 10.5
+DEBUG:root:Bad order:1 0.0 10.5
+DEBUG:root:Bad order:1 0.0 10.5
+DEBUG:root:Bad order:1 0.0 10.5
+DEBUG:root:Result: Action: imperial -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Action: imperial
+INFO:root:1.0
+INFO:root:6.0
+INFO:root:10.0
+INFO:root:30.0
+INFO:root:8.0
+INFO:root:21.0
+INFO:root:4.0
+DEBUG:root:Order:11 18 10.5
+DEBUG:root:Order:11 3 10.5
+DEBUG:root:Bad order:11 0.0 10.5
+DEBUG:root:Bad order:11 0.0 10.5
+DEBUG:root:Bad order:11 0.0 10.5
+DEBUG:root:Bad order:11 0.0 10.5
+DEBUG:root:Bad order:11 0.0 10.5
+DEBUG:root:Bad order:11 0.0 10.5
+DEBUG:root:Bad order:11 0.0 10.5
+DEBUG:root:Bad order:11 0.0 10.5
+DEBUG:root:Bad order:11 0.0 10.5
+DEBUG:root:Bad order:11 0.0 10.5
+DEBUG:root:Bad order:11 0.0 10.5
+DEBUG:root:Bad order:11 0.0 10.5
+DEBUG:root:Bad order:11 0.0 10.5
+DEBUG:root:Bad order:11 0.0 10.5
+DEBUG:root:Bad order:11 0.0 10.5
+DEBUG:root:Bad order:11 0.0 10.5
+DEBUG:root:Result: Action: imperial -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Action: imperial
+INFO:root:8.0
+INFO:root:6.0
+INFO:root:30.0
+INFO:root:6.0
+INFO:root:2.0
+INFO:root:2.0
+INFO:root:8.0
+INFO:root:21.0
+INFO:root:4.0
+DEBUG:root:Result: Action: imperial -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Action: imperial
+INFO:root:8.0
+INFO:root:6.0
+INFO:root:30.0
+INFO:root:6.0
+INFO:root:2.0
+INFO:root:2.0
+INFO:root:8.0
+INFO:root:21.0
+INFO:root:4.0
+DEBUG:root:Order:12 18 10.5
+DEBUG:root:Order:12 15 10.5
+DEBUG:root:Bad order:12 0.0 10.5
+DEBUG:root:Bad order:12 0.0 10.5
+DEBUG:root:Bad order:12 0.0 10.5
+DEBUG:root:Bad order:12 0.0 10.5
+DEBUG:root:Bad order:12 0.0 10.5
+DEBUG:root:Bad order:12 0.0 10.5
+DEBUG:root:Bad order:12 0.0 10.5
+DEBUG:root:Bad order:12 0.0 10.5
+DEBUG:root:Bad order:12 0.0 10.5
+DEBUG:root:Bad order:12 0.0 10.5
+DEBUG:root:Bad order:12 0.0 10.5
+DEBUG:root:Bad order:12 0.0 10.5
+DEBUG:root:Bad order:12 0.0 10.5
+DEBUG:root:Bad order:12 0.0 10.5
+DEBUG:root:Bad order:12 0.0 10.5
+DEBUG:root:Bad order:12 0.0 10.5
+DEBUG:root:Result: Action: imperial -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Action: imperial
+INFO:root:8.0
+INFO:root:6.0
+INFO:root:30.0
+INFO:root:6.0
+INFO:root:2.0
+INFO:root:2.0
+INFO:root:8.0
+INFO:root:4.0
+INFO:root:21.0
+DEBUG:root:Order:1 18 10.5
+DEBUG:root:Order:1 21 10.5
+DEBUG:root:Bad order:1 0.0 10.5
+DEBUG:root:Bad order:1 0.0 10.5
+DEBUG:root:Bad order:1 0.0 10.5
+DEBUG:root:Bad order:1 0.0 10.5
+DEBUG:root:Bad order:1 0.0 10.5
+DEBUG:root:Bad order:1 0.0 10.5
+DEBUG:root:Bad order:1 0.0 10.5
+DEBUG:root:Bad order:1 0.0 10.5
+DEBUG:root:Bad order:1 0.0 10.5
+DEBUG:root:Bad order:1 0.0 10.5
+DEBUG:root:Bad order:1 0.0 10.5
+DEBUG:root:Bad order:1 0.0 10.5
+DEBUG:root:Bad order:1 0.0 10.5
+DEBUG:root:Bad order:1 0.0 10.5
+DEBUG:root:Bad order:1 0.0 10.5
+DEBUG:root:Bad order:1 0.0 10.5
+DEBUG:root:Result: Action: imperial -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Action: imperial
+INFO:root:30.0
+INFO:root:4.0
+INFO:root:21.0
+DEBUG:root:Order:11 21 10.5
+DEBUG:root:Order:4 21 6.8999999999999995
+DEBUG:root:Order:11 15 10.5
+DEBUG:root:Order:4 15 6.8999999999999995
+DEBUG:root:Bad order:11 0.0 10.5
+DEBUG:root:Order:4 3 6.8999999999999995
+DEBUG:root:Bad order:11 0.0 10.5
+DEBUG:root:Bad order:4 2.3000000000000034 6.8999999999999995
+DEBUG:root:Bad order:11 0.0 10.5
+DEBUG:root:Bad order:4 2.3000000000000034 6.8999999999999995
+DEBUG:root:Bad order:11 0.0 10.5
+DEBUG:root:Bad order:4 2.3000000000000034 6.8999999999999995
+DEBUG:root:Bad order:11 0.0 10.5
+DEBUG:root:Bad order:4 2.3000000000000034 6.8999999999999995
+DEBUG:root:Bad order:11 0.0 10.5
+DEBUG:root:Bad order:4 2.3000000000000034 6.8999999999999995
+DEBUG:root:Bad order:11 0.0 10.5
+DEBUG:root:Bad order:4 2.3000000000000034 6.8999999999999995
+DEBUG:root:Bad order:11 0.0 10.5
+DEBUG:root:Bad order:4 2.3000000000000034 6.8999999999999995
+DEBUG:root:Bad order:11 0.0 10.5
+DEBUG:root:Bad order:4 2.3000000000000034 6.8999999999999995
+DEBUG:root:Bad order:11 0.0 10.5
+DEBUG:root:Bad order:4 2.3000000000000034 6.8999999999999995
+DEBUG:root:Bad order:11 0.0 10.5
+DEBUG:root:Bad order:4 2.3000000000000034 6.8999999999999995
+DEBUG:root:Bad order:11 0.0 10.5
+DEBUG:root:Bad order:4 2.3000000000000034 6.8999999999999995
+DEBUG:root:Bad order:11 0.0 10.5
+DEBUG:root:Bad order:4 2.3000000000000034 6.8999999999999995
+DEBUG:root:Bad order:11 0.0 10.5
+DEBUG:root:Bad order:4 2.3000000000000034 6.8999999999999995
+DEBUG:root:Bad order:11 0.0 10.5
+DEBUG:root:Bad order:4 2.3000000000000034 6.8999999999999995
+DEBUG:root:Result: Action: imperial -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Action: imperial
+INFO:root:30.0
+INFO:root:4.0
+INFO:root:6.0
+INFO:root:21.0
+DEBUG:root:Order:18 21 9.6292
+DEBUG:root:Order:18 15 2.8000000000000003
+DEBUG:root:Order:18 10 9.6292
+DEBUG:root:Bad order:18 5.9415999999999976 9.6292
+DEBUG:root:Bad order:18 5.9415999999999976 9.6292
+DEBUG:root:Bad order:18 5.9415999999999976 9.6292
+DEBUG:root:Bad order:18 5.9415999999999976 9.6292
+DEBUG:root:Bad order:18 5.9415999999999976 9.6292
+DEBUG:root:Bad order:18 5.9415999999999976 9.6292
+DEBUG:root:Bad order:18 5.9415999999999976 9.6292
+DEBUG:root:Bad order:18 5.9415999999999976 9.6292
+DEBUG:root:Bad order:18 5.9415999999999976 9.6292
+DEBUG:root:Bad order:18 5.9415999999999976 9.6292
+DEBUG:root:Bad order:18 5.9415999999999976 9.6292
+DEBUG:root:Bad order:18 5.9415999999999976 9.6292
+DEBUG:root:Bad order:18 5.9415999999999976 9.6292
+DEBUG:root:Bad order:18 5.9415999999999976 9.6292
+DEBUG:root:Result: Action: imperial -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Action: imperial
+INFO:root:3.0
+INFO:root:1.0
+INFO:root:9.0
+INFO:root:30.0
+INFO:root:1.0
+DEBUG:root:Order:12 21 10.5
+DEBUG:root:Order:12 3 10.5
+DEBUG:root:Bad order:12 0.0 10.5
+DEBUG:root:Bad order:12 0.0 10.5
+DEBUG:root:Bad order:12 0.0 10.5
+DEBUG:root:Bad order:12 0.0 10.5
+DEBUG:root:Bad order:12 0.0 10.5
+DEBUG:root:Bad order:12 0.0 10.5
+DEBUG:root:Bad order:12 0.0 10.5
+DEBUG:root:Bad order:12 0.0 10.5
+DEBUG:root:Bad order:12 0.0 10.5
+DEBUG:root:Bad order:12 0.0 10.5
+DEBUG:root:Bad order:12 0.0 10.5
+DEBUG:root:Bad order:12 0.0 10.5
+DEBUG:root:Bad order:12 0.0 10.5
+DEBUG:root:Bad order:12 0.0 10.5
+DEBUG:root:Bad order:12 0.0 10.5
+DEBUG:root:Result: Action: imperial -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Action: imperial
+INFO:root:3.0
+INFO:root:4.0
+INFO:root:3.0
+INFO:root:30.0
+INFO:root:1.0
+INFO:root:1.0
+DEBUG:root:Order:1 21 10.5
+DEBUG:root:Order:1 10 10.5
+DEBUG:root:Order:18 10 23.92037718
+DEBUG:root:Bad order:1 0.0 10.5
+DEBUG:root:Bad order:18 18.07962282 23.92037718
+DEBUG:root:Bad order:1 0.0 10.5
+DEBUG:root:Bad order:18 18.07962282 23.92037718
+DEBUG:root:Bad order:1 0.0 10.5
+DEBUG:root:Order:18 15 4.2
+DEBUG:root:Bad order:1 0.0 10.5
+DEBUG:root:Bad order:18 13.879622820000002 23.92037718
+DEBUG:root:Bad order:1 0.0 10.5
+DEBUG:root:Bad order:18 13.879622820000002 23.92037718
+DEBUG:root:Bad order:1 0.0 10.5
+DEBUG:root:Bad order:18 13.879622820000002 23.92037718
+DEBUG:root:Bad order:1 0.0 10.5
+DEBUG:root:Bad order:18 13.879622820000002 23.92037718
+DEBUG:root:Bad order:1 0.0 10.5
+DEBUG:root:Bad order:18 13.879622820000002 23.92037718
+DEBUG:root:Bad order:1 0.0 10.5
+DEBUG:root:Bad order:18 13.879622820000002 23.92037718
+DEBUG:root:Bad order:1 0.0 10.5
+DEBUG:root:Bad order:18 13.879622820000002 23.92037718
+DEBUG:root:Bad order:1 0.0 10.5
+DEBUG:root:Bad order:18 13.879622820000002 23.92037718
+DEBUG:root:Bad order:1 0.0 10.5
+DEBUG:root:Bad order:18 13.879622820000002 23.92037718
+DEBUG:root:Bad order:1 0.0 10.5
+DEBUG:root:Bad order:18 13.879622820000002 23.92037718
+DEBUG:root:Bad order:1 0.0 10.5
+DEBUG:root:Bad order:18 13.879622820000002 23.92037718
+DEBUG:root:Bad order:1 0.0 10.5
+DEBUG:root:Bad order:18 13.879622820000002 23.92037718
+DEBUG:root:Result: Action: imperial -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Action: imperial
+INFO:root:3.0
+INFO:root:4.0
+INFO:root:3.0
+INFO:root:40.0
+INFO:root:1.0
+INFO:root:2.0
+INFO:root:5.0
+INFO:root:1.0
+DEBUG:root:Order:11 12 10.5
+DEBUG:root:Order:11 3 10.5
+DEBUG:root:Bad order:11 0.0 10.5
+DEBUG:root:Bad order:11 0.0 10.5
+DEBUG:root:Bad order:11 0.0 10.5
+DEBUG:root:Bad order:11 0.0 10.5
+DEBUG:root:Bad order:11 0.0 10.5
+DEBUG:root:Bad order:11 0.0 10.5
+DEBUG:root:Bad order:11 0.0 10.5
+DEBUG:root:Bad order:11 0.0 10.5
+DEBUG:root:Bad order:11 0.0 10.5
+DEBUG:root:Bad order:11 0.0 10.5
+DEBUG:root:Bad order:11 0.0 10.5
+DEBUG:root:Bad order:11 0.0 10.5
+DEBUG:root:Bad order:11 0.0 10.5
+DEBUG:root:Bad order:11 0.0 10.5
+DEBUG:root:Bad order:11 0.0 10.5
+DEBUG:root:Bad order:11 0.0 10.5
+DEBUG:root:Result: Action: imperial -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Action: imperial
+INFO:root:3.0
+INFO:root:4.0
+INFO:root:3.0
+INFO:root:40.0
+INFO:root:1.0
+INFO:root:4.0
+INFO:root:1.0
+INFO:root:7.0
+INFO:root:1.0
+INFO:root:16.0
+DEBUG:root:Result: Action: imperial -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Action: imperial
+INFO:root:40.0
+INFO:root:1.0
+INFO:root:4.0
+INFO:root:1.0
+INFO:root:13.0
+DEBUG:root:Order:0 12 6.6
+DEBUG:root:Order:4 12 6.8999999999999995
+DEBUG:root:Order:18 12 12.69481
+DEBUG:root:Order:0 10 6.6
+DEBUG:root:Order:4 10 6.8999999999999995
+DEBUG:root:Order:18 10 12.69481
+DEBUG:root:Order:0 3 6.6
+DEBUG:root:Order:4 3 6.8999999999999995
+DEBUG:root:Bad order:18 5.610379999999999 12.69481
+DEBUG:root:Bad order:0 2.200000000000001 6.6
+DEBUG:root:Bad order:4 2.3000000000000034 6.8999999999999995
+DEBUG:root:Bad order:18 5.610379999999999 12.69481
+DEBUG:root:Bad order:0 2.200000000000001 6.6
+DEBUG:root:Bad order:4 2.3000000000000034 6.8999999999999995
+DEBUG:root:Bad order:0 2.200000000000001 6.6
+DEBUG:root:Bad order:4 2.3000000000000034 6.8999999999999995
+DEBUG:root:Bad order:18 5.610379999999999 12.69481
+DEBUG:root:Bad order:0 2.200000000000001 6.6
+DEBUG:root:Bad order:4 2.3000000000000034 6.8999999999999995
+DEBUG:root:Bad order:18 5.610379999999999 12.69481
+DEBUG:root:Bad order:0 2.200000000000001 6.6
+DEBUG:root:Bad order:4 2.3000000000000034 6.8999999999999995
+DEBUG:root:Bad order:18 5.610379999999999 12.69481
+DEBUG:root:Bad order:0 2.200000000000001 6.6
+DEBUG:root:Bad order:4 2.3000000000000034 6.8999999999999995
+DEBUG:root:Bad order:18 5.610379999999999 12.69481
+DEBUG:root:Bad order:0 2.200000000000001 6.6
+DEBUG:root:Bad order:4 2.3000000000000034 6.8999999999999995
+DEBUG:root:Bad order:18 5.610379999999999 12.69481
+DEBUG:root:Bad order:0 2.200000000000001 6.6
+DEBUG:root:Bad order:4 2.3000000000000034 6.8999999999999995
+DEBUG:root:Bad order:18 5.610379999999999 12.69481
+DEBUG:root:Bad order:0 2.200000000000001 6.6
+DEBUG:root:Bad order:4 2.3000000000000034 6.8999999999999995
+DEBUG:root:Bad order:18 5.610379999999999 12.69481
+DEBUG:root:Bad order:0 2.200000000000001 6.6
+DEBUG:root:Bad order:4 2.3000000000000034 6.8999999999999995
+DEBUG:root:Bad order:18 5.610379999999999 12.69481
+DEBUG:root:Bad order:0 2.200000000000001 6.6
+DEBUG:root:Bad order:4 2.3000000000000034 6.8999999999999995
+DEBUG:root:Bad order:18 5.610379999999999 12.69481
+DEBUG:root:Bad order:0 2.200000000000001 6.6
+DEBUG:root:Bad order:4 2.3000000000000034 6.8999999999999995
+DEBUG:root:Bad order:18 5.610379999999999 12.69481
+DEBUG:root:Bad order:0 2.200000000000001 6.6
+DEBUG:root:Bad order:4 2.3000000000000034 6.8999999999999995
+DEBUG:root:Bad order:18 5.610379999999999 12.69481
+DEBUG:root:Bad order:0 2.200000000000001 6.6
+DEBUG:root:Bad order:4 2.3000000000000034 6.8999999999999995
+DEBUG:root:Bad order:18 5.610379999999999 12.69481
+DEBUG:root:Result: Action: imperial -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Action: imperial
+INFO:root:40.0
+INFO:root:1.0
+INFO:root:4.0
+INFO:root:1.0
+INFO:root:13.0
+DEBUG:root:Order:1 12 10.5
+DEBUG:root:Order:1 10 10.5
+DEBUG:root:Bad order:1 0.0 10.5
+DEBUG:root:Bad order:1 0.0 10.5
+DEBUG:root:Bad order:1 0.0 10.5
+DEBUG:root:Bad order:1 0.0 10.5
+DEBUG:root:Bad order:1 0.0 10.5
+DEBUG:root:Bad order:1 0.0 10.5
+DEBUG:root:Bad order:1 0.0 10.5
+DEBUG:root:Bad order:1 0.0 10.5
+DEBUG:root:Bad order:1 0.0 10.5
+DEBUG:root:Bad order:1 0.0 10.5
+DEBUG:root:Bad order:1 0.0 10.5
+DEBUG:root:Bad order:1 0.0 10.5
+DEBUG:root:Bad order:1 0.0 10.5
+DEBUG:root:Bad order:1 0.0 10.5
+DEBUG:root:Bad order:1 0.0 10.5
+DEBUG:root:Result: Action: imperial -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Action: imperial
+INFO:root:40.0
+INFO:root:1.0
+INFO:root:4.0
+INFO:root:2.0
+INFO:root:1.0
+INFO:root:1.0
+INFO:root:1.0
+INFO:root:13.0
+DEBUG:root:Order:11 18 10.5
+DEBUG:root:Order:11 12 10.5
+DEBUG:root:Bad order:11 0.0 10.5
+DEBUG:root:Bad order:11 0.0 10.5
+DEBUG:root:Bad order:11 0.0 10.5
+DEBUG:root:Bad order:11 0.0 10.5
+DEBUG:root:Bad order:11 0.0 10.5
+DEBUG:root:Bad order:11 0.0 10.5
+DEBUG:root:Bad order:11 0.0 10.5
+DEBUG:root:Bad order:11 0.0 10.5
+DEBUG:root:Bad order:11 0.0 10.5
+DEBUG:root:Bad order:11 0.0 10.5
+DEBUG:root:Bad order:11 0.0 10.5
+DEBUG:root:Bad order:11 0.0 10.5
+DEBUG:root:Bad order:11 0.0 10.5
+DEBUG:root:Bad order:11 0.0 10.5
+DEBUG:root:Bad order:11 0.0 10.5
+DEBUG:root:Bad order:11 0.0 10.5
+DEBUG:root:Result: Action: imperial -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Action: imperial
+INFO:root:40.0
+INFO:root:1.0
+INFO:root:4.0
+INFO:root:2.0
+INFO:root:5.0
+INFO:root:1.0
+INFO:root:1.0
+INFO:root:13.0
+DEBUG:root:Result: Action: imperial -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Action: imperial
+INFO:root:1.0
+INFO:root:16.0
+DEBUG:root:Result: Action: imperial -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Action: imperial
+INFO:root:1.0
+INFO:root:16.0
+DEBUG:root:Order:1 10 10.5
+DEBUG:root:Order:1 19 10.5
+DEBUG:root:Bad order:1 0.0 10.5
+DEBUG:root:Bad order:1 0.0 10.5
+DEBUG:root:Bad order:1 0.0 10.5
+DEBUG:root:Bad order:1 0.0 10.5
+DEBUG:root:Bad order:1 0.0 10.5
+DEBUG:root:Bad order:1 0.0 10.5
+DEBUG:root:Bad order:1 0.0 10.5
+DEBUG:root:Bad order:1 0.0 10.5
+DEBUG:root:Bad order:1 0.0 10.5
+DEBUG:root:Bad order:1 0.0 10.5
+DEBUG:root:Bad order:1 0.0 10.5
+DEBUG:root:Bad order:1 0.0 10.5
+DEBUG:root:Bad order:1 0.0 10.5
+DEBUG:root:Bad order:1 0.0 10.5
+DEBUG:root:Result: Action: imperial -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Action: imperial
+INFO:root:1.0
+INFO:root:13.0
+INFO:root:2.0
+DEBUG:root:Order:11 13 10.5
+DEBUG:root:Order:4 13 6.8999999999999995
+DEBUG:root:Order:12 13 15.5
+DEBUG:root:Order:11 16 10.5
+DEBUG:root:Order:4 16 6.8999999999999995
+DEBUG:root:Order:12 16 15.5
+DEBUG:root:Bad order:11 0.0 10.5
+DEBUG:root:Bad order:11 0.0 10.5
+DEBUG:root:Order:4 3 6.8999999999999995
+DEBUG:root:Bad order:12 0.0 15.5
+DEBUG:root:Bad order:11 0.0 10.5
+DEBUG:root:Bad order:4 2.3000000000000034 6.8999999999999995
+DEBUG:root:Bad order:12 0.0 15.5
+DEBUG:root:Bad order:11 0.0 10.5
+DEBUG:root:Bad order:4 2.3000000000000034 6.8999999999999995
+DEBUG:root:Bad order:12 0.0 15.5
+DEBUG:root:Bad order:11 0.0 10.5
+DEBUG:root:Bad order:4 2.3000000000000034 6.8999999999999995
+DEBUG:root:Bad order:12 0.0 15.5
+DEBUG:root:Bad order:11 0.0 10.5
+DEBUG:root:Bad order:4 2.3000000000000034 6.8999999999999995
+DEBUG:root:Bad order:12 0.0 15.5
+DEBUG:root:Bad order:11 0.0 10.5
+DEBUG:root:Bad order:4 2.3000000000000034 6.8999999999999995
+DEBUG:root:Bad order:12 0.0 15.5
+DEBUG:root:Bad order:11 0.0 10.5
+DEBUG:root:Bad order:4 2.3000000000000034 6.8999999999999995
+DEBUG:root:Bad order:12 0.0 15.5
+DEBUG:root:Bad order:11 0.0 10.5
+DEBUG:root:Bad order:4 2.3000000000000034 6.8999999999999995
+DEBUG:root:Bad order:12 0.0 15.5
+DEBUG:root:Bad order:11 0.0 10.5
+DEBUG:root:Bad order:4 2.3000000000000034 6.8999999999999995
+DEBUG:root:Bad order:12 0.0 15.5
+DEBUG:root:Bad order:11 0.0 10.5
+DEBUG:root:Bad order:4 2.3000000000000034 6.8999999999999995
+DEBUG:root:Bad order:12 0.0 15.5
+DEBUG:root:Bad order:11 0.0 10.5
+DEBUG:root:Bad order:4 2.3000000000000034 6.8999999999999995
+DEBUG:root:Bad order:12 0.0 15.5
+DEBUG:root:Bad order:11 0.0 10.5
+DEBUG:root:Bad order:4 2.3000000000000034 6.8999999999999995
+DEBUG:root:Bad order:12 0.0 15.5
+DEBUG:root:Bad order:11 0.0 10.5
+DEBUG:root:Bad order:4 2.3000000000000034 6.8999999999999995
+DEBUG:root:Bad order:12 0.0 15.5
+DEBUG:root:Result: Action: imperial -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Action: imperial
+INFO:root:1.0
+INFO:root:10.0
+INFO:root:2.0
+DEBUG:root:Result: Action: imperial -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Action: imperial
+INFO:root:1.0
+INFO:root:10.0
+INFO:root:4.0
+DEBUG:root:Result: Action: imperial -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Action: imperial
+INFO:root:3.0
+INFO:root:2.0
+DEBUG:root:Order:1 10 10.5
+DEBUG:root:Order:1 13 10.5
+DEBUG:root:Order:12 13 19.0
+DEBUG:root:Bad order:1 0.0 10.5
+DEBUG:root:Order:12 16 19.0
+DEBUG:root:Bad order:1 0.0 10.5
+DEBUG:root:Bad order:12 0.0 19.0
+DEBUG:root:Bad order:1 0.0 10.5
+DEBUG:root:Bad order:12 0.0 19.0
+DEBUG:root:Bad order:1 0.0 10.5
+DEBUG:root:Bad order:12 0.0 19.0
+DEBUG:root:Bad order:1 0.0 10.5
+DEBUG:root:Bad order:12 0.0 19.0
+DEBUG:root:Bad order:1 0.0 10.5
+DEBUG:root:Bad order:12 0.0 19.0
+DEBUG:root:Bad order:1 0.0 10.5
+DEBUG:root:Bad order:12 0.0 19.0
+DEBUG:root:Bad order:1 0.0 10.5
+DEBUG:root:Bad order:12 0.0 19.0
+DEBUG:root:Bad order:1 0.0 10.5
+DEBUG:root:Bad order:12 0.0 19.0
+DEBUG:root:Bad order:1 0.0 10.5
+DEBUG:root:Bad order:12 0.0 19.0
+DEBUG:root:Bad order:1 0.0 10.5
+DEBUG:root:Bad order:12 0.0 19.0
+DEBUG:root:Bad order:1 0.0 10.5
+DEBUG:root:Bad order:12 0.0 19.0
+DEBUG:root:Bad order:1 0.0 10.5
+DEBUG:root:Bad order:12 0.0 19.0
+DEBUG:root:Bad order:1 0.0 10.5
+DEBUG:root:Bad order:12 0.0 19.0
+DEBUG:root:Result: Action: imperial -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Action: imperial
+INFO:root:3.0
+INFO:root:9.0
+INFO:root:2.0
+INFO:root:1.0
+DEBUG:root:Order:11 16 10.5
+DEBUG:root:Order:11 13 10.5
+DEBUG:root:Bad order:11 0.0 10.5
+DEBUG:root:Bad order:11 0.0 10.5
+DEBUG:root:Bad order:11 0.0 10.5
+DEBUG:root:Bad order:11 0.0 10.5
+DEBUG:root:Bad order:11 0.0 10.5
+DEBUG:root:Bad order:11 0.0 10.5
+DEBUG:root:Bad order:11 0.0 10.5
+DEBUG:root:Bad order:11 0.0 10.5
+DEBUG:root:Bad order:11 0.0 10.5
+DEBUG:root:Bad order:11 0.0 10.5
+DEBUG:root:Bad order:11 0.0 10.5
+DEBUG:root:Bad order:11 0.0 10.5
+DEBUG:root:Bad order:11 0.0 10.5
+DEBUG:root:Bad order:11 0.0 10.5
+DEBUG:root:Result: Action: imperial -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Action: imperial
+INFO:root:2.0
+INFO:root:1.0
+INFO:root:1.0
+DEBUG:root:Result: Action: imperial -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Action: imperial
+INFO:root:1.0
+INFO:root:2.0
+INFO:root:7.0
+INFO:root:1.0
+INFO:root:1.0
+DEBUG:root:Order:12 0 12.5
+DEBUG:root:Order:12 13 12.5
+DEBUG:root:Bad order:12 0.0 12.5
+DEBUG:root:Bad order:12 0.0 12.5
+DEBUG:root:Bad order:12 0.0 12.5
+DEBUG:root:Bad order:12 0.0 12.5
+DEBUG:root:Bad order:12 0.0 12.5
+DEBUG:root:Bad order:12 0.0 12.5
+DEBUG:root:Bad order:12 0.0 12.5
+DEBUG:root:Bad order:12 0.0 12.5
+DEBUG:root:Bad order:12 0.0 12.5
+DEBUG:root:Bad order:12 0.0 12.5
+DEBUG:root:Bad order:12 0.0 12.5
+DEBUG:root:Bad order:12 0.0 12.5
+DEBUG:root:Bad order:12 0.0 12.5
+DEBUG:root:Bad order:12 0.0 12.5
+DEBUG:root:Result: Action: imperial -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Action: imperial
+INFO:root:1.0
+INFO:root:2.0
+INFO:root:5.0
+INFO:root:7.0
+INFO:root:1.0
+INFO:root:1.0
+INFO:root:5.0
+DEBUG:root:Order:1 0 10.5
+DEBUG:root:Order:1 13 10.5
+DEBUG:root:Bad order:1 0.0 10.5
+DEBUG:root:Bad order:1 0.0 10.5
+DEBUG:root:Bad order:1 0.0 10.5
+DEBUG:root:Bad order:1 0.0 10.5
+DEBUG:root:Bad order:1 0.0 10.5
+DEBUG:root:Bad order:1 0.0 10.5
+DEBUG:root:Bad order:1 0.0 10.5
+DEBUG:root:Bad order:1 0.0 10.5
+DEBUG:root:Bad order:1 0.0 10.5
+DEBUG:root:Bad order:1 0.0 10.5
+DEBUG:root:Bad order:1 0.0 10.5
+DEBUG:root:Bad order:1 0.0 10.5
+DEBUG:root:Bad order:1 0.0 10.5
+DEBUG:root:Bad order:1 0.0 10.5
+DEBUG:root:Result: Action: imperial -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Action: imperial
+INFO:root:5.0
+INFO:root:5.0
+INFO:root:7.0
+INFO:root:1.0
+INFO:root:1.0
+INFO:root:9.0
+DEBUG:root:Order:11 0 10.5
+DEBUG:root:Order:21 0 63.831599999999995
+DEBUG:root:Order:11 13 10.5
+DEBUG:root:Bad order:21 20.168400000000005 25.2
+DEBUG:root:Bad order:11 0.0 10.5
+DEBUG:root:Bad order:21 20.168400000000005 42.839999999999996
+DEBUG:root:Bad order:11 0.0 10.5
+DEBUG:root:Bad order:21 20.168400000000005 55.187999999999995
+DEBUG:root:Bad order:11 0.0 10.5
+DEBUG:root:Bad order:21 20.168400000000005 63.831599999999995
+DEBUG:root:Bad order:11 0.0 10.5
+DEBUG:root:Bad order:21 20.168400000000005 69.88212
+DEBUG:root:Bad order:11 0.0 10.5
+DEBUG:root:Bad order:21 20.168400000000005 69.88212
+DEBUG:root:Bad order:11 0.0 10.5
+DEBUG:root:Bad order:21 20.168400000000005 69.88212
+DEBUG:root:Bad order:11 0.0 10.5
+DEBUG:root:Bad order:21 20.168400000000005 25.2
+DEBUG:root:Bad order:11 0.0 10.5
+DEBUG:root:Bad order:21 20.168400000000005 55.187999999999995
+DEBUG:root:Bad order:11 0.0 10.5
+DEBUG:root:Bad order:21 20.168400000000005 63.831599999999995
+DEBUG:root:Bad order:11 0.0 10.5
+DEBUG:root:Bad order:21 20.168400000000005 69.88212
+DEBUG:root:Bad order:11 0.0 10.5
+DEBUG:root:Bad order:21 20.168400000000005 55.187999999999995
+DEBUG:root:Bad order:11 0.0 10.5
+DEBUG:root:Bad order:21 20.168400000000005 42.839999999999996
+DEBUG:root:Bad order:11 0.0 10.5
+DEBUG:root:Bad order:21 20.168400000000005 69.88212
+DEBUG:root:Bad order:11 0.0 10.5
+DEBUG:root:Bad order:21 20.168400000000005 55.187999999999995
+DEBUG:root:Result: Action: imperial -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Action: imperial
+INFO:root:5.0
+INFO:root:1.0
+INFO:root:7.0
+INFO:root:1.0
+INFO:root:11.0
+INFO:root:1.0
+INFO:root:51.0
+INFO:root:5.0
+DEBUG:root:Order:21 18 7.199999999999999
+DEBUG:root:Order:21 4 7.199999999999999
+DEBUG:root:Order:21 19 7.199999999999999
+DEBUG:root:Bad order:21 2.400000000000002 7.199999999999999
+DEBUG:root:Bad order:21 2.400000000000002 7.199999999999999
+DEBUG:root:Bad order:21 2.400000000000002 7.199999999999999
+DEBUG:root:Bad order:21 2.400000000000002 7.199999999999999
+DEBUG:root:Bad order:21 2.400000000000002 7.199999999999999
+DEBUG:root:Bad order:21 2.400000000000002 7.199999999999999
+DEBUG:root:Bad order:21 2.400000000000002 7.199999999999999
+DEBUG:root:Bad order:21 2.400000000000002 7.199999999999999
+DEBUG:root:Bad order:21 2.400000000000002 7.199999999999999
+DEBUG:root:Bad order:21 2.400000000000002 7.199999999999999
+DEBUG:root:Bad order:21 2.400000000000002 7.199999999999999
+DEBUG:root:Bad order:21 2.400000000000002 7.199999999999999
+DEBUG:root:Bad order:21 2.400000000000002 7.199999999999999
+DEBUG:root:Bad order:21 2.400000000000002 7.199999999999999
+DEBUG:root:Bad order:21 2.400000000000002 7.199999999999999
+DEBUG:root:Result: Action: imperial -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Action: imperial
+INFO:root:1.0
+INFO:root:7.0
+INFO:root:1.0
+INFO:root:11.0
+INFO:root:7.0
+DEBUG:root:Order:12 4 10.5
+DEBUG:root:Order:12 19 10.5
+DEBUG:root:Bad order:12 0.0 10.5
+DEBUG:root:Bad order:12 0.0 10.5
+DEBUG:root:Bad order:12 0.0 10.5
+DEBUG:root:Bad order:12 0.0 10.5
+DEBUG:root:Bad order:12 0.0 10.5
+DEBUG:root:Bad order:12 0.0 10.5
+DEBUG:root:Bad order:12 0.0 10.5
+DEBUG:root:Bad order:12 0.0 10.5
+DEBUG:root:Bad order:12 0.0 10.5
+DEBUG:root:Bad order:12 0.0 10.5
+DEBUG:root:Bad order:12 0.0 10.5
+DEBUG:root:Bad order:12 0.0 10.5
+DEBUG:root:Bad order:12 0.0 10.5
+DEBUG:root:Bad order:12 0.0 10.5
+DEBUG:root:Result: Action: imperial -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Action: imperial
+INFO:root:1.0
+INFO:root:11.0
+INFO:root:7.0
+DEBUG:root:Order:1 4 10.5
+DEBUG:root:Order:1 19 10.5
+DEBUG:root:Bad order:1 0.0 10.5
+DEBUG:root:Bad order:1 0.0 10.5
+DEBUG:root:Bad order:1 0.0 10.5
+DEBUG:root:Bad order:1 0.0 10.5
+DEBUG:root:Bad order:1 0.0 10.5
+DEBUG:root:Bad order:1 0.0 10.5
+DEBUG:root:Bad order:1 0.0 10.5
+DEBUG:root:Bad order:1 0.0 10.5
+DEBUG:root:Bad order:1 0.0 10.5
+DEBUG:root:Bad order:1 0.0 10.5
+DEBUG:root:Bad order:1 0.0 10.5
+DEBUG:root:Bad order:1 0.0 10.5
+DEBUG:root:Bad order:1 0.0 10.5
+DEBUG:root:Bad order:1 0.0 10.5
+DEBUG:root:Result: Action: imperial -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Action: imperial
+INFO:root:1.0
+INFO:root:1.0
+INFO:root:11.0
+INFO:root:27.0
+INFO:root:7.0
+DEBUG:root:Order:11 4 10.5
+DEBUG:root:Order:11 19 10.5
+DEBUG:root:Bad order:11 0.0 10.5
+DEBUG:root:Bad order:11 0.0 10.5
+DEBUG:root:Bad order:11 0.0 10.5
+DEBUG:root:Bad order:11 0.0 10.5
+DEBUG:root:Bad order:11 0.0 10.5
+DEBUG:root:Bad order:11 0.0 10.5
+DEBUG:root:Bad order:11 0.0 10.5
+DEBUG:root:Bad order:11 0.0 10.5
+DEBUG:root:Bad order:11 0.0 10.5
+DEBUG:root:Bad order:11 0.0 10.5
+DEBUG:root:Bad order:11 0.0 10.5
+DEBUG:root:Bad order:11 0.0 10.5
+DEBUG:root:Bad order:11 0.0 10.5
+DEBUG:root:Bad order:11 0.0 10.5
+DEBUG:root:Result: Action: imperial -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Action: imperial
+INFO:root:1.0
+INFO:root:1.0
+INFO:root:11.0
+INFO:root:27.0
+INFO:root:1.0
+INFO:root:9.0
+DEBUG:root:Result: Action: imperial -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Action: imperial
+INFO:root:1.0
+INFO:root:1.0
+INFO:root:11.0
+INFO:root:27.0
+INFO:root:4.0
+INFO:root:9.0
+INFO:root:13.0
+DEBUG:root:Order:12 4 10.5
+DEBUG:root:Order:12 19 10.5
+DEBUG:root:Bad order:12 0.0 10.5
+DEBUG:root:Bad order:12 0.0 10.5
+DEBUG:root:Bad order:12 0.0 10.5
+DEBUG:root:Bad order:12 0.0 10.5
+DEBUG:root:Bad order:12 0.0 10.5
+DEBUG:root:Bad order:12 0.0 10.5
+DEBUG:root:Bad order:12 0.0 10.5
+DEBUG:root:Bad order:12 0.0 10.5
+DEBUG:root:Bad order:12 0.0 10.5
+DEBUG:root:Bad order:12 0.0 10.5
+DEBUG:root:Bad order:12 0.0 10.5
+DEBUG:root:Bad order:12 0.0 10.5
+DEBUG:root:Bad order:12 0.0 10.5
+DEBUG:root:Bad order:12 0.0 10.5
+DEBUG:root:Result: Action: imperial -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Action: imperial
+INFO:root:1.0
+INFO:root:1.0
+INFO:root:2.0
+INFO:root:15.0
+INFO:root:27.0
+INFO:root:10.0
+INFO:root:19.0
+INFO:root:2.0
+DEBUG:root:Order:1 4 10.5
+DEBUG:root:Order:21 4 6.3
+DEBUG:root:Order:1 19 10.5
+DEBUG:root:Bad order:1 0.0 10.5
+DEBUG:root:Order:21 13 6.3
+DEBUG:root:Bad order:1 0.0 10.5
+DEBUG:root:Order:21 16 6.3
+DEBUG:root:Bad order:1 0.0 10.5
+DEBUG:root:Bad order:21 2.0999999999999988 6.3
+DEBUG:root:Bad order:1 0.0 10.5
+DEBUG:root:Bad order:21 2.0999999999999988 6.3
+DEBUG:root:Bad order:1 0.0 10.5
+DEBUG:root:Bad order:21 2.0999999999999988 6.3
+DEBUG:root:Bad order:1 0.0 10.5
+DEBUG:root:Bad order:21 2.0999999999999988 6.3
+DEBUG:root:Bad order:1 0.0 10.5
+DEBUG:root:Bad order:21 2.0999999999999988 6.3
+DEBUG:root:Bad order:1 0.0 10.5
+DEBUG:root:Bad order:21 2.0999999999999988 6.3
+DEBUG:root:Bad order:1 0.0 10.5
+DEBUG:root:Bad order:21 2.0999999999999988 6.3
+DEBUG:root:Bad order:1 0.0 10.5
+DEBUG:root:Bad order:21 2.0999999999999988 6.3
+DEBUG:root:Bad order:1 0.0 10.5
+DEBUG:root:Bad order:21 2.0999999999999988 6.3
+DEBUG:root:Bad order:1 0.0 10.5
+DEBUG:root:Bad order:21 2.0999999999999988 6.3
+DEBUG:root:Bad order:1 0.0 10.5
+DEBUG:root:Bad order:21 2.0999999999999988 6.3
+DEBUG:root:Bad order:1 0.0 10.5
+DEBUG:root:Bad order:21 2.0999999999999988 6.3
+DEBUG:root:Result: Action: imperial -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Action: imperial
+INFO:root:1.0
+INFO:root:2.0
+INFO:root:15.0
+INFO:root:27.0
+INFO:root:10.0
+INFO:root:4.0
+INFO:root:3.0
+INFO:root:2.0
+INFO:root:19.0
+INFO:root:2.0
+DEBUG:root:Order:11 4 10.5
+DEBUG:root:Order:11 19 10.5
+DEBUG:root:Bad order:11 0.0 10.5
+DEBUG:root:Bad order:11 0.0 10.5
+DEBUG:root:Bad order:11 0.0 10.5
+DEBUG:root:Bad order:11 0.0 10.5
+DEBUG:root:Bad order:11 0.0 10.5
+DEBUG:root:Bad order:11 0.0 10.5
+DEBUG:root:Bad order:11 0.0 10.5
+DEBUG:root:Bad order:11 0.0 10.5
+DEBUG:root:Bad order:11 0.0 10.5
+DEBUG:root:Bad order:11 0.0 10.5
+DEBUG:root:Bad order:11 0.0 10.5
+DEBUG:root:Bad order:11 0.0 10.5
+DEBUG:root:Bad order:11 0.0 10.5
+DEBUG:root:Bad order:11 0.0 10.5
+DEBUG:root:Result: Action: imperial -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Action: imperial
+INFO:root:33.0
+INFO:root:2.0
+INFO:root:15.0
+INFO:root:3.0
+INFO:root:2.0
+INFO:root:6.0
+INFO:root:1.0
+INFO:root:17.0
+DEBUG:root:Result: Action: imperial -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Action: imperial
+INFO:root:2.0
+INFO:root:6.0
+DEBUG:root:Order:12 16 10.5
+DEBUG:root:Order:0 16 64.5915
+DEBUG:root:Order:12 3 10.5
+DEBUG:root:Bad order:0 20.408500000000004 64.5915
+DEBUG:root:Bad order:12 0.0 10.5
+DEBUG:root:Bad order:0 20.408500000000004 55.845
+DEBUG:root:Bad order:12 0.0 10.5
+DEBUG:root:Bad order:0 20.408500000000004 55.845
+DEBUG:root:Bad order:12 0.0 10.5
+DEBUG:root:Bad order:0 20.408500000000004 25.5
+DEBUG:root:Bad order:12 0.0 10.5
+DEBUG:root:Bad order:0 20.408500000000004 55.845
+DEBUG:root:Bad order:12 0.0 10.5
+DEBUG:root:Bad order:0 20.408500000000004 70.71405
+DEBUG:root:Bad order:12 0.0 10.5
+DEBUG:root:Bad order:0 20.408500000000004 25.5
+DEBUG:root:Bad order:12 0.0 10.5
+DEBUG:root:Bad order:0 20.408500000000004 70.71405
+DEBUG:root:Bad order:12 0.0 10.5
+DEBUG:root:Bad order:0 20.408500000000004 55.845
+DEBUG:root:Bad order:12 0.0 10.5
+DEBUG:root:Bad order:0 20.408500000000004 70.71405
+DEBUG:root:Bad order:12 0.0 10.5
+DEBUG:root:Bad order:0 20.408500000000004 43.349999999999994
+DEBUG:root:Bad order:12 0.0 10.5
+DEBUG:root:Bad order:0 20.408500000000004 55.845
+DEBUG:root:Result: Action: imperial -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Action: imperial
+INFO:root:2.0
+INFO:root:7.0
+INFO:root:5.0
+DEBUG:root:Order:1 16 10.5
+DEBUG:root:Order:0 16 7.199999999999999
+DEBUG:root:Order:1 7 10.5
+DEBUG:root:Order:0 7 7.199999999999999
+DEBUG:root:Bad order:1 0.0 10.5
+DEBUG:root:Order:0 3 7.199999999999999
+DEBUG:root:Bad order:1 0.0 10.5
+DEBUG:root:Bad order:0 2.400000000000002 7.199999999999999
+DEBUG:root:Bad order:1 0.0 10.5
+DEBUG:root:Bad order:0 2.400000000000002 7.199999999999999
+DEBUG:root:Bad order:1 0.0 10.5
+DEBUG:root:Bad order:0 2.400000000000002 7.199999999999999
+DEBUG:root:Bad order:1 0.0 10.5
+DEBUG:root:Bad order:0 2.400000000000002 7.199999999999999
+DEBUG:root:Bad order:1 0.0 10.5
+DEBUG:root:Bad order:0 2.400000000000002 7.199999999999999
+DEBUG:root:Bad order:1 0.0 10.5
+DEBUG:root:Bad order:0 2.400000000000002 7.199999999999999
+DEBUG:root:Bad order:1 0.0 10.5
+DEBUG:root:Bad order:0 2.400000000000002 7.199999999999999
+DEBUG:root:Bad order:1 0.0 10.5
+DEBUG:root:Bad order:0 2.400000000000002 7.199999999999999
+DEBUG:root:Bad order:1 0.0 10.5
+DEBUG:root:Bad order:0 2.400000000000002 7.199999999999999
+DEBUG:root:Bad order:1 0.0 10.5
+DEBUG:root:Bad order:0 2.400000000000002 7.199999999999999
+DEBUG:root:Result: Action: imperial -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Action: imperial
+INFO:root:2.0
+INFO:root:34.0
+INFO:root:5.0
+DEBUG:root:Order:11 19 10.5
+DEBUG:root:Order:11 16 10.5
+DEBUG:root:Bad order:11 0.0 10.5
+DEBUG:root:Bad order:11 0.0 10.5
+DEBUG:root:Bad order:11 0.0 10.5
+DEBUG:root:Bad order:11 0.0 10.5
+DEBUG:root:Bad order:11 0.0 10.5
+DEBUG:root:Bad order:11 0.0 10.5
+DEBUG:root:Bad order:11 0.0 10.5
+DEBUG:root:Bad order:11 0.0 10.5
+DEBUG:root:Bad order:11 0.0 10.5
+DEBUG:root:Bad order:11 0.0 10.5
+DEBUG:root:Bad order:11 0.0 10.5
+DEBUG:root:Bad order:11 0.0 10.5
+DEBUG:root:Result: Action: imperial -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Action: imperial
+INFO:root:2.0
+INFO:root:44.0
+INFO:root:5.0
+INFO:root:3.0
+INFO:root:4.0
+INFO:root:16.0
+DEBUG:root:Order:21 19 6.3
+DEBUG:root:Order:21 16 6.3
+DEBUG:root:Order:21 7 6.3
+DEBUG:root:Bad order:21 2.0999999999999988 6.3
+DEBUG:root:Bad order:21 2.0999999999999988 6.3
+DEBUG:root:Bad order:21 2.0999999999999988 6.3
+DEBUG:root:Bad order:21 2.0999999999999988 6.3
+DEBUG:root:Bad order:21 2.0999999999999988 6.3
+DEBUG:root:Bad order:21 2.0999999999999988 6.3
+DEBUG:root:Bad order:21 2.0999999999999988 6.3
+DEBUG:root:Bad order:21 2.0999999999999988 6.3
+DEBUG:root:Bad order:21 2.0999999999999988 6.3
+DEBUG:root:Bad order:21 2.0999999999999988 6.3
+DEBUG:root:Bad order:21 2.0999999999999988 6.3
+DEBUG:root:Result: Action: imperial -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Action: imperial
+INFO:root:2.0
+INFO:root:44.0
+INFO:root:1.0
+INFO:root:8.0
+INFO:root:7.0
+INFO:root:13.0
+DEBUG:root:Order:12 19 10.5
+DEBUG:root:Order:12 16 10.5
+DEBUG:root:Bad order:12 0.0 10.5
+DEBUG:root:Bad order:12 0.0 10.5
+DEBUG:root:Bad order:12 0.0 10.5
+DEBUG:root:Bad order:12 0.0 10.5
+DEBUG:root:Bad order:12 0.0 10.5
+DEBUG:root:Bad order:12 0.0 10.5
+DEBUG:root:Bad order:12 0.0 10.5
+DEBUG:root:Bad order:12 0.0 10.5
+DEBUG:root:Bad order:12 0.0 10.5
+DEBUG:root:Bad order:12 0.0 10.5
+DEBUG:root:Bad order:12 0.0 10.5
+DEBUG:root:Bad order:12 0.0 10.5
+DEBUG:root:Result: Action: imperial -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Action: imperial
+INFO:root:2.0
+INFO:root:44.0
+INFO:root:1.0
+INFO:root:1.0
+INFO:root:8.0
+INFO:root:1.0
+INFO:root:7.0
 INFO:root:23.0
+DEBUG:root:Order:1 18 10.5
+DEBUG:root:Order:4 18 18.36
+DEBUG:root:Order:1 19 10.5
+DEBUG:root:Bad order:4 17.64 18.36
+DEBUG:root:Bad order:1 0.0 10.5
+DEBUG:root:Bad order:4 17.64 18.36
+DEBUG:root:Bad order:1 0.0 10.5
+DEBUG:root:Bad order:4 17.64 18.36
+DEBUG:root:Bad order:1 0.0 10.5
+DEBUG:root:Bad order:4 17.64 18.36
+DEBUG:root:Bad order:1 0.0 10.5
+DEBUG:root:Bad order:4 17.64 18.36
+DEBUG:root:Bad order:1 0.0 10.5
+DEBUG:root:Bad order:4 17.64 18.36
+DEBUG:root:Bad order:1 0.0 10.5
+DEBUG:root:Bad order:4 17.64 18.36
+DEBUG:root:Bad order:1 0.0 10.5
+DEBUG:root:Bad order:4 17.64 18.36
+DEBUG:root:Bad order:1 0.0 10.5
+DEBUG:root:Bad order:4 17.64 18.36
+DEBUG:root:Bad order:1 0.0 10.5
+DEBUG:root:Bad order:4 17.64 18.36
+DEBUG:root:Bad order:1 0.0 10.5
+DEBUG:root:Bad order:4 17.64 18.36
+DEBUG:root:Bad order:1 0.0 10.5
+DEBUG:root:Bad order:4 17.64 18.36
+DEBUG:root:Bad order:1 0.0 10.5
+DEBUG:root:Bad order:4 17.64 18.36
+DEBUG:root:Bad order:1 0.0 10.5
+DEBUG:root:Bad order:4 17.64 18.36
+DEBUG:root:Bad order:1 0.0 10.5
+DEBUG:root:Bad order:4 17.64 18.36
+DEBUG:root:Result: Action: imperial -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Action: imperial
+INFO:root:2.0
+INFO:root:44.0
+INFO:root:1.0
+INFO:root:1.0
+INFO:root:17.0
+INFO:root:1.0
+INFO:root:8.0
+INFO:root:1.0
+INFO:root:8.0
+INFO:root:1.0
+INFO:root:6.0
+INFO:root:17.0
+DEBUG:root:Order:11 18 10.5
+DEBUG:root:Order:4 18 15.809999999999999
+DEBUG:root:Order:11 0 10.5
+DEBUG:root:Bad order:4 15.190000000000001 15.809999999999999
+DEBUG:root:Bad order:11 0.0 10.5
+DEBUG:root:Order:4 19 9.299999999999999
+DEBUG:root:Bad order:11 0.0 10.5
+DEBUG:root:Bad order:4 5.890000000000002 15.809999999999999
+DEBUG:root:Bad order:11 0.0 10.5
+DEBUG:root:Bad order:4 5.890000000000002 15.809999999999999
+DEBUG:root:Bad order:11 0.0 10.5
+DEBUG:root:Bad order:4 5.890000000000002 15.809999999999999
+DEBUG:root:Bad order:11 0.0 10.5
+DEBUG:root:Bad order:4 5.890000000000002 15.809999999999999
+DEBUG:root:Bad order:11 0.0 10.5
+DEBUG:root:Bad order:4 5.890000000000002 15.809999999999999
+DEBUG:root:Bad order:11 0.0 10.5
+DEBUG:root:Bad order:4 5.890000000000002 15.809999999999999
+DEBUG:root:Bad order:11 0.0 10.5
+DEBUG:root:Bad order:4 5.890000000000002 15.809999999999999
+DEBUG:root:Bad order:11 0.0 10.5
+DEBUG:root:Bad order:4 5.890000000000002 15.809999999999999
+DEBUG:root:Bad order:11 0.0 10.5
+DEBUG:root:Bad order:4 5.890000000000002 15.809999999999999
+DEBUG:root:Bad order:11 0.0 10.5
+DEBUG:root:Bad order:4 5.890000000000002 15.809999999999999
+DEBUG:root:Bad order:11 0.0 10.5
+DEBUG:root:Bad order:4 5.890000000000002 15.809999999999999
+DEBUG:root:Bad order:11 0.0 10.5
+DEBUG:root:Bad order:4 5.890000000000002 15.809999999999999
+DEBUG:root:Bad order:11 0.0 10.5
+DEBUG:root:Bad order:4 5.890000000000002 15.809999999999999
+DEBUG:root:Bad order:11 0.0 10.5
+DEBUG:root:Bad order:4 5.890000000000002 15.809999999999999
+DEBUG:root:Result: Action: imperial -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Action: imperial
+INFO:root:2.0
+INFO:root:44.0
+INFO:root:1.0
+INFO:root:5.0
+INFO:root:1.0
+INFO:root:17.0
+INFO:root:1.0
+INFO:root:6.0
+INFO:root:2.0
+INFO:root:6.0
+INFO:root:2.0
+INFO:root:8.0
+INFO:root:2.0
+INFO:root:26.0
+DEBUG:root:Result: Action: imperial -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Action: imperial
+INFO:root:44.0
+INFO:root:1.0
+INFO:root:17.0
+INFO:root:1.0
+INFO:root:6.0
+INFO:root:2.0
+DEBUG:root:Result: Action: imperial -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Action: imperial
+INFO:root:44.0
+INFO:root:1.0
+INFO:root:17.0
+INFO:root:1.0
+INFO:root:6.0
+INFO:root:2.0
+DEBUG:root:Order:1 18 10.5
+DEBUG:root:Order:21 18 6.3
+DEBUG:root:Order:4 18 6.6
+DEBUG:root:Order:1 16 10.5
+DEBUG:root:Order:21 16 6.3
+DEBUG:root:Order:4 16 6.6
+DEBUG:root:Bad order:1 0.0 10.5
+DEBUG:root:Order:21 12 6.3
+DEBUG:root:Order:4 12 6.6
+DEBUG:root:Bad order:1 0.0 10.5
+DEBUG:root:Bad order:21 2.0999999999999988 6.3
+DEBUG:root:Bad order:4 2.200000000000001 6.6
+DEBUG:root:Bad order:1 0.0 10.5
+DEBUG:root:Bad order:21 2.0999999999999988 6.3
+DEBUG:root:Bad order:4 2.200000000000001 6.6
+DEBUG:root:Bad order:1 0.0 10.5
+DEBUG:root:Bad order:21 2.0999999999999988 6.3
+DEBUG:root:Bad order:4 2.200000000000001 6.6
+DEBUG:root:Bad order:1 0.0 10.5
+DEBUG:root:Bad order:21 2.0999999999999988 6.3
+DEBUG:root:Bad order:4 2.200000000000001 6.6
+DEBUG:root:Bad order:1 0.0 10.5
+DEBUG:root:Bad order:21 2.0999999999999988 6.3
+DEBUG:root:Bad order:4 2.200000000000001 6.6
+DEBUG:root:Bad order:1 0.0 10.5
+DEBUG:root:Bad order:21 2.0999999999999988 6.3
+DEBUG:root:Bad order:4 2.200000000000001 6.6
+DEBUG:root:Bad order:1 0.0 10.5
+DEBUG:root:Bad order:21 2.0999999999999988 6.3
+DEBUG:root:Bad order:4 2.200000000000001 6.6
+DEBUG:root:Bad order:1 0.0 10.5
+DEBUG:root:Bad order:21 2.0999999999999988 6.3
+DEBUG:root:Bad order:4 2.200000000000001 6.6
+DEBUG:root:Bad order:1 0.0 10.5
+DEBUG:root:Bad order:21 2.0999999999999988 6.3
+DEBUG:root:Bad order:4 2.200000000000001 6.6
+DEBUG:root:Bad order:1 0.0 10.5
+DEBUG:root:Bad order:21 2.0999999999999988 6.3
+DEBUG:root:Bad order:4 2.200000000000001 6.6
+DEBUG:root:Bad order:1 0.0 10.5
+DEBUG:root:Bad order:21 2.0999999999999988 6.3
+DEBUG:root:Bad order:4 2.200000000000001 6.6
+DEBUG:root:Bad order:1 0.0 10.5
+DEBUG:root:Bad order:21 2.0999999999999988 6.3
+DEBUG:root:Bad order:4 2.200000000000001 6.6
+DEBUG:root:Result: Action: imperial -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Action: imperial
+INFO:root:1.0
+INFO:root:17.0
+INFO:root:1.0
+INFO:root:6.0
+INFO:root:2.0
+INFO:root:2.0
+INFO:root:4.0
+DEBUG:root:Order:11 18 10.5
+DEBUG:root:Order:16 18 15.0
+DEBUG:root:Order:11 3 10.5
+DEBUG:root:Order:16 3 32.85
+DEBUG:root:Bad order:11 0.0 10.5
+DEBUG:root:Bad order:16 2.1499999999999986 32.85
+DEBUG:root:Bad order:11 0.0 10.5
+DEBUG:root:Bad order:16 2.1499999999999986 32.85
+DEBUG:root:Bad order:11 0.0 10.5
+DEBUG:root:Bad order:16 2.1499999999999986 32.85
+DEBUG:root:Bad order:11 0.0 10.5
+DEBUG:root:Bad order:16 2.1499999999999986 32.85
+DEBUG:root:Bad order:11 0.0 10.5
+DEBUG:root:Bad order:16 2.1499999999999986 32.85
+DEBUG:root:Bad order:11 0.0 10.5
+DEBUG:root:Bad order:16 2.1499999999999986 32.85
+DEBUG:root:Bad order:11 0.0 10.5
+DEBUG:root:Bad order:16 2.1499999999999986 32.85
+DEBUG:root:Bad order:11 0.0 10.5
+DEBUG:root:Bad order:16 2.1499999999999986 32.85
+DEBUG:root:Bad order:11 0.0 10.5
+DEBUG:root:Bad order:16 2.1499999999999986 32.85
+DEBUG:root:Bad order:11 0.0 10.5
+DEBUG:root:Bad order:16 2.1499999999999986 32.85
+DEBUG:root:Bad order:11 0.0 10.5
+DEBUG:root:Bad order:16 2.1499999999999986 32.85
+DEBUG:root:Bad order:11 0.0 10.5
+DEBUG:root:Bad order:16 2.1499999999999986 32.85
+DEBUG:root:Result: Action: imperial -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Action: imperial
+INFO:root:1.0
+DEBUG:root:Result: Action: imperial -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Action: imperial
+INFO:root:14.0
+DEBUG:root:Order:18 3 25.059442760000003
+DEBUG:root:Bad order:18 18.940557239999997 25.059442760000003
+DEBUG:root:Bad order:18 18.940557239999997 25.059442760000003
+DEBUG:root:Bad order:18 18.940557239999997 25.059442760000003
+DEBUG:root:Bad order:18 18.940557239999997 25.059442760000003
+DEBUG:root:Bad order:18 18.940557239999997 25.059442760000003
+DEBUG:root:Bad order:18 18.940557239999997 25.059442760000003
+DEBUG:root:Bad order:18 18.940557239999997 25.059442760000003
+DEBUG:root:Bad order:18 18.940557239999997 25.059442760000003
+DEBUG:root:Bad order:18 18.940557239999997 25.059442760000003
+DEBUG:root:Bad order:18 18.940557239999997 25.059442760000003
+DEBUG:root:Bad order:18 18.940557239999997 25.059442760000003
+DEBUG:root:Bad order:18 18.940557239999997 25.059442760000003
+DEBUG:root:Result: Action: imperial -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Action: imperial
+INFO:root:14.0
+DEBUG:root:Order:1 12 10.5
+DEBUG:root:Order:16 12 14.79
+DEBUG:root:Order:18 12 12.69481
+DEBUG:root:Order:13 12 16.399565000000003
+DEBUG:root:Order:1 3 10.5
+DEBUG:root:Order:16 3 8.7
+DEBUG:root:Bad order:1 0.0 10.5
+DEBUG:root:Bad order:16 5.510000000000002 14.79
+DEBUG:root:Order:18 7 12.69481
+DEBUG:root:Order:13 7 16.399565000000003
+DEBUG:root:Bad order:1 0.0 10.5
+DEBUG:root:Bad order:16 5.510000000000002 14.79
+DEBUG:root:Bad order:18 5.610379999999999 8.401
+DEBUG:root:Bad order:1 0.0 10.5
+DEBUG:root:Bad order:16 5.510000000000002 14.79
+DEBUG:root:Bad order:18 5.610379999999999 12.69481
+DEBUG:root:Bad order:1 0.0 10.5
+DEBUG:root:Bad order:16 5.510000000000002 14.79
+DEBUG:root:Bad order:13 2.2008699999999948 12.036500000000002
+DEBUG:root:Bad order:1 0.0 10.5
+DEBUG:root:Bad order:16 5.510000000000002 14.79
+DEBUG:root:Bad order:18 5.610379999999999 12.69481
+DEBUG:root:Bad order:13 2.2008699999999948 16.399565000000003
+DEBUG:root:Bad order:1 0.0 10.5
+DEBUG:root:Bad order:16 5.510000000000002 14.79
+DEBUG:root:Bad order:18 5.610379999999999 12.69481
+DEBUG:root:Bad order:13 2.2008699999999948 16.399565000000003
+DEBUG:root:Bad order:1 0.0 10.5
+DEBUG:root:Bad order:16 5.510000000000002 14.79
+DEBUG:root:Bad order:18 5.610379999999999 12.69481
+DEBUG:root:Bad order:13 2.2008699999999948 16.399565000000003
+DEBUG:root:Bad order:1 0.0 10.5
+DEBUG:root:Bad order:16 5.510000000000002 14.79
+DEBUG:root:Bad order:18 5.610379999999999 12.69481
+DEBUG:root:Bad order:13 2.2008699999999948 16.399565000000003
+DEBUG:root:Bad order:1 0.0 10.5
+DEBUG:root:Bad order:16 5.510000000000002 14.79
+DEBUG:root:Bad order:18 5.610379999999999 12.69481
+DEBUG:root:Bad order:13 2.2008699999999948 16.399565000000003
+DEBUG:root:Bad order:1 0.0 10.5
+DEBUG:root:Bad order:16 5.510000000000002 14.79
+DEBUG:root:Bad order:18 5.610379999999999 12.69481
+DEBUG:root:Bad order:13 2.2008699999999948 14.332850000000002
+DEBUG:root:Bad order:1 0.0 10.5
+DEBUG:root:Bad order:16 5.510000000000002 14.79
+DEBUG:root:Bad order:18 5.610379999999999 12.69481
+DEBUG:root:Bad order:13 2.2008699999999948 16.399565000000003
+DEBUG:root:Result: Action: imperial -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Action: imperial
+INFO:root:14.0
+DEBUG:root:Result: Action: imperial -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Action: imperial
+INFO:root:1.0
+INFO:root:14.0
+DEBUG:root:Order:21 4 6.3
+DEBUG:root:Order:21 12 6.3
+DEBUG:root:Order:21 7 6.3
+DEBUG:root:Bad order:21 2.0999999999999988 6.3
+DEBUG:root:Bad order:21 2.0999999999999988 6.3
+DEBUG:root:Bad order:21 2.0999999999999988 6.3
+DEBUG:root:Bad order:21 2.0999999999999988 6.3
+DEBUG:root:Bad order:21 2.0999999999999988 6.3
+DEBUG:root:Bad order:21 2.0999999999999988 6.3
+DEBUG:root:Bad order:21 2.0999999999999988 6.3
+DEBUG:root:Bad order:21 2.0999999999999988 6.3
+DEBUG:root:Bad order:21 2.0999999999999988 6.3
+DEBUG:root:Bad order:21 2.0999999999999988 6.3
+DEBUG:root:Bad order:21 2.0999999999999988 6.3
+DEBUG:root:Result: Action: imperial -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Action: imperial
+INFO:root:1.0
+INFO:root:17.0
+DEBUG:root:Order:16 4 6.6
+DEBUG:root:Order:16 11 6.6
+DEBUG:root:Order:16 12 6.6
+DEBUG:root:Bad order:16 2.200000000000001 6.6
+DEBUG:root:Bad order:16 2.200000000000001 6.6
+DEBUG:root:Bad order:16 2.200000000000001 6.6
+DEBUG:root:Bad order:16 2.200000000000001 6.6
+DEBUG:root:Bad order:16 2.200000000000001 6.6
+DEBUG:root:Bad order:16 2.200000000000001 6.6
+DEBUG:root:Bad order:16 2.200000000000001 6.6
+DEBUG:root:Bad order:16 2.200000000000001 6.6
+DEBUG:root:Bad order:16 2.200000000000001 6.6
+DEBUG:root:Bad order:16 2.200000000000001 6.6
+DEBUG:root:Bad order:16 2.200000000000001 6.6
+DEBUG:root:Bad order:16 2.200000000000001 6.6
+DEBUG:root:Result: Action: imperial -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Action: imperial
+INFO:root:17.0
+DEBUG:root:Order:1 4 10.5
+DEBUG:root:Order:1 11 10.5
+DEBUG:root:Bad order:1 0.0 10.5
+DEBUG:root:Bad order:1 0.0 10.5
+DEBUG:root:Bad order:1 0.0 10.5
+DEBUG:root:Bad order:1 0.0 10.5
+DEBUG:root:Bad order:1 0.0 10.5
+DEBUG:root:Bad order:1 0.0 10.5
+DEBUG:root:Bad order:1 0.0 10.5
+DEBUG:root:Bad order:1 0.0 10.5
+DEBUG:root:Bad order:1 0.0 10.5
+DEBUG:root:Bad order:1 0.0 10.5
+DEBUG:root:Bad order:1 0.0 10.5
+DEBUG:root:Bad order:1 0.0 10.5
+DEBUG:root:Bad order:1 0.0 10.5
+DEBUG:root:Result: Action: imperial -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Action: imperial
+INFO:root:17.0
+DEBUG:root:Order:16 4 15.3
+DEBUG:root:Bad order:16 14.7 15.3
+DEBUG:root:Bad order:16 14.7 15.3
+DEBUG:root:Bad order:16 14.7 15.3
+DEBUG:root:Bad order:16 14.7 15.3
+DEBUG:root:Bad order:16 14.7 15.3
+DEBUG:root:Bad order:16 14.7 15.3
+DEBUG:root:Bad order:16 14.7 15.3
+DEBUG:root:Bad order:16 14.7 15.3
+DEBUG:root:Bad order:16 14.7 15.3
+DEBUG:root:Bad order:16 14.7 15.3
+DEBUG:root:Bad order:16 14.7 15.3
+DEBUG:root:Bad order:16 14.7 15.3
+DEBUG:root:Bad order:16 14.7 15.3
+DEBUG:root:Bad order:16 14.7 15.3
+DEBUG:root:Result: Action: imperial -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Action: imperial
+DEBUG:root:Order:0 4 6.3
+DEBUG:root:Order:0 11 6.3
+DEBUG:root:Order:0 12 6.3
+DEBUG:root:Bad order:0 2.0999999999999988 6.3
+DEBUG:root:Bad order:0 2.0999999999999988 6.3
+DEBUG:root:Bad order:0 2.0999999999999988 6.3
+DEBUG:root:Bad order:0 2.0999999999999988 6.3
+DEBUG:root:Bad order:0 2.0999999999999988 6.3
+DEBUG:root:Bad order:0 2.0999999999999988 6.3
+DEBUG:root:Bad order:0 2.0999999999999988 6.3
+DEBUG:root:Bad order:0 2.0999999999999988 6.3
+DEBUG:root:Bad order:0 2.0999999999999988 6.3
+DEBUG:root:Bad order:0 2.0999999999999988 6.3
+DEBUG:root:Bad order:0 2.0999999999999988 6.3
+DEBUG:root:Result: Action: imperial -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Action: imperial
+DEBUG:root:Order:16 4 6.3
+DEBUG:root:Order:16 11 6.3
+DEBUG:root:Order:16 12 6.3
+DEBUG:root:Bad order:16 2.0999999999999988 6.3
+DEBUG:root:Bad order:16 2.0999999999999988 6.3
+DEBUG:root:Bad order:16 2.0999999999999988 6.3
+DEBUG:root:Bad order:16 2.0999999999999988 6.3
+DEBUG:root:Bad order:16 2.0999999999999988 6.3
+DEBUG:root:Bad order:16 2.0999999999999988 6.3
+DEBUG:root:Bad order:16 2.0999999999999988 6.3
+DEBUG:root:Bad order:16 2.0999999999999988 6.3
+DEBUG:root:Bad order:16 2.0999999999999988 6.3
+DEBUG:root:Bad order:16 2.0999999999999988 6.3
+DEBUG:root:Bad order:16 2.0999999999999988 6.3
+DEBUG:root:Result: Action: imperial -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Action: imperial
+DEBUG:root:Order:1 4 10.5
+DEBUG:root:Order:21 4 6.3
+DEBUG:root:Order:3 4 6.8999999999999995
+DEBUG:root:Order:1 11 10.5
+DEBUG:root:Order:21 11 6.3
+DEBUG:root:Order:3 11 6.8999999999999995
+DEBUG:root:Bad order:1 0.0 10.5
+DEBUG:root:Order:21 12 6.3
+DEBUG:root:Order:3 12 6.8999999999999995
+DEBUG:root:Bad order:1 0.0 10.5
+DEBUG:root:Bad order:21 2.0999999999999988 6.3
+DEBUG:root:Bad order:3 2.3000000000000034 6.8999999999999995
+DEBUG:root:Bad order:1 0.0 10.5
+DEBUG:root:Bad order:21 2.0999999999999988 6.3
+DEBUG:root:Bad order:3 2.3000000000000034 6.8999999999999995
+DEBUG:root:Bad order:1 0.0 10.5
+DEBUG:root:Bad order:21 2.0999999999999988 6.3
+DEBUG:root:Bad order:3 2.3000000000000034 6.8999999999999995
+DEBUG:root:Bad order:1 0.0 10.5
+DEBUG:root:Bad order:21 2.0999999999999988 6.3
+DEBUG:root:Bad order:3 2.3000000000000034 6.8999999999999995
+DEBUG:root:Bad order:1 0.0 10.5
+DEBUG:root:Bad order:21 2.0999999999999988 6.3
+DEBUG:root:Bad order:3 2.3000000000000034 6.8999999999999995
+DEBUG:root:Bad order:1 0.0 10.5
+DEBUG:root:Bad order:21 2.0999999999999988 6.3
+DEBUG:root:Bad order:3 2.3000000000000034 6.8999999999999995
+DEBUG:root:Bad order:1 0.0 10.5
+DEBUG:root:Bad order:21 2.0999999999999988 6.3
+DEBUG:root:Bad order:3 2.3000000000000034 6.8999999999999995
+DEBUG:root:Bad order:1 0.0 10.5
+DEBUG:root:Bad order:21 2.0999999999999988 6.3
+DEBUG:root:Bad order:3 2.3000000000000034 6.8999999999999995
+DEBUG:root:Bad order:1 0.0 10.5
+DEBUG:root:Bad order:21 2.0999999999999988 6.3
+DEBUG:root:Bad order:3 2.3000000000000034 6.8999999999999995
+DEBUG:root:Bad order:1 0.0 10.5
+DEBUG:root:Bad order:21 2.0999999999999988 6.3
+DEBUG:root:Bad order:3 2.3000000000000034 6.8999999999999995
+DEBUG:root:Bad order:1 0.0 10.5
+DEBUG:root:Bad order:21 2.0999999999999988 6.3
+DEBUG:root:Bad order:3 2.3000000000000034 6.8999999999999995
+DEBUG:root:Result: Action: imperial -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Action: imperial
+INFO:root:4.0
+INFO:root:2.0
+DEBUG:root:Order:13 4 2.1
+DEBUG:root:Order:13 11 2.1
+DEBUG:root:Order:13 12 2.1
+DEBUG:root:Order:13 7 2.1
+DEBUG:root:Order:13 17 2.1
+DEBUG:root:Order:13 5 2.1
+DEBUG:root:Order:13 6 2.1
+DEBUG:root:Order:13 8 2.1
+DEBUG:root:Order:13 15 2.1
+DEBUG:root:Bad order:13 2.099999999999999 2.1
+DEBUG:root:Bad order:13 2.099999999999999 2.1
+DEBUG:root:Bad order:13 2.099999999999999 2.1
+DEBUG:root:Bad order:13 2.099999999999999 2.1
+DEBUG:root:Bad order:13 2.099999999999999 2.1
+DEBUG:root:Result: Action: imperial -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Action: imperial
+INFO:root:4.0
+INFO:root:2.0
+INFO:root:1.0
+DEBUG:root:Order:19 10 14.363
+DEBUG:root:Order:19 4 34.5200426747
+DEBUG:root:Bad order:19 4.1169573253 34.5200426747
+DEBUG:root:Bad order:19 4.1169573253 34.5200426747
+DEBUG:root:Bad order:19 4.1169573253 34.5200426747
+DEBUG:root:Bad order:19 4.1169573253 34.5200426747
+DEBUG:root:Bad order:19 4.1169573253 34.5200426747
+DEBUG:root:Bad order:19 4.1169573253 34.5200426747
+DEBUG:root:Bad order:19 4.1169573253 34.5200426747
+DEBUG:root:Bad order:19 4.1169573253 34.5200426747
+DEBUG:root:Bad order:19 4.1169573253 34.5200426747
+DEBUG:root:Bad order:19 4.1169573253 34.5200426747
+DEBUG:root:Bad order:19 4.1169573253 34.5200426747
+DEBUG:root:Bad order:19 4.1169573253 34.5200426747
+DEBUG:root:Bad order:19 4.1169573253 34.5200426747
+DEBUG:root:Result: Action: imperial -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Action: imperial
+INFO:root:2.0
+INFO:root:4.0
+INFO:root:2.0
+INFO:root:26.0
+DEBUG:root:Order:16 11 6.3
+DEBUG:root:Order:16 4 6.3
+DEBUG:root:Order:16 12 6.3
+DEBUG:root:Bad order:16 2.0999999999999988 6.3
+DEBUG:root:Bad order:16 2.0999999999999988 6.3
+DEBUG:root:Bad order:16 2.0999999999999988 6.3
+DEBUG:root:Bad order:16 2.0999999999999988 6.3
+DEBUG:root:Bad order:16 2.0999999999999988 6.3
+DEBUG:root:Bad order:16 2.0999999999999988 6.3
+DEBUG:root:Bad order:16 2.0999999999999988 6.3
+DEBUG:root:Bad order:16 2.0999999999999988 6.3
+DEBUG:root:Bad order:16 2.0999999999999988 6.3
+DEBUG:root:Bad order:16 2.0999999999999988 6.3
+DEBUG:root:Bad order:16 2.0999999999999988 6.3
+DEBUG:root:Result: Action: imperial -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Action: imperial
+INFO:root:2.0
+INFO:root:4.0
+INFO:root:2.0
+INFO:root:32.0
+DEBUG:root:Order:0 4 6.3
+DEBUG:root:Order:1 4 10.5
+DEBUG:root:Order:0 11 6.3
+DEBUG:root:Order:1 11 10.5
+DEBUG:root:Order:0 12 6.3
+DEBUG:root:Bad order:1 0.0 10.5
+DEBUG:root:Bad order:0 2.0999999999999988 6.3
+DEBUG:root:Bad order:1 0.0 10.5
+DEBUG:root:Bad order:0 2.0999999999999988 6.3
+DEBUG:root:Bad order:1 0.0 10.5
+DEBUG:root:Bad order:0 2.0999999999999988 6.3
+DEBUG:root:Bad order:1 0.0 10.5
+DEBUG:root:Bad order:0 2.0999999999999988 6.3
+DEBUG:root:Bad order:1 0.0 10.5
+DEBUG:root:Bad order:0 2.0999999999999988 6.3
+DEBUG:root:Bad order:1 0.0 10.5
+DEBUG:root:Bad order:0 2.0999999999999988 6.3
+DEBUG:root:Bad order:1 0.0 10.5
+DEBUG:root:Bad order:0 2.0999999999999988 6.3
+DEBUG:root:Bad order:1 0.0 10.5
+DEBUG:root:Bad order:0 2.0999999999999988 6.3
+DEBUG:root:Bad order:1 0.0 10.5
+DEBUG:root:Bad order:0 2.0999999999999988 6.3
+DEBUG:root:Bad order:1 0.0 10.5
+DEBUG:root:Bad order:0 2.0999999999999988 6.3
+DEBUG:root:Bad order:1 0.0 10.5
+DEBUG:root:Bad order:0 2.0999999999999988 6.3
+DEBUG:root:Bad order:1 0.0 10.5
+DEBUG:root:Result: Action: imperial -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Action: imperial
+INFO:root:2.0
+INFO:root:4.0
+INFO:root:10.0
+INFO:root:6.0
+INFO:root:28.0
+DEBUG:root:Result: Action: imperial -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Action: imperial
+INFO:root:2.0
+INFO:root:4.0
+INFO:root:4.0
+INFO:root:8.0
+INFO:root:2.0
+INFO:root:29.0
+DEBUG:root:Order:21 4 6.3
+DEBUG:root:Order:16 4 6.6
+DEBUG:root:Order:21 11 6.3
+DEBUG:root:Order:16 11 6.6
+DEBUG:root:Order:21 12 6.3
+DEBUG:root:Order:16 12 6.6
+DEBUG:root:Bad order:21 2.0999999999999988 6.3
+DEBUG:root:Bad order:16 2.200000000000001 6.6
+DEBUG:root:Bad order:21 2.0999999999999988 6.3
+DEBUG:root:Bad order:16 2.200000000000001 6.6
+DEBUG:root:Bad order:21 2.0999999999999988 6.3
+DEBUG:root:Bad order:16 2.200000000000001 6.6
+DEBUG:root:Bad order:21 2.0999999999999988 6.3
+DEBUG:root:Bad order:16 2.200000000000001 6.6
+DEBUG:root:Bad order:21 2.0999999999999988 6.3
+DEBUG:root:Bad order:16 2.200000000000001 6.6
+DEBUG:root:Bad order:21 2.0999999999999988 6.3
+DEBUG:root:Bad order:16 2.200000000000001 6.6
+DEBUG:root:Bad order:21 2.0999999999999988 6.3
+DEBUG:root:Bad order:16 2.200000000000001 6.6
+DEBUG:root:Bad order:21 2.0999999999999988 6.3
+DEBUG:root:Bad order:16 2.200000000000001 6.6
+DEBUG:root:Bad order:21 2.0999999999999988 6.3
+DEBUG:root:Bad order:16 2.200000000000001 6.6
+DEBUG:root:Bad order:21 2.0999999999999988 6.3
+DEBUG:root:Bad order:16 2.200000000000001 6.6
+DEBUG:root:Bad order:21 2.0999999999999988 6.3
+DEBUG:root:Bad order:16 2.200000000000001 6.6
+DEBUG:root:Result: Action: imperial -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Action: imperial
+INFO:root:2.0
+INFO:root:4.0
+INFO:root:4.0
+INFO:root:8.0
+INFO:root:2.0
+INFO:root:29.0
+DEBUG:root:Order:18 4 20.868124
+DEBUG:root:Bad order:18 19.131876 20.868124
+DEBUG:root:Bad order:18 19.131876 20.868124
+DEBUG:root:Bad order:18 19.131876 20.868124
+DEBUG:root:Bad order:18 19.131876 20.868124
+DEBUG:root:Bad order:18 19.131876 20.868124
+DEBUG:root:Bad order:18 19.131876 20.868124
+DEBUG:root:Bad order:18 19.131876 20.868124
+DEBUG:root:Bad order:18 19.131876 20.868124
+DEBUG:root:Bad order:18 19.131876 20.868124
+DEBUG:root:Bad order:18 19.131876 20.868124
+DEBUG:root:Bad order:18 19.131876 20.868124
+DEBUG:root:Bad order:18 19.131876 20.868124
+DEBUG:root:Bad order:18 19.131876 20.868124
+DEBUG:root:Result: Action: imperial -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Action: imperial
+INFO:root:4.0
+INFO:root:3.0
+INFO:root:17.0
+INFO:root:29.0
+DEBUG:root:Order:1 4 10.5
+DEBUG:root:Order:18 4 2.2
+DEBUG:root:Order:1 11 10.5
+DEBUG:root:Order:18 11 2.2
+DEBUG:root:Bad order:1 0.0 10.5
+DEBUG:root:Order:18 7 2.2
+DEBUG:root:Bad order:1 0.0 10.5
+DEBUG:root:Order:18 17 2.2
+DEBUG:root:Bad order:1 0.0 10.5
+DEBUG:root:Order:18 6 2.2
+DEBUG:root:Bad order:1 0.0 10.5
+DEBUG:root:Order:18 22 2.2
+DEBUG:root:Bad order:1 0.0 10.5
+DEBUG:root:Order:18 5 2.2
+DEBUG:root:Bad order:1 0.0 10.5
+DEBUG:root:Order:18 8 2.2
+DEBUG:root:Bad order:1 0.0 10.5
+DEBUG:root:Order:18 15 2.2
+DEBUG:root:Bad order:1 0.0 10.5
+DEBUG:root:Order:18 14 2.2
+DEBUG:root:Bad order:1 0.0 10.5
+DEBUG:root:Bad order:18 3.552713678800501e-15 2.2
+DEBUG:root:Bad order:1 0.0 10.5
+DEBUG:root:Bad order:18 3.552713678800501e-15 2.2
+DEBUG:root:Bad order:1 0.0 10.5
+DEBUG:root:Bad order:18 3.552713678800501e-15 2.2
+DEBUG:root:Result: Action: imperial -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Action: imperial
+INFO:root:4.0
+INFO:root:3.0
+INFO:root:17.0
+INFO:root:29.0
+DEBUG:root:Result: Action: imperial -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Action: imperial
+DEBUG:root:Order:0 11 6.3
+DEBUG:root:Order:13 11 2.1
+DEBUG:root:Order:0 7 6.3
+DEBUG:root:Order:13 7 2.1
+DEBUG:root:Order:0 17 6.3
+DEBUG:root:Order:13 17 2.1
+DEBUG:root:Bad order:0 2.0999999999999988 6.3
+DEBUG:root:Order:13 8 2.1
+DEBUG:root:Bad order:0 2.0999999999999988 6.3
+DEBUG:root:Order:13 22 2.1
+DEBUG:root:Bad order:0 2.0999999999999988 6.3
+DEBUG:root:Order:13 5 2.1
+DEBUG:root:Bad order:0 2.0999999999999988 6.3
+DEBUG:root:Order:13 15 2.1
+DEBUG:root:Bad order:0 2.0999999999999988 6.3
+DEBUG:root:Order:13 6 2.1
+DEBUG:root:Bad order:0 2.0999999999999988 6.3
+DEBUG:root:Order:13 14 2.1
+DEBUG:root:Bad order:0 2.0999999999999988 6.3
+DEBUG:root:Bad order:13 2.099999999999999 2.1
+DEBUG:root:Bad order:0 2.0999999999999988 6.3
+DEBUG:root:Bad order:13 2.099999999999999 2.1
+DEBUG:root:Bad order:0 2.0999999999999988 6.3
+DEBUG:root:Bad order:13 2.099999999999999 2.1
+DEBUG:root:Result: Action: imperial -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Action: imperial
+DEBUG:root:Order:12 11 11.5
+DEBUG:root:Order:12 7 11.5
+DEBUG:root:Bad order:12 0.0 11.5
+DEBUG:root:Bad order:12 0.0 11.5
+DEBUG:root:Bad order:12 0.0 11.5
+DEBUG:root:Bad order:12 0.0 11.5
+DEBUG:root:Bad order:12 0.0 11.5
+DEBUG:root:Bad order:12 0.0 11.5
+DEBUG:root:Bad order:12 0.0 11.5
+DEBUG:root:Bad order:12 0.0 11.5
+DEBUG:root:Bad order:12 0.0 11.5
+DEBUG:root:Bad order:12 0.0 11.5
+DEBUG:root:Result: Action: imperial -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Action: imperial
+INFO:root:1.0
+DEBUG:root:Order:1 11 10.5
+DEBUG:root:Order:21 11 6.3
+DEBUG:root:Order:16 11 6.6
+DEBUG:root:Order:1 13 10.5
+DEBUG:root:Order:21 13 6.3
+DEBUG:root:Order:16 13 6.6
+DEBUG:root:Bad order:1 0.0 10.5
+DEBUG:root:Order:21 7 6.3
+DEBUG:root:Order:16 7 6.6
+DEBUG:root:Bad order:1 0.0 10.5
+DEBUG:root:Bad order:21 2.0999999999999988 6.3
+DEBUG:root:Bad order:16 2.200000000000001 6.6
+DEBUG:root:Bad order:1 0.0 10.5
+DEBUG:root:Bad order:21 2.0999999999999988 6.3
+DEBUG:root:Bad order:16 2.200000000000001 6.6
+DEBUG:root:Bad order:1 0.0 10.5
+DEBUG:root:Bad order:21 2.0999999999999988 6.3
+DEBUG:root:Bad order:16 2.200000000000001 6.6
+DEBUG:root:Bad order:1 0.0 10.5
+DEBUG:root:Bad order:21 2.0999999999999988 6.3
+DEBUG:root:Bad order:16 2.200000000000001 6.6
+DEBUG:root:Bad order:1 0.0 10.5
+DEBUG:root:Bad order:21 2.0999999999999988 6.3
+DEBUG:root:Bad order:16 2.200000000000001 6.6
+DEBUG:root:Bad order:1 0.0 10.5
+DEBUG:root:Bad order:21 2.0999999999999988 6.3
+DEBUG:root:Bad order:16 2.200000000000001 6.6
+DEBUG:root:Bad order:1 0.0 10.5
+DEBUG:root:Bad order:21 2.0999999999999988 6.3
+DEBUG:root:Bad order:16 2.200000000000001 6.6
+DEBUG:root:Bad order:1 0.0 10.5
+DEBUG:root:Bad order:21 2.0999999999999988 6.3
+DEBUG:root:Bad order:16 2.200000000000001 6.6
+DEBUG:root:Bad order:1 0.0 10.5
+DEBUG:root:Bad order:21 2.0999999999999988 6.3
+DEBUG:root:Bad order:16 2.200000000000001 6.6
+DEBUG:root:Bad order:1 0.0 10.5
+DEBUG:root:Bad order:21 2.0999999999999988 6.3
+DEBUG:root:Bad order:16 2.200000000000001 6.6
+DEBUG:root:Result: Action: imperial -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Action: imperial
+INFO:root:1.0
+DEBUG:root:Order:12 18 11.5
+DEBUG:root:Order:12 11 11.5
+DEBUG:root:Bad order:12 0.0 11.5
+DEBUG:root:Bad order:12 0.0 11.5
+DEBUG:root:Bad order:12 0.0 11.5
+DEBUG:root:Bad order:12 0.0 11.5
+DEBUG:root:Bad order:12 0.0 11.5
+DEBUG:root:Bad order:12 0.0 11.5
+DEBUG:root:Bad order:12 0.0 11.5
+DEBUG:root:Bad order:12 0.0 11.5
+DEBUG:root:Bad order:12 0.0 11.5
+DEBUG:root:Bad order:12 0.0 11.5
+DEBUG:root:Bad order:12 0.0 11.5
+DEBUG:root:Result: Action: imperial -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Action: imperial
+INFO:root:9.0
+DEBUG:root:Result: Action: imperial -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Action: imperial
+INFO:root:9.0
+DEBUG:root:Result: Action: imperial -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Action: imperial
+INFO:root:9.0
+DEBUG:root:Order:1 11 10.5
+DEBUG:root:Order:12 11 12.0
+DEBUG:root:Order:1 7 10.5
+DEBUG:root:Order:12 7 12.0
+DEBUG:root:Bad order:1 0.0 10.5
+DEBUG:root:Bad order:12 0.0 12.0
+DEBUG:root:Bad order:1 0.0 10.5
+DEBUG:root:Bad order:12 0.0 12.0
+DEBUG:root:Bad order:1 0.0 10.5
+DEBUG:root:Bad order:12 0.0 12.0
+DEBUG:root:Bad order:1 0.0 10.5
+DEBUG:root:Bad order:12 0.0 12.0
+DEBUG:root:Bad order:1 0.0 10.5
+DEBUG:root:Bad order:12 0.0 12.0
+DEBUG:root:Bad order:1 0.0 10.5
+DEBUG:root:Bad order:12 0.0 12.0
+DEBUG:root:Bad order:1 0.0 10.5
+DEBUG:root:Bad order:12 0.0 12.0
+DEBUG:root:Bad order:1 0.0 10.5
+DEBUG:root:Bad order:12 0.0 12.0
+DEBUG:root:Bad order:1 0.0 10.5
+DEBUG:root:Bad order:12 0.0 12.0
+DEBUG:root:Bad order:1 0.0 10.5
+DEBUG:root:Bad order:12 0.0 12.0
+DEBUG:root:Result: Action: imperial -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Action: imperial
+INFO:root:9.0
+INFO:root:1.0
+INFO:root:1.0
+DEBUG:root:Result: Action: imperial -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Action: imperial
+INFO:root:9.0
+INFO:root:1.0
+INFO:root:1.0
+DEBUG:root:Order:21 11 6.3
+DEBUG:root:Order:16 11 6.6
+DEBUG:root:Order:21 19 6.3
+DEBUG:root:Order:16 19 6.6
+DEBUG:root:Order:21 7 6.3
+DEBUG:root:Order:16 7 6.6
+DEBUG:root:Bad order:21 2.0999999999999988 6.3
+DEBUG:root:Bad order:16 2.200000000000001 6.6
+DEBUG:root:Bad order:21 2.0999999999999988 6.3
+DEBUG:root:Bad order:16 2.200000000000001 6.6
+DEBUG:root:Bad order:21 2.0999999999999988 6.3
+DEBUG:root:Bad order:16 2.200000000000001 6.6
+DEBUG:root:Bad order:21 2.0999999999999988 6.3
+DEBUG:root:Bad order:16 2.200000000000001 6.6
+DEBUG:root:Bad order:21 2.0999999999999988 6.3
+DEBUG:root:Bad order:16 2.200000000000001 6.6
+DEBUG:root:Bad order:21 2.0999999999999988 6.3
+DEBUG:root:Bad order:16 2.200000000000001 6.6
+DEBUG:root:Bad order:21 2.0999999999999988 6.3
+DEBUG:root:Bad order:16 2.200000000000001 6.6
+DEBUG:root:Bad order:21 2.0999999999999988 6.3
+DEBUG:root:Bad order:16 2.200000000000001 6.6
+DEBUG:root:Bad order:21 2.0999999999999988 6.3
+DEBUG:root:Bad order:16 2.200000000000001 6.6
+DEBUG:root:Bad order:21 2.0999999999999988 6.3
+DEBUG:root:Bad order:16 2.200000000000001 6.6
+DEBUG:root:Bad order:21 2.0999999999999988 6.3
+DEBUG:root:Bad order:16 2.200000000000001 6.6
+DEBUG:root:Result: Action: imperial -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Action: imperial
+INFO:root:9.0
+INFO:root:1.0
+INFO:root:1.0
+INFO:root:5.0
+DEBUG:root:Order:12 0 13.5
+DEBUG:root:Order:4 0 54.06
+DEBUG:root:Order:12 11 13.5
+DEBUG:root:Bad order:4 51.94 54.06
+DEBUG:root:Bad order:12 0.0 13.5
+DEBUG:root:Order:4 7 31.799999999999997
+DEBUG:root:Bad order:12 0.0 13.5
+DEBUG:root:Bad order:4 20.14 54.06
+DEBUG:root:Bad order:12 0.0 13.5
+DEBUG:root:Bad order:4 20.14 54.06
+DEBUG:root:Bad order:12 0.0 13.5
+DEBUG:root:Bad order:4 20.14 80.54939999999999
+DEBUG:root:Bad order:12 0.0 13.5
+DEBUG:root:Bad order:4 20.14 31.799999999999997
+DEBUG:root:Bad order:12 0.0 13.5
+DEBUG:root:Bad order:4 20.14 54.06
+DEBUG:root:Bad order:12 0.0 13.5
+DEBUG:root:Bad order:4 20.14 69.642
+DEBUG:root:Bad order:12 0.0 13.5
+DEBUG:root:Bad order:4 20.14 31.799999999999997
+DEBUG:root:Bad order:12 0.0 13.5
+DEBUG:root:Bad order:4 20.14 54.06
+DEBUG:root:Bad order:12 0.0 13.5
+DEBUG:root:Bad order:4 20.14 54.06
+DEBUG:root:Bad order:12 0.0 13.5
+DEBUG:root:Bad order:4 20.14 54.06
+DEBUG:root:Bad order:12 0.0 13.5
+DEBUG:root:Bad order:4 20.14 88.18458
+DEBUG:root:Result: Action: imperial -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Action: imperial
+INFO:root:1.0
+INFO:root:17.0
+DEBUG:root:Order:1 3 10.5
+DEBUG:root:Order:4 3 15.3
+DEBUG:root:Order:1 7 10.5
+DEBUG:root:Bad order:4 14.7 15.3
+DEBUG:root:Bad order:1 0.0 10.5
+DEBUG:root:Bad order:4 14.7 15.3
+DEBUG:root:Bad order:1 0.0 10.5
+DEBUG:root:Bad order:4 14.7 15.3
+DEBUG:root:Bad order:1 0.0 10.5
+DEBUG:root:Bad order:4 14.7 15.3
+DEBUG:root:Bad order:1 0.0 10.5
+DEBUG:root:Bad order:4 14.7 15.3
+DEBUG:root:Bad order:1 0.0 10.5
+DEBUG:root:Bad order:4 14.7 15.3
+DEBUG:root:Bad order:1 0.0 10.5
+DEBUG:root:Bad order:4 14.7 15.3
+DEBUG:root:Bad order:1 0.0 10.5
+DEBUG:root:Bad order:4 14.7 15.3
+DEBUG:root:Bad order:1 0.0 10.5
+DEBUG:root:Bad order:4 14.7 15.3
+DEBUG:root:Bad order:1 0.0 10.5
+DEBUG:root:Bad order:4 14.7 15.3
+DEBUG:root:Bad order:1 0.0 10.5
+DEBUG:root:Bad order:4 14.7 15.3
+DEBUG:root:Result: Action: imperial -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Action: imperial
+INFO:root:1.0
+INFO:root:17.0
+DEBUG:root:Order:11 3 12.0
+DEBUG:root:Order:11 17 12.0
+DEBUG:root:Bad order:11 0.0 12.0
+DEBUG:root:Bad order:11 0.0 12.0
+DEBUG:root:Bad order:11 0.0 12.0
+DEBUG:root:Bad order:11 0.0 12.0
+DEBUG:root:Bad order:11 0.0 12.0
+DEBUG:root:Bad order:11 0.0 12.0
+DEBUG:root:Bad order:11 0.0 12.0
+DEBUG:root:Bad order:11 0.0 12.0
+DEBUG:root:Bad order:11 0.0 12.0
+DEBUG:root:Bad order:11 0.0 12.0
+DEBUG:root:Result: Action: imperial -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Action: imperial
+INFO:root:17.0
+DEBUG:root:Order:4 3 6.3
+DEBUG:root:Order:4 7 6.3
+DEBUG:root:Order:4 17 6.3
+DEBUG:root:Bad order:4 2.0999999999999988 6.3
+DEBUG:root:Bad order:4 2.0999999999999988 6.3
+DEBUG:root:Bad order:4 2.0999999999999988 6.3
+DEBUG:root:Bad order:4 2.0999999999999988 6.3
+DEBUG:root:Bad order:4 2.0999999999999988 6.3
+DEBUG:root:Bad order:4 2.0999999999999988 6.3
+DEBUG:root:Bad order:4 2.0999999999999988 6.3
+DEBUG:root:Bad order:4 2.0999999999999988 6.3
+DEBUG:root:Bad order:4 2.0999999999999988 6.3
+DEBUG:root:Result: Action: imperial -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Action: imperial
+INFO:root:17.0
+INFO:root:2.0
+INFO:root:1.0
+DEBUG:root:Order:12 3 10.5
+DEBUG:root:Order:11 3 11.0
+DEBUG:root:Order:12 7 10.5
+DEBUG:root:Order:11 7 11.0
+DEBUG:root:Bad order:12 0.0 10.5
+DEBUG:root:Bad order:11 0.0 11.0
+DEBUG:root:Bad order:12 0.0 10.5
+DEBUG:root:Bad order:11 0.0 11.0
+DEBUG:root:Bad order:12 0.0 10.5
+DEBUG:root:Bad order:11 0.0 11.0
+DEBUG:root:Bad order:12 0.0 10.5
+DEBUG:root:Bad order:11 0.0 11.0
+DEBUG:root:Bad order:12 0.0 10.5
+DEBUG:root:Bad order:11 0.0 11.0
+DEBUG:root:Bad order:12 0.0 10.5
+DEBUG:root:Bad order:11 0.0 11.0
+DEBUG:root:Bad order:12 0.0 10.5
+DEBUG:root:Bad order:11 0.0 11.0
+DEBUG:root:Bad order:12 0.0 10.5
+DEBUG:root:Bad order:11 0.0 11.0
+DEBUG:root:Bad order:12 0.0 10.5
+DEBUG:root:Bad order:11 0.0 11.0
+DEBUG:root:Bad order:12 0.0 10.5
+DEBUG:root:Bad order:11 0.0 11.0
+DEBUG:root:Result: Action: imperial -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Action: imperial
+INFO:root:17.0
+INFO:root:2.0
+INFO:root:1.0
+INFO:root:1.0
+INFO:root:3.0
+INFO:root:9.0
+INFO:root:7.0
+DEBUG:root:Order:1 3 10.5
+DEBUG:root:Order:21 3 6.3
+DEBUG:root:Order:16 3 6.6
+DEBUG:root:Order:1 7 10.5
+DEBUG:root:Bad order:1 0.0 10.5
+DEBUG:root:Order:21 17 6.3
+DEBUG:root:Order:16 17 6.6
+DEBUG:root:Bad order:1 0.0 10.5
+DEBUG:root:Order:21 6 6.3
+DEBUG:root:Order:16 6 6.6
+DEBUG:root:Bad order:1 0.0 10.5
+DEBUG:root:Bad order:21 2.0999999999999988 6.3
+DEBUG:root:Bad order:16 2.200000000000001 6.6
+DEBUG:root:Bad order:1 0.0 10.5
+DEBUG:root:Bad order:21 2.0999999999999988 6.3
+DEBUG:root:Bad order:16 2.200000000000001 6.6
+DEBUG:root:Bad order:1 0.0 10.5
+DEBUG:root:Bad order:21 2.0999999999999988 6.3
+DEBUG:root:Bad order:16 2.200000000000001 6.6
+DEBUG:root:Bad order:1 0.0 10.5
+DEBUG:root:Bad order:21 2.0999999999999988 6.3
+DEBUG:root:Bad order:16 2.200000000000001 6.6
+DEBUG:root:Bad order:1 0.0 10.5
+DEBUG:root:Bad order:21 2.0999999999999988 6.3
+DEBUG:root:Bad order:16 2.200000000000001 6.6
+DEBUG:root:Bad order:1 0.0 10.5
+DEBUG:root:Bad order:21 2.0999999999999988 6.3
+DEBUG:root:Bad order:16 2.200000000000001 6.6
+DEBUG:root:Bad order:1 0.0 10.5
+DEBUG:root:Bad order:21 2.0999999999999988 6.3
+DEBUG:root:Bad order:16 2.200000000000001 6.6
+DEBUG:root:Bad order:1 0.0 10.5
+DEBUG:root:Bad order:21 2.0999999999999988 6.3
+DEBUG:root:Bad order:16 2.200000000000001 6.6
+DEBUG:root:Result: Action: imperial -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Action: imperial
+INFO:root:1.0
+INFO:root:3.0
+INFO:root:9.0
+INFO:root:1.0
+DEBUG:root:Order:11 3 13.0
+DEBUG:root:Order:0 3 19.8
+DEBUG:root:Order:11 17 13.0
+DEBUG:root:Order:0 17 43.362
+DEBUG:root:Bad order:11 0.0 13.0
+DEBUG:root:Bad order:0 2.838000000000001 19.8
+DEBUG:root:Bad order:11 0.0 13.0
+DEBUG:root:Bad order:0 2.838000000000001 50.153400000000005
+DEBUG:root:Bad order:11 0.0 13.0
+DEBUG:root:Bad order:0 2.838000000000001 43.362
+DEBUG:root:Bad order:11 0.0 13.0
+DEBUG:root:Bad order:0 2.838000000000001 50.153400000000005
+DEBUG:root:Bad order:11 0.0 13.0
+DEBUG:root:Bad order:0 2.838000000000001 33.660000000000004
+DEBUG:root:Bad order:11 0.0 13.0
+DEBUG:root:Bad order:0 2.838000000000001 43.362
+DEBUG:root:Bad order:11 0.0 13.0
+DEBUG:root:Bad order:0 2.838000000000001 50.153400000000005
+DEBUG:root:Bad order:11 0.0 13.0
+DEBUG:root:Bad order:0 2.838000000000001 50.153400000000005
+DEBUG:root:Bad order:11 0.0 13.0
+DEBUG:root:Bad order:0 2.838000000000001 43.362
+DEBUG:root:Result: Action: imperial -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Action: imperial
+INFO:root:1.0
+INFO:root:1.0
+INFO:root:3.0
+INFO:root:10.0
+INFO:root:2.0
+INFO:root:17.0
+INFO:root:6.0
+INFO:root:7.0
+DEBUG:root:Order:11 10 12.0
+DEBUG:root:Order:7 10 12.6
+DEBUG:root:Order:11 3 12.0
+DEBUG:root:Order:7 3 21.419999999999998
+DEBUG:root:Bad order:11 0.0 12.0
+DEBUG:root:Bad order:7 7.98 12.6
+DEBUG:root:Bad order:11 0.0 12.0
+DEBUG:root:Bad order:7 7.98 12.6
+DEBUG:root:Bad order:11 0.0 12.0
+DEBUG:root:Bad order:7 7.98 27.593999999999998
+DEBUG:root:Bad order:11 0.0 12.0
+DEBUG:root:Bad order:7 7.98 27.593999999999998
+DEBUG:root:Bad order:11 0.0 12.0
+DEBUG:root:Bad order:7 7.98 27.593999999999998
+DEBUG:root:Bad order:11 0.0 12.0
+DEBUG:root:Bad order:7 7.98 27.593999999999998
+DEBUG:root:Bad order:11 0.0 12.0
+DEBUG:root:Bad order:7 7.98 27.593999999999998
+DEBUG:root:Bad order:11 0.0 12.0
+DEBUG:root:Bad order:7 7.98 27.593999999999998
+DEBUG:root:Bad order:11 0.0 12.0
+DEBUG:root:Bad order:7 7.98 27.593999999999998
+DEBUG:root:Bad order:11 0.0 12.0
+DEBUG:root:Bad order:7 7.98 27.593999999999998
+DEBUG:root:Result: Action: imperial -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Action: imperial
+INFO:root:1.0
+INFO:root:1.0
+INFO:root:3.0
+INFO:root:10.0
+INFO:root:2.0
+INFO:root:17.0
+INFO:root:35.0
+INFO:root:1.0
+INFO:root:2.0
+INFO:root:4.0
+INFO:root:2.0
+INFO:root:6.0
+DEBUG:root:Order:12 10 10.5
+DEBUG:root:Order:12 0 10.5
+DEBUG:root:Bad order:12 0.0 10.5
+DEBUG:root:Bad order:12 0.0 10.5
+DEBUG:root:Bad order:12 0.0 10.5
+DEBUG:root:Bad order:12 0.0 10.5
+DEBUG:root:Bad order:12 0.0 10.5
+DEBUG:root:Bad order:12 0.0 10.5
+DEBUG:root:Bad order:12 0.0 10.5
+DEBUG:root:Bad order:12 0.0 10.5
+DEBUG:root:Bad order:12 0.0 10.5
+DEBUG:root:Bad order:12 0.0 10.5
+DEBUG:root:Bad order:12 0.0 10.5
+DEBUG:root:Result: Action: imperial -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Action: imperial
+INFO:root:1.0
+INFO:root:1.0
+INFO:root:3.0
+INFO:root:10.0
+INFO:root:2.0
+INFO:root:17.0
+INFO:root:35.0
+INFO:root:2.0
+INFO:root:4.0
+INFO:root:2.0
+INFO:root:6.0
+INFO:root:4.0
+DEBUG:root:Order:1 10 10.5
+DEBUG:root:Order:1 3 10.5
+DEBUG:root:Bad order:1 0.0 10.5
+DEBUG:root:Order:7 6 8.1
+DEBUG:root:Bad order:1 0.0 10.5
+DEBUG:root:Order:7 17 8.1
+DEBUG:root:Bad order:1 0.0 10.5
+DEBUG:root:Order:7 15 8.1
+DEBUG:root:Bad order:1 0.0 10.5
+DEBUG:root:Bad order:7 2.6999999999999993 8.1
+DEBUG:root:Bad order:1 0.0 10.5
+DEBUG:root:Bad order:7 2.6999999999999993 8.1
+DEBUG:root:Bad order:1 0.0 10.5
+DEBUG:root:Bad order:7 2.6999999999999993 8.1
+DEBUG:root:Bad order:1 0.0 10.5
+DEBUG:root:Bad order:7 2.6999999999999993 8.1
+DEBUG:root:Bad order:1 0.0 10.5
+DEBUG:root:Bad order:7 2.6999999999999993 8.1
+DEBUG:root:Bad order:1 0.0 10.5
+DEBUG:root:Bad order:7 2.6999999999999993 8.1
+DEBUG:root:Bad order:1 0.0 10.5
+DEBUG:root:Bad order:7 2.6999999999999993 8.1
+DEBUG:root:Result: Action: imperial -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Action: imperial
+INFO:root:35.0
+INFO:root:3.0
+INFO:root:6.0
+INFO:root:2.0
+INFO:root:8.0
+DEBUG:root:Order:11 10 12.5
+DEBUG:root:Order:11 17 12.5
+DEBUG:root:Bad order:11 0.0 12.5
+DEBUG:root:Bad order:11 0.0 12.5
+DEBUG:root:Bad order:11 0.0 12.5
+DEBUG:root:Bad order:11 0.0 12.5
+DEBUG:root:Bad order:11 0.0 12.5
+DEBUG:root:Bad order:11 0.0 12.5
+DEBUG:root:Bad order:11 0.0 12.5
+DEBUG:root:Bad order:11 0.0 12.5
+DEBUG:root:Bad order:11 0.0 12.5
+DEBUG:root:Result: Action: imperial -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Action: imperial
+INFO:root:1.0
+INFO:root:35.0
+INFO:root:3.0
+INFO:root:6.0
+INFO:root:2.0
+INFO:root:8.0
+INFO:root:2.0
+DEBUG:root:Order:7 4 6.3
+DEBUG:root:Order:21 4 6.3
+DEBUG:root:Order:16 4 6.6
+DEBUG:root:Order:7 10 6.3
+DEBUG:root:Order:21 10 6.3
+DEBUG:root:Order:7 17 6.3
+DEBUG:root:Order:21 17 6.3
+DEBUG:root:Order:16 17 6.6
+DEBUG:root:Bad order:7 2.0999999999999988 6.3
+DEBUG:root:Bad order:21 2.0999999999999988 6.3
+DEBUG:root:Order:16 15 6.6
+DEBUG:root:Bad order:7 2.0999999999999988 6.3
+DEBUG:root:Bad order:21 2.0999999999999988 6.3
+DEBUG:root:Bad order:16 2.200000000000001 6.6
+DEBUG:root:Bad order:7 2.0999999999999988 6.3
+DEBUG:root:Bad order:21 2.0999999999999988 6.3
+DEBUG:root:Bad order:16 2.200000000000001 6.6
+DEBUG:root:Bad order:7 2.0999999999999988 6.3
+DEBUG:root:Bad order:21 2.0999999999999988 6.3
+DEBUG:root:Bad order:16 2.200000000000001 6.6
+DEBUG:root:Bad order:7 2.0999999999999988 6.3
+DEBUG:root:Bad order:21 2.0999999999999988 6.3
+DEBUG:root:Bad order:16 2.200000000000001 6.6
+DEBUG:root:Bad order:7 2.0999999999999988 6.3
+DEBUG:root:Bad order:21 2.0999999999999988 6.3
+DEBUG:root:Bad order:16 2.200000000000001 6.6
+DEBUG:root:Bad order:7 2.0999999999999988 6.3
+DEBUG:root:Bad order:21 2.0999999999999988 6.3
+DEBUG:root:Bad order:16 2.200000000000001 6.6
+DEBUG:root:Bad order:7 2.0999999999999988 6.3
+DEBUG:root:Bad order:21 2.0999999999999988 6.3
+DEBUG:root:Bad order:16 2.200000000000001 6.6
+DEBUG:root:Bad order:7 2.0999999999999988 6.3
+DEBUG:root:Bad order:21 2.0999999999999988 6.3
+DEBUG:root:Bad order:16 2.200000000000001 6.6
+DEBUG:root:Result: Action: imperial -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Action: imperial
+INFO:root:1.0
+INFO:root:35.0
+INFO:root:4.0
+INFO:root:4.0
+INFO:root:1.0
+INFO:root:8.0
+INFO:root:2.0
+INFO:root:4.0
+INFO:root:6.0
+DEBUG:root:Order:12 4 10.5
+DEBUG:root:Order:12 10 10.5
+DEBUG:root:Bad order:12 0.0 10.5
+DEBUG:root:Bad order:12 0.0 10.5
+DEBUG:root:Bad order:12 0.0 10.5
+DEBUG:root:Bad order:12 0.0 10.5
+DEBUG:root:Bad order:12 0.0 10.5
+DEBUG:root:Bad order:12 0.0 10.5
+DEBUG:root:Bad order:12 0.0 10.5
+DEBUG:root:Bad order:12 0.0 10.5
+DEBUG:root:Bad order:12 0.0 10.5
+DEBUG:root:Bad order:12 0.0 10.5
+DEBUG:root:Result: Action: imperial -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Action: imperial
+INFO:root:4.0
+INFO:root:4.0
+INFO:root:1.0
+INFO:root:9.0
+INFO:root:6.0
+INFO:root:4.0
+INFO:root:3.0
+DEBUG:root:Order:1 4 10.5
+DEBUG:root:Order:18 4 2.2
+DEBUG:root:Order:17 4 16.399565000000003
+DEBUG:root:Order:1 8 10.5
+DEBUG:root:Order:18 8 2.2
+DEBUG:root:Order:17 8 16.399565000000003
+DEBUG:root:Bad order:1 0.0 10.5
+DEBUG:root:Order:18 22 2.2
+DEBUG:root:Bad order:17 2.2008699999999948 16.399565000000003
+DEBUG:root:Bad order:1 0.0 10.5
+DEBUG:root:Bad order:1 0.0 10.5
+DEBUG:root:Order:18 15 2.2
+DEBUG:root:Bad order:17 2.2008699999999948 16.399565000000003
+DEBUG:root:Bad order:1 0.0 10.5
+DEBUG:root:Order:18 5 2.2
+DEBUG:root:Bad order:17 2.2008699999999948 16.399565000000003
+DEBUG:root:Bad order:1 0.0 10.5
+DEBUG:root:Order:18 9 2.2
+DEBUG:root:Bad order:17 2.2008699999999948 16.399565000000003
+DEBUG:root:Bad order:1 0.0 10.5
+DEBUG:root:Order:18 14 2.2
+DEBUG:root:Bad order:17 2.2008699999999948 16.399565000000003
+DEBUG:root:Bad order:1 0.0 10.5
+DEBUG:root:Order:18 2 2.2
+DEBUG:root:Bad order:17 2.2008699999999948 16.399565000000003
+DEBUG:root:Bad order:1 0.0 10.5
+DEBUG:root:Order:18 6 2.2
+DEBUG:root:Bad order:17 2.2008699999999948 6.65
+DEBUG:root:Bad order:1 0.0 10.5
+DEBUG:root:Order:18 20 2.2
+DEBUG:root:Bad order:17 2.2008699999999948 16.399565000000003
+DEBUG:root:Result: Action: imperial -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Action: imperial
+INFO:root:4.0
+INFO:root:4.0
+INFO:root:7.0
+INFO:root:1.0
+INFO:root:9.0
+INFO:root:6.0
+INFO:root:3.0
+INFO:root:5.0
+DEBUG:root:Order:11 4 10.5
+DEBUG:root:Order:7 4 8.4
+DEBUG:root:Order:11 8 10.5
+DEBUG:root:Order:7 8 8.4
+DEBUG:root:Bad order:11 0.0 10.5
+DEBUG:root:Order:7 10 8.4
+DEBUG:root:Bad order:11 0.0 10.5
+DEBUG:root:Bad order:7 2.8000000000000007 8.4
+DEBUG:root:Bad order:11 0.0 10.5
+DEBUG:root:Bad order:7 2.8000000000000007 8.4
+DEBUG:root:Bad order:11 0.0 10.5
+DEBUG:root:Bad order:7 2.8000000000000007 8.4
+DEBUG:root:Bad order:11 0.0 10.5
+DEBUG:root:Bad order:7 2.8000000000000007 8.4
+DEBUG:root:Bad order:11 0.0 10.5
+DEBUG:root:Bad order:7 2.8000000000000007 8.4
+DEBUG:root:Bad order:11 0.0 10.5
+DEBUG:root:Bad order:7 2.8000000000000007 8.4
+DEBUG:root:Bad order:11 0.0 10.5
+DEBUG:root:Bad order:7 2.8000000000000007 8.4
+DEBUG:root:Bad order:11 0.0 10.5
+DEBUG:root:Bad order:7 2.8000000000000007 8.4
+DEBUG:root:Result: Action: imperial -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Action: imperial
+INFO:root:7.0
+INFO:root:4.0
+INFO:root:6.0
+DEBUG:root:Result: Action: imperial -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Action: imperial
+INFO:root:7.0
+INFO:root:4.0
+INFO:root:6.0
+DEBUG:root:Order:12 4 10.5
+DEBUG:root:Order:12 8 10.5
+DEBUG:root:Bad order:12 0.0 10.5
+DEBUG:root:Bad order:12 0.0 10.5
+DEBUG:root:Bad order:12 0.0 10.5
+DEBUG:root:Bad order:12 0.0 10.5
+DEBUG:root:Bad order:12 0.0 10.5
+DEBUG:root:Bad order:12 0.0 10.5
+DEBUG:root:Bad order:12 0.0 10.5
+DEBUG:root:Bad order:12 0.0 10.5
+DEBUG:root:Result: Action: imperial -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Action: imperial
+INFO:root:7.0
+INFO:root:10.0
+INFO:root:4.0
+DEBUG:root:Order:1 4 10.5
+DEBUG:root:Order:21 4 6.3
+DEBUG:root:Order:16 4 6.6
+DEBUG:root:Order:1 8 10.5
+DEBUG:root:Order:21 8 6.3
+DEBUG:root:Order:16 8 6.6
+DEBUG:root:Bad order:1 0.0 10.5
+DEBUG:root:Order:21 5 6.3
+DEBUG:root:Order:16 5 6.6
+DEBUG:root:Bad order:1 0.0 10.5
+DEBUG:root:Bad order:21 2.0999999999999988 6.3
+DEBUG:root:Bad order:16 2.200000000000001 6.6
+DEBUG:root:Bad order:1 0.0 10.5
+DEBUG:root:Bad order:21 2.0999999999999988 6.3
+DEBUG:root:Bad order:16 2.200000000000001 6.6
+DEBUG:root:Bad order:1 0.0 10.5
+DEBUG:root:Bad order:21 2.0999999999999988 6.3
+DEBUG:root:Bad order:16 2.200000000000001 6.6
+DEBUG:root:Bad order:1 0.0 10.5
+DEBUG:root:Bad order:21 2.0999999999999988 6.3
+DEBUG:root:Bad order:16 2.200000000000001 6.6
+DEBUG:root:Bad order:1 0.0 10.5
+DEBUG:root:Bad order:21 2.0999999999999988 6.3
+DEBUG:root:Bad order:16 2.200000000000001 6.6
+DEBUG:root:Bad order:1 0.0 10.5
+DEBUG:root:Bad order:21 2.0999999999999988 6.3
+DEBUG:root:Bad order:16 2.200000000000001 6.6
+DEBUG:root:Bad order:1 0.0 10.5
+DEBUG:root:Bad order:21 2.0999999999999988 6.3
+DEBUG:root:Bad order:16 2.200000000000001 6.6
+DEBUG:root:Result: Action: imperial -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Action: imperial
+INFO:root:7.0
+INFO:root:10.0
+INFO:root:7.0
+INFO:root:1.0
+DEBUG:root:Order:0 4 6.3
+DEBUG:root:Order:11 4 10.5
+DEBUG:root:Order:7 4 16.830000000000002
+DEBUG:root:Order:0 8 6.3
+DEBUG:root:Order:0 5 6.3
+DEBUG:root:Order:11 5 10.5
+DEBUG:root:Bad order:0 2.0999999999999988 6.3
+DEBUG:root:Bad order:11 0.0 10.5
+DEBUG:root:Bad order:7 16.169999999999998 16.830000000000002
+DEBUG:root:Bad order:0 2.0999999999999988 6.3
+DEBUG:root:Bad order:11 0.0 10.5
+DEBUG:root:Bad order:7 16.169999999999998 16.830000000000002
+DEBUG:root:Bad order:0 2.0999999999999988 6.3
+DEBUG:root:Bad order:11 0.0 10.5
+DEBUG:root:Bad order:7 16.169999999999998 16.830000000000002
+DEBUG:root:Bad order:0 2.0999999999999988 6.3
+DEBUG:root:Bad order:11 0.0 10.5
+DEBUG:root:Bad order:7 16.169999999999998 16.830000000000002
+DEBUG:root:Bad order:0 2.0999999999999988 6.3
+DEBUG:root:Bad order:11 0.0 10.5
+DEBUG:root:Bad order:7 16.169999999999998 16.830000000000002
+DEBUG:root:Bad order:0 2.0999999999999988 6.3
+DEBUG:root:Bad order:11 0.0 10.5
+DEBUG:root:Order:7 6 9.9
+DEBUG:root:Bad order:0 2.0999999999999988 6.3
+DEBUG:root:Bad order:11 0.0 10.5
+DEBUG:root:Bad order:7 6.269999999999998 16.830000000000002
+DEBUG:root:Result: Action: imperial -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Action: imperial
+INFO:root:3.0
+INFO:root:2.0
+INFO:root:7.0
+DEBUG:root:Result: Action: imperial -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Action: imperial
+INFO:root:1.0
+INFO:root:3.0
+INFO:root:2.0
+INFO:root:7.0
+DEBUG:root:Order:12 0 10.5
+DEBUG:root:Order:3 0 28.799999999999997
+DEBUG:root:Order:12 8 10.5
+DEBUG:root:Bad order:12 0.0 10.5
+DEBUG:root:Bad order:12 0.0 10.5
+DEBUG:root:Order:3 22 48.959999999999994
+DEBUG:root:Bad order:12 0.0 10.5
+DEBUG:root:Bad order:3 18.24000000000001 72.9504
+DEBUG:root:Bad order:12 0.0 10.5
+DEBUG:root:Bad order:3 18.24000000000001 28.799999999999997
+DEBUG:root:Bad order:12 0.0 10.5
+DEBUG:root:Bad order:3 18.24000000000001 48.959999999999994
+DEBUG:root:Bad order:12 0.0 10.5
+DEBUG:root:Bad order:3 18.24000000000001 79.86528
+DEBUG:root:Bad order:12 0.0 10.5
+DEBUG:root:Bad order:3 18.24000000000001 28.799999999999997
+DEBUG:root:Bad order:12 0.0 10.5
+DEBUG:root:Bad order:3 18.24000000000001 48.959999999999994
+DEBUG:root:Result: Action: imperial -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Action: imperial
+INFO:root:3.0
+INFO:root:2.0
+INFO:root:7.0
+DEBUG:root:Order:1 22 10.5
+DEBUG:root:Order:1 15 10.5
+DEBUG:root:Order:3 15 6.8999999999999995
+DEBUG:root:Order:7 15 6.8999999999999995
+DEBUG:root:Order:4 15 14.79
+DEBUG:root:Order:17 15 23.92037718
+DEBUG:root:Bad order:1 0.0 10.5
+DEBUG:root:Bad order:1 0.0 10.5
+DEBUG:root:Order:3 6 6.8999999999999995
+DEBUG:root:Bad order:1 0.0 10.5
+DEBUG:root:Order:3 14 6.8999999999999995
+DEBUG:root:Order:7 14 6.8999999999999995
+DEBUG:root:Bad order:4 14.21 14.79
+DEBUG:root:Order:17 14 14.4438
+DEBUG:root:Bad order:1 0.0 10.5
+DEBUG:root:Bad order:3 2.3000000000000034 6.8999999999999995
+DEBUG:root:Order:7 2 6.8999999999999995
+DEBUG:root:Bad order:4 14.21 14.79
+DEBUG:root:Bad order:17 3.6358228200000013 23.92037718
+DEBUG:root:Bad order:1 0.0 10.5
+DEBUG:root:Bad order:3 2.3000000000000034 6.8999999999999995
+DEBUG:root:Bad order:7 2.3000000000000034 6.8999999999999995
+DEBUG:root:Bad order:17 3.6358228200000013 4.2
+DEBUG:root:Bad order:1 0.0 10.5
+DEBUG:root:Bad order:3 2.3000000000000034 6.8999999999999995
+DEBUG:root:Bad order:7 2.3000000000000034 6.8999999999999995
+DEBUG:root:Bad order:4 14.21 14.79
+DEBUG:root:Bad order:17 3.6358228200000013 14.4438
+DEBUG:root:Result: Action: imperial -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Action: imperial
+INFO:root:3.0
+INFO:root:2.0
+INFO:root:7.0
+INFO:root:6.0
+DEBUG:root:Order:11 5 10.5
+DEBUG:root:Order:4 5 11.4
+DEBUG:root:Order:11 8 10.5
+DEBUG:root:Order:4 8 11.4
+DEBUG:root:Bad order:11 0.0 10.5
+DEBUG:root:Order:4 6 11.4
+DEBUG:root:Bad order:11 0.0 10.5
+DEBUG:root:Bad order:4 3.8000000000000007 19.380000000000003
+DEBUG:root:Bad order:11 0.0 10.5
+DEBUG:root:Bad order:4 3.8000000000000007 11.4
+DEBUG:root:Bad order:11 0.0 10.5
+DEBUG:root:Bad order:4 3.8000000000000007 19.380000000000003
+DEBUG:root:Bad order:11 0.0 10.5
+DEBUG:root:Bad order:4 3.8000000000000007 19.380000000000003
+DEBUG:root:Bad order:11 0.0 10.5
+DEBUG:root:Bad order:4 3.8000000000000007 19.380000000000003
+DEBUG:root:Bad order:11 0.0 10.5
+DEBUG:root:Bad order:4 3.8000000000000007 19.380000000000003
+DEBUG:root:Result: Action: imperial -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Action: imperial
+INFO:root:7.0
+INFO:root:3.0
+INFO:root:7.0
+INFO:root:9.0
+INFO:root:3.0
+INFO:root:8.0
+INFO:root:6.0
+INFO:root:1.0
+DEBUG:root:Order:3 5 6.3
+DEBUG:root:Order:3 8 6.3
+DEBUG:root:Order:21 8 6.3
+DEBUG:root:Order:16 8 6.6
+DEBUG:root:Order:18 8 2.2
+DEBUG:root:Order:3 15 6.3
+DEBUG:root:Order:21 15 6.3
+DEBUG:root:Order:16 15 6.6
+DEBUG:root:Order:18 15 2.2
+DEBUG:root:Bad order:3 2.0999999999999988 6.3
+DEBUG:root:Order:21 6 6.3
+DEBUG:root:Order:16 6 6.6
+DEBUG:root:Bad order:3 2.0999999999999988 6.3
+DEBUG:root:Bad order:21 2.0999999999999988 6.3
+DEBUG:root:Bad order:16 2.200000000000001 6.6
+DEBUG:root:Bad order:3 2.0999999999999988 6.3
+DEBUG:root:Bad order:21 2.0999999999999988 6.3
+DEBUG:root:Bad order:16 2.200000000000001 6.6
+DEBUG:root:Order:18 14 2.2
+DEBUG:root:Bad order:3 2.0999999999999988 6.3
+DEBUG:root:Bad order:21 2.0999999999999988 6.3
+DEBUG:root:Bad order:16 2.200000000000001 6.6
+DEBUG:root:Order:18 9 2.2
+DEBUG:root:Bad order:3 2.0999999999999988 6.3
+DEBUG:root:Bad order:21 2.0999999999999988 6.3
+DEBUG:root:Bad order:16 2.200000000000001 6.6
+DEBUG:root:Order:18 2 2.2
+DEBUG:root:Bad order:3 2.0999999999999988 6.3
+DEBUG:root:Bad order:21 2.0999999999999988 6.3
+DEBUG:root:Bad order:16 2.200000000000001 6.6
+DEBUG:root:Order:18 20 2.2
+DEBUG:root:Result: Action: imperial -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Action: imperial
+INFO:root:17.0
+INFO:root:7.0
+INFO:root:1.0
+INFO:root:3.0
+INFO:root:7.0
+INFO:root:4.0
+INFO:root:2.0
+INFO:root:2.0
+INFO:root:1.0
+INFO:root:6.0
+INFO:root:7.0
+DEBUG:root:Order:12 6 10.5
+DEBUG:root:Order:12 15 10.5
+DEBUG:root:Order:4 15 21.93
+DEBUG:root:Bad order:12 0.0 10.5
+DEBUG:root:Bad order:4 21.07 21.93
+DEBUG:root:Bad order:12 0.0 10.5
+DEBUG:root:Bad order:12 0.0 10.5
+DEBUG:root:Bad order:4 21.07 21.93
+DEBUG:root:Bad order:12 0.0 10.5
+DEBUG:root:Order:4 8 12.9
+DEBUG:root:Bad order:12 0.0 10.5
+DEBUG:root:Bad order:4 8.17 28.250999999999998
+DEBUG:root:Bad order:12 0.0 10.5
+DEBUG:root:Bad order:4 8.17 28.250999999999998
+DEBUG:root:Bad order:12 0.0 10.5
+DEBUG:root:Bad order:4 8.17 28.250999999999998
+DEBUG:root:Result: Action: imperial -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Action: imperial
+INFO:root:7.0
+INFO:root:13.0
+INFO:root:7.0
+INFO:root:1.0
+INFO:root:3.0
+INFO:root:7.0
+INFO:root:4.0
+INFO:root:12.0
+INFO:root:2.0
+INFO:root:8.0
+INFO:root:6.0
+INFO:root:4.0
+INFO:root:3.0
+INFO:root:4.0
+DEBUG:root:Order:1 15 10.5
+DEBUG:root:Order:4 15 17.85
+DEBUG:root:Order:1 6 10.5
+DEBUG:root:Bad order:1 0.0 10.5
+DEBUG:root:Bad order:4 17.15 17.85
+DEBUG:root:Bad order:1 0.0 10.5
+DEBUG:root:Bad order:1 0.0 10.5
+DEBUG:root:Bad order:4 17.15 17.85
+DEBUG:root:Bad order:1 0.0 10.5
+DEBUG:root:Order:4 8 10.5
+DEBUG:root:Bad order:1 0.0 10.5
+DEBUG:root:Bad order:4 6.649999999999999 17.85
+DEBUG:root:Bad order:1 0.0 10.5
+DEBUG:root:Bad order:4 6.649999999999999 17.85
+DEBUG:root:Bad order:1 0.0 10.5
+DEBUG:root:Bad order:4 6.649999999999999 17.85
+DEBUG:root:Result: Action: imperial -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Action: imperial
+INFO:root:5.0
+INFO:root:7.0
+INFO:root:13.0
+INFO:root:7.0
+INFO:root:1.0
+INFO:root:3.0
+INFO:root:2.0
+INFO:root:18.0
+INFO:root:3.0
+INFO:root:2.0
+INFO:root:2.0
+INFO:root:8.0
+INFO:root:7.0
+INFO:root:2.0
+INFO:root:1.0
+INFO:root:6.0
+INFO:root:7.0
+INFO:root:1.0
+INFO:root:8.0
+DEBUG:root:Order:4 15 6.3
+DEBUG:root:Order:11 15 10.5
+DEBUG:root:Order:4 6 6.3
+DEBUG:root:Order:4 22 6.3
+DEBUG:root:Order:11 22 10.5
+DEBUG:root:Bad order:4 2.0999999999999988 6.3
+DEBUG:root:Bad order:11 0.0 10.5
+DEBUG:root:Bad order:4 2.0999999999999988 6.3
+DEBUG:root:Bad order:11 0.0 10.5
+DEBUG:root:Bad order:4 2.0999999999999988 6.3
+DEBUG:root:Bad order:11 0.0 10.5
+DEBUG:root:Bad order:4 2.0999999999999988 6.3
+DEBUG:root:Bad order:11 0.0 10.5
+DEBUG:root:Bad order:4 2.0999999999999988 6.3
+DEBUG:root:Bad order:11 0.0 10.5
+DEBUG:root:Bad order:4 2.0999999999999988 6.3
+DEBUG:root:Bad order:11 0.0 10.5
+DEBUG:root:Result: Action: imperial -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Action: imperial
+INFO:root:1.0
+INFO:root:3.0
+INFO:root:7.0
+INFO:root:13.0
+INFO:root:7.0
+INFO:root:1.0
+INFO:root:5.0
+INFO:root:18.0
+INFO:root:5.0
+INFO:root:2.0
+INFO:root:1.0
+INFO:root:5.0
+INFO:root:4.0
+INFO:root:4.0
+INFO:root:2.0
+INFO:root:4.0
+INFO:root:7.0
+INFO:root:6.0
+INFO:root:1.0
+INFO:root:4.0
+INFO:root:6.0
+INFO:root:1.0
+INFO:root:2.0
+DEBUG:root:Order:7 15 6.8999999999999995
+DEBUG:root:Order:7 22 6.8999999999999995
+DEBUG:root:Order:7 5 6.8999999999999995
+DEBUG:root:Bad order:7 2.3000000000000034 6.8999999999999995
+DEBUG:root:Bad order:7 2.3000000000000034 6.8999999999999995
+DEBUG:root:Bad order:7 2.3000000000000034 6.8999999999999995
+DEBUG:root:Bad order:7 2.3000000000000034 6.8999999999999995
+DEBUG:root:Bad order:7 2.3000000000000034 6.8999999999999995
+DEBUG:root:Result: Action: imperial -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Action: imperial
+INFO:root:1.0
+INFO:root:3.0
+INFO:root:7.0
+INFO:root:19.0
+INFO:root:7.0
+INFO:root:1.0
+INFO:root:5.0
+INFO:root:6.0
+INFO:root:11.0
+INFO:root:5.0
+INFO:root:5.0
+INFO:root:1.0
+INFO:root:4.0
+INFO:root:4.0
+INFO:root:2.0
+INFO:root:4.0
+INFO:root:7.0
+INFO:root:6.0
+INFO:root:1.0
+INFO:root:4.0
+INFO:root:6.0
+INFO:root:1.0
+INFO:root:2.0
+DEBUG:root:Order:12 6 10.5
+DEBUG:root:Order:12 15 10.5
+DEBUG:root:Bad order:12 0.0 10.5
+DEBUG:root:Bad order:12 0.0 10.5
+DEBUG:root:Bad order:12 0.0 10.5
+DEBUG:root:Bad order:12 0.0 10.5
+DEBUG:root:Bad order:12 0.0 10.5
+DEBUG:root:Bad order:12 0.0 10.5
+DEBUG:root:Bad order:12 0.0 10.5
+DEBUG:root:Result: Action: imperial -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Action: imperial
+INFO:root:7.0
+INFO:root:19.0
+INFO:root:7.0
+INFO:root:1.0
+INFO:root:3.0
+INFO:root:6.0
+INFO:root:11.0
+INFO:root:2.0
+INFO:root:1.0
+INFO:root:5.0
+INFO:root:5.0
+INFO:root:6.0
+INFO:root:4.0
+INFO:root:7.0
+INFO:root:6.0
+INFO:root:4.0
+INFO:root:6.0
+INFO:root:3.0
+INFO:root:2.0
+DEBUG:root:Order:1 15 10.5
+DEBUG:root:Order:21 15 6.3
+DEBUG:root:Order:16 15 6.6
+DEBUG:root:Order:18 15 2.2
+DEBUG:root:Order:1 8 10.5
+DEBUG:root:Order:21 8 6.3
+DEBUG:root:Order:16 8 6.6
+DEBUG:root:Order:18 8 2.2
+DEBUG:root:Bad order:1 0.0 10.5
+DEBUG:root:Bad order:1 0.0 10.5
+DEBUG:root:Order:21 22 6.3
+DEBUG:root:Order:16 22 6.6
+DEBUG:root:Order:18 22 2.2
+DEBUG:root:Bad order:1 0.0 10.5
+DEBUG:root:Bad order:21 2.0999999999999988 6.3
+DEBUG:root:Bad order:16 2.200000000000001 6.6
+DEBUG:root:Order:18 14 2.2
+DEBUG:root:Bad order:1 0.0 10.5
+DEBUG:root:Bad order:21 2.0999999999999988 6.3
+DEBUG:root:Bad order:16 2.200000000000001 6.6
+DEBUG:root:Order:18 9 2.2
+DEBUG:root:Bad order:1 0.0 10.5
+DEBUG:root:Bad order:21 2.0999999999999988 6.3
+DEBUG:root:Bad order:16 2.200000000000001 6.6
+DEBUG:root:Order:18 2 2.2
+DEBUG:root:Bad order:1 0.0 10.5
+DEBUG:root:Bad order:21 2.0999999999999988 6.3
+DEBUG:root:Bad order:16 2.200000000000001 6.6
+DEBUG:root:Order:18 20 2.2
+DEBUG:root:Result: Action: imperial -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Action: imperial
+INFO:root:3.0
+INFO:root:20.0
+INFO:root:7.0
+INFO:root:1.0
+INFO:root:12.0
+INFO:root:5.0
+INFO:root:8.0
+INFO:root:7.0
+INFO:root:5.0
+INFO:root:1.0
+INFO:root:2.0
+INFO:root:4.0
+INFO:root:7.0
+INFO:root:1.0
+INFO:root:2.0
 INFO:root:6.0
 INFO:root:4.0
 INFO:root:1.0
+INFO:root:2.0
+INFO:root:9.0
+INFO:root:2.0
+INFO:root:3.0
+INFO:root:2.0
+INFO:root:2.0
+INFO:root:1.0
+INFO:root:1.0
+DEBUG:root:Order:4 15 6.3
+DEBUG:root:Order:11 15 10.5
+DEBUG:root:Order:13 15 2.1
+DEBUG:root:Order:4 6 6.3
+DEBUG:root:Order:11 6 10.5
+DEBUG:root:Order:4 22 6.3
+DEBUG:root:Bad order:11 0.0 10.5
+DEBUG:root:Order:13 22 2.1
+DEBUG:root:Order:3 22 9.0
+DEBUG:root:Bad order:4 2.0999999999999988 6.3
+DEBUG:root:Bad order:11 0.0 10.5
+DEBUG:root:Bad order:4 2.0999999999999988 6.3
+DEBUG:root:Bad order:11 0.0 10.5
+DEBUG:root:Order:13 14 2.1
+DEBUG:root:Order:3 14 9.0
+DEBUG:root:Bad order:4 2.0999999999999988 6.3
+DEBUG:root:Bad order:11 0.0 10.5
+DEBUG:root:Order:13 9 2.1
+DEBUG:root:Bad order:3 12.0 15.3
+DEBUG:root:Order:0 9 18.869999999999997
+DEBUG:root:Bad order:4 2.0999999999999988 6.3
+DEBUG:root:Bad order:11 0.0 10.5
+DEBUG:root:Order:13 20 2.1
+DEBUG:root:Bad order:3 12.0 15.3
+DEBUG:root:Bad order:0 18.130000000000003 18.869999999999997
+DEBUG:root:Bad order:4 2.0999999999999988 6.3
+DEBUG:root:Bad order:11 0.0 10.5
+DEBUG:root:Order:13 2 2.1
+DEBUG:root:Bad order:3 12.0 15.3
+DEBUG:root:Bad order:0 18.130000000000003 18.869999999999997
 DEBUG:root:Result: Action: imperial -> Success
 DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
 DEBUG:root:Finish turn
 
 DEBUG:root:Executing:Selector: High Level Ordering of Strategies
 DEBUG:root:Executing:Action: imperial
-INFO:root:23.0
+INFO:root:7.0
+INFO:root:1.0
+INFO:root:10.0
+INFO:root:5.0
+INFO:root:4.0
 INFO:root:6.0
+INFO:root:4.0
 INFO:root:5.0
 INFO:root:1.0
+INFO:root:2.0
+INFO:root:4.0
+INFO:root:3.0
+INFO:root:4.0
+INFO:root:3.0
+INFO:root:13.0
+INFO:root:4.0
+INFO:root:1.0
+INFO:root:2.0
+INFO:root:5.0
+DEBUG:root:Order:0 6 6.6
+DEBUG:root:Order:15 6 10.799999999999999
+DEBUG:root:Order:0 14 6.6
+DEBUG:root:Order:15 14 10.799999999999999
+DEBUG:root:Order:0 22 6.6
+DEBUG:root:Bad order:15 14.400000000000004 18.36
+DEBUG:root:Bad order:0 2.200000000000001 6.6
+DEBUG:root:Bad order:15 14.400000000000004 18.36
+DEBUG:root:Bad order:0 2.200000000000001 6.6
+DEBUG:root:Order:15 9 10.799999999999999
+DEBUG:root:Bad order:0 2.200000000000001 6.6
+DEBUG:root:Bad order:15 3.600000000000005 18.36
+DEBUG:root:Bad order:0 2.200000000000001 6.6
+DEBUG:root:Bad order:15 3.600000000000005 18.36
 DEBUG:root:Result: Action: imperial -> Success
 DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
 DEBUG:root:Finish turn
 
 DEBUG:root:Executing:Selector: High Level Ordering of Strategies
 DEBUG:root:Executing:Action: imperial
-INFO:root:1.0
 INFO:root:6.0
-INFO:root:5.0
+INFO:root:2.0
+INFO:root:4.0
+INFO:root:3.0
+INFO:root:3.0
 INFO:root:1.0
+INFO:root:2.0
+INFO:root:2.0
+INFO:root:5.0
+DEBUG:root:Order:12 22 10.5
+DEBUG:root:Order:12 14 10.5
+DEBUG:root:Bad order:12 0.0 10.5
+DEBUG:root:Bad order:12 0.0 10.5
+DEBUG:root:Bad order:12 0.0 10.5
 DEBUG:root:Result: Action: imperial -> Success
 DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
 DEBUG:root:Finish turn
 
 DEBUG:root:Executing:Selector: High Level Ordering of Strategies
 DEBUG:root:Executing:Action: imperial
-INFO:root:1.0
 INFO:root:6.0
+INFO:root:10.0
 INFO:root:5.0
 INFO:root:1.0
-DEBUG:root:Order:13 19 2.5
-DEBUG:root:Order:1 19 16.0
+INFO:root:2.0
+INFO:root:4.0
+INFO:root:1.0
+INFO:root:2.0
+INFO:root:5.0
+DEBUG:root:Order:1 22 10.5
+DEBUG:root:Order:3 22 6.3
+DEBUG:root:Order:7 22 6.8999999999999995
+DEBUG:root:Order:15 22 9.9
+DEBUG:root:Order:1 14 10.5
+DEBUG:root:Order:3 14 6.3
+DEBUG:root:Order:7 14 6.8999999999999995
+DEBUG:root:Order:15 14 9.9
+DEBUG:root:Bad order:1 0.0 10.5
+DEBUG:root:Bad order:1 0.0 10.5
+DEBUG:root:Order:3 2 6.3
+DEBUG:root:Order:7 2 6.8999999999999995
+DEBUG:root:Bad order:15 13.200000000000001 16.830000000000002
+DEBUG:root:Order:17 2 6.775
+DEBUG:root:Bad order:1 0.0 10.5
+DEBUG:root:Bad order:3 2.0999999999999988 6.3
+DEBUG:root:Bad order:7 2.3000000000000034 6.8999999999999995
+DEBUG:root:Bad order:15 13.200000000000001 16.830000000000002
+DEBUG:root:Order:17 20 6.775
 DEBUG:root:Result: Action: imperial -> Success
 DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
 DEBUG:root:Finish turn
 
 DEBUG:root:Executing:Selector: High Level Ordering of Strategies
 DEBUG:root:Executing:Action: imperial
-INFO:root:1.0
 INFO:root:6.0
-INFO:root:5.0
+INFO:root:4.0
+INFO:root:2.0
 INFO:root:8.0
 INFO:root:1.0
+INFO:root:1.0
+INFO:root:5.0
+INFO:root:4.0
+INFO:root:1.0
+INFO:root:5.0
+INFO:root:1.0
+INFO:root:1.0
+INFO:root:5.0
+INFO:root:3.0
+INFO:root:5.0
+DEBUG:root:Order:4 22 6.3
+DEBUG:root:Order:11 22 10.5
+DEBUG:root:Order:15 22 13.5
+DEBUG:root:Order:4 14 6.3
+DEBUG:root:Order:11 14 10.5
+DEBUG:root:Order:4 9 6.3
+DEBUG:root:Bad order:11 0.0 10.5
+DEBUG:root:Bad order:4 2.0999999999999988 6.3
+DEBUG:root:Bad order:11 0.0 10.5
+DEBUG:root:Order:15 2 29.564999999999998
+DEBUG:root:Bad order:4 2.0999999999999988 6.3
+DEBUG:root:Bad order:11 0.0 10.5
+DEBUG:root:Bad order:15 1.9350000000000023 29.564999999999998
 DEBUG:root:Result: Action: imperial -> Success
 DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
 DEBUG:root:Finish turn
 
 DEBUG:root:Executing:Selector: High Level Ordering of Strategies
 DEBUG:root:Executing:Action: imperial
-INFO:root:1.0
 INFO:root:6.0
-INFO:root:5.0
+INFO:root:4.0
+INFO:root:2.0
 INFO:root:8.0
 INFO:root:1.0
-DEBUG:root:Result: Action: imperial -> Success
-DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
-DEBUG:root:Finish turn
-
-DEBUG:root:Executing:Selector: High Level Ordering of Strategies
-DEBUG:root:Executing:Action: imperial
 INFO:root:1.0
-INFO:root:6.0
 INFO:root:5.0
 INFO:root:8.0
+INFO:root:4.0
+INFO:root:4.0
 INFO:root:1.0
 INFO:root:1.0
+INFO:root:5.0
+INFO:root:8.0
+INFO:root:4.0
+INFO:root:7.0
+INFO:root:5.0
+INFO:root:1.0
+DEBUG:root:Order:21 22 6.3
+DEBUG:root:Order:16 22 6.6
+DEBUG:root:Order:15 22 8.4
+DEBUG:root:Order:21 14 6.3
+DEBUG:root:Order:16 14 6.6
+DEBUG:root:Order:21 2 6.3
+DEBUG:root:Order:16 2 6.6
+DEBUG:root:Order:15 2 8.4
+DEBUG:root:Bad order:21 2.0999999999999988 6.3
+DEBUG:root:Bad order:21 2.0999999999999988 6.3
+DEBUG:root:Bad order:16 2.200000000000001 6.6
+DEBUG:root:Order:15 20 8.4
 DEBUG:root:Result: Action: imperial -> Success
 DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
 DEBUG:root:Finish turn
 
 DEBUG:root:Executing:Selector: High Level Ordering of Strategies
 DEBUG:root:Executing:Action: imperial
+INFO:root:6.0
+INFO:root:4.0
+INFO:root:8.0
+INFO:root:2.0
+INFO:root:7.0
+INFO:root:8.0
+INFO:root:4.0
+INFO:root:3.0
+INFO:root:6.0
 INFO:root:1.0
 INFO:root:1.0
+INFO:root:5.0
+INFO:root:6.0
+INFO:root:6.0
+INFO:root:7.0
+INFO:root:5.0
 INFO:root:1.0
 INFO:root:1.0
+DEBUG:root:Order:12 22 10.5
+DEBUG:root:Order:13 22 2.1
+DEBUG:root:Order:18 22 2.2
+DEBUG:root:Order:6 22 3.7
+DEBUG:root:Order:12 14 10.5
+DEBUG:root:Bad order:12 0.0 10.5
+DEBUG:root:Order:13 2 2.1
+DEBUG:root:Order:18 2 2.2
+DEBUG:root:Order:6 2 17.336683
+DEBUG:root:Bad order:12 0.0 10.5
+DEBUG:root:Bad order:12 0.0 10.5
+DEBUG:root:Order:13 20 2.1
+DEBUG:root:Order:18 20 2.2
+DEBUG:root:Bad order:6 15.963316999999996 17.336683
 DEBUG:root:Result: Action: imperial -> Success
 DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
 DEBUG:root:Finish turn
 
 DEBUG:root:Executing:Selector: High Level Ordering of Strategies
 DEBUG:root:Executing:Action: imperial
+INFO:root:6.0
+INFO:root:1.0
+INFO:root:5.0
+INFO:root:4.0
+INFO:root:6.0
+INFO:root:3.0
+INFO:root:5.0
+INFO:root:8.0
+INFO:root:4.0
+INFO:root:6.0
 INFO:root:1.0
 INFO:root:1.0
+INFO:root:5.0
+INFO:root:7.0
+INFO:root:3.0
+INFO:root:2.0
+INFO:root:3.0
 INFO:root:1.0
-INFO:root:1.0
+INFO:root:2.0
+INFO:root:4.0
+INFO:root:5.0
+INFO:root:5.0
+INFO:root:5.0
+INFO:root:3.0
+DEBUG:root:Order:1 22 10.5
+DEBUG:root:Order:0 22 6.6
+DEBUG:root:Order:15 22 7.199999999999999
+DEBUG:root:Order:10 22 7.5
+DEBUG:root:Order:1 14 10.5
+DEBUG:root:Bad order:1 0.0 10.5
+DEBUG:root:Order:0 2 6.6
+DEBUG:root:Order:15 2 7.199999999999999
+DEBUG:root:Order:10 2 30.713250000000002
+DEBUG:root:Bad order:1 0.0 10.5
+DEBUG:root:Bad order:1 0.0 10.5
+DEBUG:root:Order:0 20 6.6
+DEBUG:root:Order:15 20 7.199999999999999
+DEBUG:root:Order:10 20 7.5
 DEBUG:root:Result: Action: imperial -> Success
 DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
 DEBUG:root:Finish turn
 
 DEBUG:root:Executing:Selector: High Level Ordering of Strategies
 DEBUG:root:Executing:Action: imperial
+INFO:root:6.0
+INFO:root:1.0
+INFO:root:5.0
+INFO:root:4.0
+INFO:root:6.0
+INFO:root:3.0
+INFO:root:5.0
+INFO:root:8.0
+INFO:root:4.0
+INFO:root:6.0
+INFO:root:7.0
 INFO:root:1.0
 INFO:root:1.0
+INFO:root:6.0
 INFO:root:1.0
 INFO:root:1.0
+INFO:root:9.0
+INFO:root:3.0
+INFO:root:3.0
+INFO:root:3.0
+INFO:root:5.0
+INFO:root:5.0
+INFO:root:6.0
+INFO:root:11.0
+INFO:root:7.0
+INFO:root:3.0
+INFO:root:15.0
+DEBUG:root:Order:11 22 10.5
+DEBUG:root:Order:6 22 9.9731
+DEBUG:root:Order:10 22 11.004800000000001
+DEBUG:root:Order:11 2 10.5
+DEBUG:root:Order:6 2 9.9731
+DEBUG:root:Order:10 2 13.104320000000001
+DEBUG:root:Bad order:11 0.0 10.5
+DEBUG:root:Order:6 9 2.9000000000000004
+DEBUG:root:Bad order:11 0.0 10.5
+DEBUG:root:Order:6 14 5.510000000000001
+DEBUG:root:Bad order:11 0.0 10.5
 DEBUG:root:Result: Action: imperial -> Success
 DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
 DEBUG:root:Finish turn
 
 DEBUG:root:Executing:Selector: High Level Ordering of Strategies
 DEBUG:root:Executing:Action: imperial
+INFO:root:4.0
+INFO:root:7.0
 INFO:root:1.0
 INFO:root:1.0
 INFO:root:1.0
-INFO:root:1.0
+INFO:root:3.0
+INFO:root:5.0
+INFO:root:5.0
+INFO:root:4.0
+INFO:root:2.0
+INFO:root:8.0
+INFO:root:2.0
+INFO:root:6.0
+INFO:root:21.0
+DEBUG:root:Order:3 2 6.3
+DEBUG:root:Order:13 2 2.1
+DEBUG:root:Order:18 2 2.2
+DEBUG:root:Order:7 2 6.8999999999999995
+DEBUG:root:Order:15 2 17.85
+DEBUG:root:Order:3 9 6.3
+DEBUG:root:Order:13 9 2.1
+DEBUG:root:Order:18 9 2.2
+DEBUG:root:Order:7 9 6.8999999999999995
+DEBUG:root:Order:3 14 6.3
+DEBUG:root:Order:13 14 2.1
+DEBUG:root:Order:18 14 2.2
+DEBUG:root:Order:7 14 6.8999999999999995
+DEBUG:root:Order:15 14 10.5
+DEBUG:root:Bad order:3 2.0999999999999988 6.3
+DEBUG:root:Order:13 20 2.1
+DEBUG:root:Order:18 20 2.2
 DEBUG:root:Result: Action: imperial -> Success
 DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
 DEBUG:root:Finish turn
 
 DEBUG:root:Executing:Selector: High Level Ordering of Strategies
 DEBUG:root:Executing:Action: imperial
+INFO:root:4.0
+INFO:root:5.0
 INFO:root:1.0
+INFO:root:3.0
+INFO:root:7.0
+INFO:root:7.0
+INFO:root:2.0
+INFO:root:7.0
+INFO:root:4.0
+INFO:root:8.0
+INFO:root:2.0
+INFO:root:14.0
+INFO:root:6.0
+INFO:root:9.0
+INFO:root:18.0
 INFO:root:1.0
-INFO:root:1.0
-INFO:root:1.0
-DEBUG:root:Result: Action: imperial -> Success
-DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
-DEBUG:root:Finish turn
-
-DEBUG:root:Executing:Selector: High Level Ordering of Strategies
-DEBUG:root:Executing:Action: imperial
-INFO:root:1.0
-INFO:root:1.0
-INFO:root:1.0
-INFO:root:1.0
-DEBUG:root:Result: Action: imperial -> Success
-DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
-DEBUG:root:Finish turn
-
-DEBUG:root:Executing:Selector: High Level Ordering of Strategies
-DEBUG:root:Executing:Action: imperial
-INFO:root:1.0
-INFO:root:1.0
-INFO:root:1.0
-INFO:root:1.0
+DEBUG:root:Order:4 2 6.3
+DEBUG:root:Order:12 2 10.5
+DEBUG:root:Order:6 2 5.32
+DEBUG:root:Order:4 9 6.3
+DEBUG:root:Order:4 14 6.3
+DEBUG:root:Order:12 14 10.5
+DEBUG:root:Order:5 14 2.7
+DEBUG:root:Bad order:4 2.0999999999999988 6.3
 DEBUG:root:Result: Action: imperial -> Success
 DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
 DEBUG:root:Finish turn
@@ -778,380 +4397,300 @@ DEBUG:root:Finish turn
 DEBUG:root:Executing:Selector: High Level Ordering of Strategies
 DEBUG:root:Executing:Action: imperial
 INFO:root:3.0
-INFO:root:1.0
-INFO:root:1.0
-DEBUG:root:Order:1 6 53.25
-DEBUG:root:Result: Action: imperial -> Success
-DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
-DEBUG:root:Finish turn
-
-DEBUG:root:Executing:Selector: High Level Ordering of Strategies
-DEBUG:root:Executing:Action: imperial
-INFO:root:1.0
-INFO:root:1.0
-INFO:root:26.0
-DEBUG:root:Result: Action: imperial -> Success
-DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
-DEBUG:root:Finish turn
-
-DEBUG:root:Executing:Selector: High Level Ordering of Strategies
-DEBUG:root:Executing:Action: imperial
-INFO:root:1.0
-INFO:root:1.0
-INFO:root:26.0
-DEBUG:root:Result: Action: imperial -> Success
-DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
-DEBUG:root:Finish turn
-
-DEBUG:root:Executing:Selector: High Level Ordering of Strategies
-DEBUG:root:Executing:Action: imperial
-INFO:root:1.0
-INFO:root:1.0
-INFO:root:1.0
-INFO:root:25.0
-INFO:root:1.0
-DEBUG:root:Result: Action: imperial -> Success
-DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
-DEBUG:root:Finish turn
-
-DEBUG:root:Executing:Selector: High Level Ordering of Strategies
-DEBUG:root:Executing:Action: imperial
-INFO:root:1.0
-INFO:root:1.0
-INFO:root:25.0
-INFO:root:1.0
-DEBUG:root:Result: Action: imperial -> Success
-DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
-DEBUG:root:Finish turn
-
-DEBUG:root:Executing:Selector: High Level Ordering of Strategies
-DEBUG:root:Executing:Action: imperial
-INFO:root:1.0
-INFO:root:25.0
-INFO:root:1.0
-DEBUG:root:Result: Action: imperial -> Success
-DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
-DEBUG:root:Finish turn
-
-DEBUG:root:Executing:Selector: High Level Ordering of Strategies
-DEBUG:root:Executing:Action: imperial
-INFO:root:1.0
-INFO:root:25.0
-INFO:root:1.0
-DEBUG:root:Result: Action: imperial -> Success
-DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
-DEBUG:root:Finish turn
-
-DEBUG:root:Executing:Selector: High Level Ordering of Strategies
-DEBUG:root:Executing:Action: imperial
-INFO:root:1.0
-INFO:root:25.0
-INFO:root:1.0
-DEBUG:root:Result: Action: imperial -> Success
-DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
-DEBUG:root:Finish turn
-
-DEBUG:root:Executing:Selector: High Level Ordering of Strategies
-DEBUG:root:Executing:Action: imperial
-INFO:root:26.0
-INFO:root:1.0
-DEBUG:root:Result: Action: imperial -> Success
-DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
-DEBUG:root:Finish turn
-
-DEBUG:root:Executing:Selector: High Level Ordering of Strategies
-DEBUG:root:Executing:Action: imperial
-INFO:root:26.0
-INFO:root:1.0
-INFO:root:1.0
-INFO:root:1.0
-DEBUG:root:Result: Action: imperial -> Success
-DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
-DEBUG:root:Finish turn
-
-DEBUG:root:Executing:Selector: High Level Ordering of Strategies
-DEBUG:root:Executing:Action: imperial
-INFO:root:26.0
-INFO:root:1.0
-INFO:root:1.0
-INFO:root:1.0
-DEBUG:root:Result: Action: imperial -> Success
-DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
-DEBUG:root:Finish turn
-
-DEBUG:root:Executing:Selector: High Level Ordering of Strategies
-DEBUG:root:Executing:Action: imperial
-INFO:root:1.0
-INFO:root:1.0
-INFO:root:1.0
-INFO:root:1.0
-DEBUG:root:Result: Action: imperial -> Success
-DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
-DEBUG:root:Finish turn
-
-DEBUG:root:Executing:Selector: High Level Ordering of Strategies
-DEBUG:root:Executing:Action: imperial
-INFO:root:1.0
-INFO:root:1.0
-INFO:root:1.0
-INFO:root:1.0
-INFO:root:1.0
-DEBUG:root:Result: Action: imperial -> Success
-DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
-DEBUG:root:Finish turn
-
-DEBUG:root:Executing:Selector: High Level Ordering of Strategies
-DEBUG:root:Executing:Action: imperial
-INFO:root:1.0
-INFO:root:1.0
-INFO:root:1.0
-INFO:root:1.0
-INFO:root:1.0
-DEBUG:root:Result: Action: imperial -> Success
-DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
-DEBUG:root:Finish turn
-
-DEBUG:root:Executing:Selector: High Level Ordering of Strategies
-DEBUG:root:Executing:Action: imperial
-INFO:root:1.0
-INFO:root:1.0
-INFO:root:1.0
-INFO:root:1.0
-INFO:root:1.0
-DEBUG:root:Result: Action: imperial -> Success
-DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
-DEBUG:root:Finish turn
-
-DEBUG:root:Executing:Selector: High Level Ordering of Strategies
-DEBUG:root:Executing:Action: imperial
-INFO:root:1.0
-INFO:root:1.0
-INFO:root:1.0
-INFO:root:1.0
-INFO:root:1.0
-DEBUG:root:Result: Action: imperial -> Success
-DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
-DEBUG:root:Finish turn
-
-DEBUG:root:Executing:Selector: High Level Ordering of Strategies
-DEBUG:root:Executing:Action: imperial
-INFO:root:1.0
-INFO:root:1.0
-INFO:root:1.0
-INFO:root:1.0
-DEBUG:root:Result: Action: imperial -> Success
-DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
-DEBUG:root:Finish turn
-
-DEBUG:root:Executing:Selector: High Level Ordering of Strategies
-DEBUG:root:Executing:Action: imperial
-INFO:root:1.0
-INFO:root:1.0
-INFO:root:1.0
-INFO:root:1.0
-DEBUG:root:Result: Action: imperial -> Success
-DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
-DEBUG:root:Finish turn
-
-DEBUG:root:Executing:Selector: High Level Ordering of Strategies
-DEBUG:root:Executing:Action: imperial
-INFO:root:1.0
-INFO:root:1.0
-INFO:root:1.0
-INFO:root:1.0
-DEBUG:root:Result: Action: imperial -> Success
-DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
-DEBUG:root:Finish turn
-
-DEBUG:root:Executing:Selector: High Level Ordering of Strategies
-DEBUG:root:Executing:Action: imperial
-INFO:root:1.0
-INFO:root:1.0
-INFO:root:1.0
-INFO:root:1.0
-DEBUG:root:Result: Action: imperial -> Success
-DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
-DEBUG:root:Finish turn
-
-DEBUG:root:Executing:Selector: High Level Ordering of Strategies
-DEBUG:root:Executing:Action: imperial
-INFO:root:1.0
-INFO:root:1.0
-INFO:root:1.0
-INFO:root:1.0
-DEBUG:root:Order:19 6 13.920000000000002
-DEBUG:root:Result: Action: imperial -> Success
-DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
-DEBUG:root:Finish turn
-
-DEBUG:root:Executing:Selector: High Level Ordering of Strategies
-DEBUG:root:Executing:Action: imperial
-INFO:root:1.0
-INFO:root:1.0
-INFO:root:1.0
-INFO:root:1.0
-INFO:root:12.0
-DEBUG:root:Result: Action: imperial -> Success
-DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
-DEBUG:root:Finish turn
-
-DEBUG:root:Executing:Selector: High Level Ordering of Strategies
-DEBUG:root:Executing:Action: imperial
-INFO:root:1.0
-INFO:root:1.0
+INFO:root:2.0
+INFO:root:4.0
+INFO:root:8.0
+INFO:root:3.0
 INFO:root:13.0
+INFO:root:2.0
+INFO:root:1.0
+INFO:root:20.0
+INFO:root:2.0
+DEBUG:root:Order:1 17 10.5
+DEBUG:root:Order:21 17 6.3
+DEBUG:root:Order:16 17 6.6
+DEBUG:root:Order:6 17 4.5600000000000005
+DEBUG:root:Order:22 17 35.7
+DEBUG:root:Order:1 2 10.5
+DEBUG:root:Order:21 2 6.3
+DEBUG:root:Order:16 2 6.6
+DEBUG:root:Bad order:1 0.0 10.5
+DEBUG:root:Bad order:1 0.0 10.5
 DEBUG:root:Result: Action: imperial -> Success
 DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
 DEBUG:root:Finish turn
 
 DEBUG:root:Executing:Selector: High Level Ordering of Strategies
 DEBUG:root:Executing:Action: imperial
-INFO:root:1.0
-INFO:root:1.0
+INFO:root:3.0
+INFO:root:24.0
+INFO:root:2.0
+INFO:root:4.0
+INFO:root:8.0
+INFO:root:3.0
+INFO:root:3.0
 INFO:root:13.0
+INFO:root:2.0
+INFO:root:1.0
+INFO:root:1.0
+INFO:root:24.0
+INFO:root:2.0
+DEBUG:root:Order:6 17 2.1
+DEBUG:root:Order:11 17 10.5
+DEBUG:root:Order:8 17 25.2
+DEBUG:root:Order:6 2 2.1
+DEBUG:root:Order:11 2 10.5
+DEBUG:root:Order:15 2 9.9
+DEBUG:root:Order:6 9 2.1
+DEBUG:root:Bad order:11 0.0 10.5
+DEBUG:root:Order:6 20 2.1
+DEBUG:root:Bad order:11 0.0 10.5
 DEBUG:root:Result: Action: imperial -> Success
 DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
 DEBUG:root:Finish turn
 
 DEBUG:root:Executing:Selector: High Level Ordering of Strategies
 DEBUG:root:Executing:Action: imperial
+INFO:root:3.0
+INFO:root:24.0
+INFO:root:4.0
+INFO:root:8.0
+INFO:root:10.0
+INFO:root:3.0
+INFO:root:15.0
+INFO:root:1.0
+INFO:root:7.0
 INFO:root:1.0
 INFO:root:1.0
+INFO:root:8.0
+INFO:root:17.0
+INFO:root:2.0
+INFO:root:1.0
+INFO:root:4.0
+DEBUG:root:Order:13 17 2.1
+DEBUG:root:Order:0 17 6.6
+DEBUG:root:Order:18 17 2.2
+DEBUG:root:Order:15 17 13.5
+DEBUG:root:Order:13 2 2.1
+DEBUG:root:Order:0 2 6.6
+DEBUG:root:Order:18 2 2.2
+DEBUG:root:Order:15 2 13.5
+DEBUG:root:Order:13 9 2.1
+DEBUG:root:Order:0 9 6.6
+DEBUG:root:Order:13 20 2.1
+DEBUG:root:Bad order:0 2.200000000000001 6.6
+DEBUG:root:Result: Action: imperial -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Action: imperial
+INFO:root:24.0
+INFO:root:8.0
+INFO:root:10.0
+INFO:root:14.0
+INFO:root:5.0
+INFO:root:11.0
+INFO:root:2.0
 INFO:root:13.0
-DEBUG:root:Result: Action: imperial -> Success
-DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
-DEBUG:root:Finish turn
-
-DEBUG:root:Executing:Selector: High Level Ordering of Strategies
-DEBUG:root:Executing:Action: imperial
 INFO:root:1.0
+INFO:root:7.0
+INFO:root:22.0
+DEBUG:root:Order:6 17 2.1
+DEBUG:root:Order:12 17 10.5
+DEBUG:root:Order:15 17 6.6
+DEBUG:root:Order:5 17 4.0
+DEBUG:root:Order:6 2 2.1
+DEBUG:root:Order:12 2 10.5
+DEBUG:root:Order:15 2 6.6
+DEBUG:root:Order:8 2 24.3
+DEBUG:root:Order:6 20 2.1
+DEBUG:root:Result: Action: imperial -> Success
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Action: imperial
+INFO:root:24.0
+INFO:root:18.0
+INFO:root:6.0
+INFO:root:2.0
+INFO:root:8.0
+INFO:root:1.0
+INFO:root:1.0
+INFO:root:22.0
+INFO:root:5.0
 INFO:root:13.0
+INFO:root:2.0
+INFO:root:2.0
+INFO:root:2.0
+INFO:root:11.0
+INFO:root:1.0
+INFO:root:1.0
+INFO:root:4.0
+INFO:root:7.0
+INFO:root:3.0
+INFO:root:22.0
+INFO:root:1.0
+DEBUG:root:Order:1 17 10.5
+DEBUG:root:Order:3 17 6.3
+DEBUG:root:Order:21 17 6.3
+DEBUG:root:Order:6 17 2.2
+DEBUG:root:Order:1 2 10.5
+DEBUG:root:Order:3 2 6.3
+DEBUG:root:Order:21 2 6.3
+DEBUG:root:Order:6 2 2.2
+DEBUG:root:Order:16 2 6.6
+DEBUG:root:Bad order:1 0.0 10.5
 DEBUG:root:Result: Action: imperial -> Success
 DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
 DEBUG:root:Finish turn
 
 DEBUG:root:Executing:Selector: High Level Ordering of Strategies
 DEBUG:root:Executing:Action: imperial
-INFO:root:14.0
+INFO:root:18.0
+INFO:root:6.0
+INFO:root:8.0
+INFO:root:2.0
+INFO:root:1.0
+INFO:root:5.0
+INFO:root:1.0
+INFO:root:17.0
+INFO:root:3.0
+INFO:root:2.0
+INFO:root:11.0
+INFO:root:1.0
+INFO:root:1.0
+INFO:root:7.0
+INFO:root:3.0
+INFO:root:22.0
+INFO:root:1.0
+DEBUG:root:Order:4 2 6.3
+DEBUG:root:Order:11 2 10.5
+DEBUG:root:Order:6 2 2.5
+DEBUG:root:Order:4 20 6.3
 DEBUG:root:Result: Action: imperial -> Success
 DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
 DEBUG:root:Finish turn
 
 DEBUG:root:Executing:Selector: High Level Ordering of Strategies
 DEBUG:root:Executing:Action: imperial
-INFO:root:14.0
+INFO:root:18.0
+INFO:root:6.0
+INFO:root:8.0
+INFO:root:2.0
+INFO:root:1.0
+INFO:root:5.0
+INFO:root:1.0
+INFO:root:4.0
+INFO:root:15.0
+INFO:root:6.0
+INFO:root:2.0
+INFO:root:11.0
+INFO:root:1.0
+INFO:root:1.0
+INFO:root:7.0
+INFO:root:3.0
+INFO:root:22.0
+INFO:root:5.0
+DEBUG:root:Order:13 2 2.1
+DEBUG:root:Order:16 2 6.6
+DEBUG:root:Order:15 2 7.5
+DEBUG:root:Order:13 20 2.1
+DEBUG:root:Order:16 20 6.6
+DEBUG:root:Order:15 20 7.5
 DEBUG:root:Result: Action: imperial -> Success
 DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
 DEBUG:root:Finish turn
 
 DEBUG:root:Executing:Selector: High Level Ordering of Strategies
 DEBUG:root:Executing:Action: imperial
-INFO:root:14.0
+INFO:root:18.0
+INFO:root:6.0
+INFO:root:3.0
+INFO:root:10.0
+INFO:root:2.0
+INFO:root:4.0
+INFO:root:2.0
+INFO:root:9.0
+INFO:root:2.0
+INFO:root:8.0
+INFO:root:1.0
+INFO:root:4.0
+INFO:root:9.0
+INFO:root:9.0
+INFO:root:1.0
+INFO:root:5.0
+INFO:root:4.0
+INFO:root:2.0
+INFO:root:4.0
+INFO:root:21.0
+INFO:root:1.0
+INFO:root:2.0
+INFO:root:4.0
+INFO:root:1.0
+DEBUG:root:Order:11 20 10.5
+DEBUG:root:Order:11 2 10.5
+DEBUG:root:Order:12 2 10.5
+DEBUG:root:Order:19 2 2.1
+DEBUG:root:Order:7 2 9.6
 DEBUG:root:Result: Action: imperial -> Success
 DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
 DEBUG:root:Finish turn
 
 DEBUG:root:Executing:Selector: High Level Ordering of Strategies
 DEBUG:root:Executing:Action: imperial
-INFO:root:14.0
+INFO:root:18.0
+INFO:root:6.0
+INFO:root:3.0
+INFO:root:10.0
+INFO:root:2.0
+INFO:root:4.0
+INFO:root:2.0
+INFO:root:15.0
+INFO:root:6.0
+INFO:root:8.0
+INFO:root:9.0
+INFO:root:9.0
+INFO:root:3.0
+INFO:root:7.0
+INFO:root:1.0
+INFO:root:4.0
+INFO:root:2.0
+INFO:root:4.0
+INFO:root:21.0
+INFO:root:1.0
+INFO:root:9.0
+INFO:root:5.0
+DEBUG:root:Order:1 2 10.5
+DEBUG:root:Order:3 2 6.3
+DEBUG:root:Order:13 2 2.1
+DEBUG:root:Order:21 2 6.3
+DEBUG:root:Order:1 20 10.5
 DEBUG:root:Result: Action: imperial -> Success
 DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
 DEBUG:root:Finish turn
 
 DEBUG:root:Executing:Selector: High Level Ordering of Strategies
 DEBUG:root:Executing:Action: imperial
-INFO:root:14.0
+INFO:root:3.0
+INFO:root:7.0
+INFO:root:1.0
+INFO:root:3.0
+INFO:root:2.0
+DEBUG:root:Order:4 20 6.3
 DEBUG:root:Result: Action: imperial -> Success
 DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
 DEBUG:root:Finish turn
 
 DEBUG:root:Executing:Selector: High Level Ordering of Strategies
 DEBUG:root:Executing:Action: imperial
-INFO:root:14.0
-DEBUG:root:Result: Action: imperial -> Success
-DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
-DEBUG:root:Finish turn
-
-DEBUG:root:Executing:Selector: High Level Ordering of Strategies
-DEBUG:root:Executing:Action: imperial
-INFO:root:14.0
-DEBUG:root:Result: Action: imperial -> Success
-DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
-DEBUG:root:Finish turn
-
-DEBUG:root:Executing:Selector: High Level Ordering of Strategies
-DEBUG:root:Executing:Action: imperial
-INFO:root:14.0
-DEBUG:root:Result: Action: imperial -> Success
-DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
-DEBUG:root:Finish turn
-
-DEBUG:root:Executing:Selector: High Level Ordering of Strategies
-DEBUG:root:Executing:Action: imperial
-INFO:root:14.0
-DEBUG:root:Result: Action: imperial -> Success
-DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
-DEBUG:root:Finish turn
-
-DEBUG:root:Executing:Selector: High Level Ordering of Strategies
-DEBUG:root:Executing:Action: imperial
-INFO:root:14.0
-DEBUG:root:Result: Action: imperial -> Success
-DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
-DEBUG:root:Finish turn
-
-DEBUG:root:Executing:Selector: High Level Ordering of Strategies
-DEBUG:root:Executing:Action: imperial
-INFO:root:14.0
-DEBUG:root:Result: Action: imperial -> Success
-DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
-DEBUG:root:Finish turn
-
-DEBUG:root:Executing:Selector: High Level Ordering of Strategies
-DEBUG:root:Executing:Action: imperial
-INFO:root:14.0
-DEBUG:root:Result: Action: imperial -> Success
-DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
-DEBUG:root:Finish turn
-
-DEBUG:root:Executing:Selector: High Level Ordering of Strategies
-DEBUG:root:Executing:Action: imperial
-INFO:root:14.0
-DEBUG:root:Result: Action: imperial -> Success
-DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
-DEBUG:root:Finish turn
-
-DEBUG:root:Executing:Selector: High Level Ordering of Strategies
-DEBUG:root:Executing:Action: imperial
-INFO:root:14.0
-DEBUG:root:Result: Action: imperial -> Success
-DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
-DEBUG:root:Finish turn
-
-DEBUG:root:Executing:Selector: High Level Ordering of Strategies
-DEBUG:root:Executing:Action: imperial
-INFO:root:14.0
-DEBUG:root:Result: Action: imperial -> Success
-DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
-DEBUG:root:Finish turn
-
-DEBUG:root:Executing:Selector: High Level Ordering of Strategies
-DEBUG:root:Executing:Action: imperial
-INFO:root:14.0
-DEBUG:root:Result: Action: imperial -> Success
-DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
-DEBUG:root:Finish turn
-
-DEBUG:root:Executing:Selector: High Level Ordering of Strategies
-DEBUG:root:Executing:Action: imperial
-INFO:root:14.0
-DEBUG:root:Result: Action: imperial -> Success
-DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
-DEBUG:root:Finish turn
-
-DEBUG:root:Executing:Selector: High Level Ordering of Strategies
-DEBUG:root:Executing:Action: imperial
-INFO:root:14.0
+INFO:root:2.0
+INFO:root:5.0
+INFO:root:5.0
+INFO:root:5.0
+INFO:root:1.0
+DEBUG:root:Order:3 20 6.3
 DEBUG:root:Result: Action: imperial -> Success
 DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
 DEBUG:root:Finish turn

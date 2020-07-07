@@ -107,6 +107,9 @@ def toNametuple(dict_data):
     )(*tuple(map(lambda x: x if not isinstance(x, dict) else toNametuple(x), dict_data.values())))
 
 def popAtArrival(planet, turns):
+    if planet.owner == 0:
+        return planet.num_ships
+    
     return planet.num_ships + (turns * planet.growth_rate)
 
 
@@ -181,136 +184,108 @@ def imperial(state):
                     if almost_tax >.5:
                         almost_tax = .45
                     
-                    
-
                     p[2] += tax*p[1]
                     total -= tax * p[1]
-                    p[1]-= tax * p[1]
-                    if p[1] - tax*p[1] > minPop:
-                        try:
-                            transactions[p[0]] += p[2]
-                        except:
-                            transactions[p[0]] = p[2]
+                    p[1] -= tax * p[1]
 
                     if p[1] < minPop or total < 0:
                             planets.remove(p)
-                            try:
-                                transactions[p[0]] += p[2]
-                            except:
-                                transactions[p[0]] = p[2]
-                            
-                            #issue_order(state, p[0], n.ID, p[2])
-                            break
-
-            pop = functools.reduce(lambda a,b : a+b, transactions.values(), 0)
-            #update to use the above planets not all
-            paa = popAtArrival(n, distance(getCenter(my_planets), (n.x,n.y)))
-            if(paa <= pop): #make sure fewer pop at destination then package
-                for t in transactions.keys():
-                    issue_order(state, t, n.ID, transactions[t])
-                
-            
-                #p = planets.pop()
-                #planets.append(p)
-                
-                
-                '''i2=0
-                for i in planets:
-                    i2+=1
-                    if i[1] < 5:
-                        planets.pop(i2)
-                        i2-=1
-                        pass
-                    
-                    issue_order(state, i[0], n.ID, i[1] * .3)
-                    i[1] -= .3 * i[1]'''
-                
-                
-                """    
-                
-                my_planets = iter(sorted(state.my_planets(), key=lambda p: p.num_ships, reverse=True))
-
-                target_planets = [planet for planet in state.not_my_planets()
-                      if not any(fleet.destination_planet == planet.ID for fleet in state.my_fleets())]
-                target_planets = iter(sorted(target_planets, key=lambda p: p.num_ships, reverse=True))
-
-                try:
-                    my_planet = next(my_planets)
-                    target_planet = next(target_planets)
-                    while True:
-                        if target_planet.owner == 0:
-                            required_ships = target_planet.num_ships + 1
-                        else:
-                            required_ships = target_planet.num_ships + \
-                                            state.distance(my_planet.ID, target_planet.ID) * target_planet.growth_rate + 1
-
-                        if my_planet.num_ships > required_ships:
-                            issue_order(state, my_planet.ID, target_planet.ID, required_ships)
-                            my_planet = next(my_planets)
-                            target_planet = next(target_planets)
-                        else:
-                            target_planet = next(target_planets)
-
-                except StopIteration:
-                    return
-                
-                
-                #break
-                x = p.num_ships - 10
-                
-                if x >0 and p.ID not in threatenedPlanets:
-                    total = total - x
-                    issue_order(state, p.ID, n.ID, p.num_ships-)
-                """
+                            issue_order(state, p[0], n.ID, p[2])
+                            break                
 
     return True
     
     pass
 
+def closest(state):
+    threatenedPlanets = do_not_kill_if_you_are_being_killed(state)
+    planets = settled_predictPop(state)
+    my_planets = state.my_planets()
+    other_planets = state.not_my_planets()
+
+    my_planets = state.my_planets()
+    my_planets.sort(key=lambda p : p.num_ships)
+    other_planets = [toNametuple(p[1]) for p in planets.items() if p[1]['owner'] != 1] # state.not_my_planets()#state.neutral_planets()
+    
+    my_center = getCenter(my_planets)
+    
+    #sorted distance
+    #neutral_planets.sort(key=lambda p : distance(getCenter(my_planets), (p.x,p.y) ))
+    #sorted lowest pop
+    #other_planets.sort(key=lambda p : p.num_ships )
+    #combined value
+    other_planets.sort(key=lambda p : popAtArrival(p, distance(getCenter(my_planets), (p.x,p.y))) + 50 * distance(getCenter(my_planets), (p.x,p.y) ))
+
+    for mp in my_planets:
+        closest = None
+        for op in other_planets:
+            if  closest == None or state.distance(mp.ID, closest.ID) >  state.distance(mp.ID, op.ID):
+                closest = op
+        if closest != None:
+            pop = popAtArrival(closest, state.distance(mp.ID,closest.ID))
+            if pop + 1 < mp.num_ships:
+                other_planets.remove(closest)
+                issue_order(state, mp.ID, closest.ID, pop + 1)
+    return True
+
+
 def cluster(state):
-
-    closest_distance_to_enemy = []
-    closest_distance_to_savages = []
-    # (1) Determine Imperial Border / Planets closest to the enemy
-    border_planets = state.my_planets()
-    enemy = state.enemy_planets()
-    
-    for planet in border_planets:
-        lowest_distance =  float('inf')
-        temp_distance = 0
-        for destination in enemy:
-            temp_distance = state.distance(planet, destination)
-            if temp_distance < lowest_distance:
-                lowest_distance = temp_distance
-        heappush(closest_distance_to_enemy,(lowest_distance, planet))
-
-
-
-    # (2) Find closest planets inhabited by ignorant savages.
-    closest_planets = state.neutral_planets()
-
-    for planet in border_planets:
-        lowest_distance =  float('inf')
-        temp_distance = 0
-        for destination in closest_planets:
-            temp_distance = state.distance(planet, destination)
-            if temp_distance < lowest_distance:
-                lowest_distance = temp_distance
-        heappush(closest_distance_to_savages,(lowest_distance, planet))
-
+    #threatenedPlanets = do_not_kill_if_you_are_being_killed(state)
+    #planets = settled_predictPop(state)
     
 
-    # (3) Target Savages for Enlightenment in the Imperial Faith
-    weakest_planet = min(state.neutral_planets(), key=lambda p: p.num_ships, default=None)
+    #my_planets = state.my_planets()
+    #other_planets = state.not_my_planets()
 
-    if not closest_planets or not weakest_planet:
-        # No legal source or destination
-        return False
-    else:
-        # (4) The Inquisition sends its regards to the ignorant savages
-        return issue_order(state, strongest_planet.ID, weakest_planet.ID, strongest_planet.num_ships / 2)
+    my_planets = iter(sorted(state.my_planets(), key=lambda p: p.num_ships))
+
+    neutral_planets = [planet for planet in state.neutral_planets()
+                       if not any(fleet.destination_planet == planet.ID for fleet in state.my_fleets())]
+    neutral_planets.sort(key=lambda p: p.num_ships)
+
+    target_planets = iter(neutral_planets)
+
+    try:
+        my_planet = next(my_planets)
+        target_planet = next(target_planets)
+        while True:
+            required_ships = target_planet.num_ships + 1
+
+            if my_planet.num_ships > required_ships:
+                issue_order(state, my_planet.ID, target_planet.ID, required_ships)
+                my_planet = next(my_planets)
+                target_planet = next(target_planets)
+            else:
+                my_planet = next(my_planets)
+
+    except StopIteration:
+        return
+
+
+    '''my_planets = iter(sorted(state.my_planets(), key=lambda p: p.num_ships, reverse=True))
+    target_planets = [planet for planet in state.not_my_planets()]
+    target_planets = iter(sorted(target_planets, key=lambda p: p.num_ships, reverse=True))
+
+    try:
+        my_planet = next(my_planets)
+        target_planet = next(target_planets)
+        while True:
+                if target_planet.owner == 0:
+                    required_ships = target_planet.num_ships + 1
+                else:
+                    required_ships = target_planet.num_ships + \
+                    state.distance(my_planet.ID, target_planet.ID) * target_planet.growth_rate + 1
+
+                if my_planet.num_ships > required_ships:
+                    issue_order(state, my_planet.ID, target_planet.ID, required_ships)
+                    my_planet = next(my_planets)
+                    target_planet = next(target_planets)
+                else:
+                    target_planet = next(target_planets)
+
+    except StopIteration:
+        return'''
     pass
-
 def Annihilate(state):
     
     # (2) Find my strongest planet.

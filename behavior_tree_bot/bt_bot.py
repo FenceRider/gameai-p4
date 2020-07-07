@@ -26,6 +26,8 @@ def setup_behavior_tree():
     root = Selector(name='High Level Ordering of Strategies')
 
     imp = Action(imperial)
+    close = Action(closest)
+    #clu = Action(cluster)
 
     offensive_plan = Sequence(name='Offensive Strategy')
     largest_fleet_check = Check(have_largest_fleet)
@@ -37,7 +39,7 @@ def setup_behavior_tree():
     spread_action = Action(spread_to_weakest_neutral_planet)
     spread_sequence.child_nodes = [neutral_planet_check, spread_action]
 
-    root.child_nodes = [imp, offensive_plan, spread_sequence, attack.copy()]
+    root.child_nodes = [imp, close, offensive_plan, spread_sequence, attack.copy()]
 
     logging.info('\n' + root.tree_to_string())
     return root
