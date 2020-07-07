@@ -110,8 +110,25 @@ def popAtArrival(planet, turns):
     return planet.num_ships + (turns * planet.growth_rate)
 
 
+def do_not_kill_if_you_are_being_killed(state):
+
+
+    enemy_fleets =  [f for f in state.enemy_fleets() if f.destination_planet in [p.ID for p in state.my_planets()]]
+    
+    attackingForces = {}
+    for destination in enemy_fleets:
+        
+        try:
+            attackingForces[destination.destination_planet] += destination.num_ships
+        except:
+            attackingForces[destination.destination_planet] = destination.num_ships
+        
+    return attackingForces
+
 def imperial(state):
     
+    threatenedPlanets = do_not_kill_if_you_are_being_killed(state)
+    #viableAttacks
     planets = settled_predictPop(state)
     
     #get the predicts population of planets, then sort them based on that
@@ -133,7 +150,7 @@ def imperial(state):
     #sorted lowest pop
     #other_planets.sort(key=lambda p : p.num_ships )
     #combined value
-    other_planets.sort(key=lambda p : popAtArrival(p, distance(getCenter(my_planets), (p.x,p.y))/3) * distance(getCenter(my_planets), (p.x,p.y) ))
+    other_planets.sort(key=lambda p : popAtArrival(p, distance(getCenter(my_planets), (p.x,p.y))) + 50 * distance(getCenter(my_planets), (p.x,p.y) ))
     
     #logging.info('\n' + my_planets)
 
@@ -143,17 +160,108 @@ def imperial(state):
         for n in other_planets:
             if len(other_planets) == 0:
                 break
-            
+            minPop = 20
+            planets = [[p.ID,p.num_ships, 0, p.growth_rate] for p in my_planets if p.num_ships > minPop and p.ID not in threatenedPlanets]
+            transactions = {}
             total = n.num_ships
-            while len(my_planets) > 0 and total > 0:
-                p = my_planets.pop()
-                if p.num_ships < 50:
-                    break
-                x = p.num_ships - 10 
+            while len(planets) > 0 and total > 0:
                 
-                if x >0:
+                for p in planets:
+                    #issue_order(state, p[0], n.ID, p[1] * .3)
+                    
+                    tax = .1
+                    if p[3] == 5:
+                        tax = .5
+                    elif p[3] == 3:
+                        tax = .3
+                    elif p[3] == 1:
+                        tax = .1
+
+                    almost_tax = p[2]/10000
+                    if almost_tax >.5:
+                        almost_tax = .45
+                    
+                    
+
+                    p[2] += tax*p[1]
+                    total -= tax * p[1]
+                    p[1]-= tax * p[1]
+                    if p[1] - tax*p[1] > minPop:
+                        try:
+                            transactions[p[0]] += p[2]
+                        except:
+                            transactions[p[0]] = p[2]
+
+                    if p[1] < minPop or total < 0:
+                            planets.remove(p)
+                            try:
+                                transactions[p[0]] += p[2]
+                            except:
+                                transactions[p[0]] = p[2]
+                            
+                            #issue_order(state, p[0], n.ID, p[2])
+                            break
+
+            pop = functools.reduce(lambda a,b : a+b, transactions.values(), 0)
+            #update to use the above planets not all
+            paa = popAtArrival(n, distance(getCenter(my_planets), (n.x,n.y)))
+            if(paa <= pop): #make sure fewer pop at destination then package
+                for t in transactions.keys():
+                    issue_order(state, t, n.ID, transactions[t])
+                
+            
+                #p = planets.pop()
+                #planets.append(p)
+                
+                
+                '''i2=0
+                for i in planets:
+                    i2+=1
+                    if i[1] < 5:
+                        planets.pop(i2)
+                        i2-=1
+                        pass
+                    
+                    issue_order(state, i[0], n.ID, i[1] * .3)
+                    i[1] -= .3 * i[1]'''
+                
+                
+                """    
+                
+                my_planets = iter(sorted(state.my_planets(), key=lambda p: p.num_ships, reverse=True))
+
+                target_planets = [planet for planet in state.not_my_planets()
+                      if not any(fleet.destination_planet == planet.ID for fleet in state.my_fleets())]
+                target_planets = iter(sorted(target_planets, key=lambda p: p.num_ships, reverse=True))
+
+                try:
+                    my_planet = next(my_planets)
+                    target_planet = next(target_planets)
+                    while True:
+                        if target_planet.owner == 0:
+                            required_ships = target_planet.num_ships + 1
+                        else:
+                            required_ships = target_planet.num_ships + \
+                                            state.distance(my_planet.ID, target_planet.ID) * target_planet.growth_rate + 1
+
+                        if my_planet.num_ships > required_ships:
+                            issue_order(state, my_planet.ID, target_planet.ID, required_ships)
+                            my_planet = next(my_planets)
+                            target_planet = next(target_planets)
+                        else:
+                            target_planet = next(target_planets)
+
+                except StopIteration:
+                    return
+                
+                
+                #break
+                x = p.num_ships - 10
+                
+                if x >0 and p.ID not in threatenedPlanets:
                     total = total - x
-                    issue_order(state, p.ID, n.ID, p.num_ships-10)
+                    issue_order(state, p.ID, n.ID, p.num_ships-)
+                """
 
     return True
     
@@ -229,3 +337,4 @@ def reinforce_friends(state):
    
     pass
 
+    
